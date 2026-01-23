@@ -1,3 +1,70 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "restaurant",
+      "description": "A modern and elegant website for a gourmet restaurant, featuring menus, reservations, and a gallery.",
+      "imageUrl": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyZXN0YXVyYW50JTIwZm9vZHxlbnwwfHx8fDE3NjkxNDg1MzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "restaurant food"
+    },
+    {
+      "id": "boutique",
+      "description": "A chic online storefront for a fashion boutique, highlighting the latest collections and brand story.",
+      "imageUrl": "https://images.unsplash.com/photo-1521335629791-ce4aec67dd15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjbG90aGluZyUyMHN0b3JlfGVufDB8fHx8MTc2OTA5NTIzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clothing store"
+    },
+    {
+      "id": "barber",
+      "description": "A stylish and user-friendly website for a modern barbershop, with service lists and appointment booking.",
+      "imageUrl": "https://images.unsplash.com/photo-1605497788044-5a32c7078486?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxiYXJiZXIlMjBzaG9wfGVufDB8fHx8MTc2OTIwMjU4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "barber shop"
+    },
+    {
+      "id": "clinique",
+      "description": "A professional and trustworthy website for a dental clinic, providing information on services and staff.",
+      "imageUrl": "https://images.unsplash.com/photo-1754294437684-7898b3701ac7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjbGluaWMlMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjkxNzIzMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clinic interior"
+    },
+    {
+      "id": "ecole",
+      "description": "An informative site for a driving school, detailing courses, pricing, and registration information.",
+      "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzY2hvb2wlMjBjbGFzc3Jvb218ZW58MHx8fHwxNzY5MjAyNTg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "school classroom"
+    },
+    {
+      "id": "formation",
+      "description": "A platform for online courses, offering a seamless learning experience for students.",
+      "imageUrl": "https://images.unsplash.com/photo-1588702547919-26089e690ecc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxvbmxpbmUlMjBjb3Vyc2V8ZW58MHx8fHwxNzY5MTk3MzEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "online course"
+    },
+    {
+      "id": "eglise",
+      "description": "A welcoming website for a church, sharing event schedules, sermons, and community news.",
+      "imageUrl": "https://images.unsplash.com/photo-1551634979-443bd43773cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaHVyY2glMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjkyMDI1ODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "church interior"
+    },
+    {
+      "id": "onglerie",
+      "description": "An elegant website for a nail salon, showcasing services, a portfolio of nail art, and booking options.",
+      "imageUrl": "https://images.unsplash.com/photo-1632345031435-8727f6897d53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYWlsJTIwc2Fsb258ZW58MHx8fHwxNzY5MjAyNTg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nail salon"
+    },
+    {
+      "id": "particulier",
+      "description": "A clean and personal portfolio website to showcase individual skills and projects effectively.",
+      "imageUrl": "https://images.unsplash.com/photo-1762330464006-46181dfe3381?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZXJzb25hbCUyMHdlYnNpdGV8ZW58MHx8fHwxNzY5MjAyNTg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "personal website"
+    },
+    {
+      "id": "developer",
+      "description": "A developer's workspace with code on a screen.",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1567514650496-be446ae38bdb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkZXZlbG9wZXIlMjB3b3Jrc3BhY2V8ZW58MHx8fHwxNzY5MTc4MjAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "developer workspace"
+    },
+    {
+      "id": "flyer",
+      "description": "An abstract image representing digital services.",
+      "imageUrl": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkaWdpdGFsJTIwc2VydmljZXN8ZW58MHx8fHwxNzY5MTI2NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital services"
+    }
+  ]
 }

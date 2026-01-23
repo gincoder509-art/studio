@@ -62,8 +62,8 @@
       "description": "Un site vitrine élégant pour un salon de manucure, présentant les services, un portfolio et la réservation."
     },
     "particulier": {
-      "title": "Portfolio Personnel",
-      "description": "Un site portfolio personnel et épuré pour présenter compétences et projets."
+      "title": "Artisan Multi-Services",
+      "description": "Un site vitrine pour un professionnel proposant plusieurs corps de métier : plomberie, électricité, etc."
     }
   },
   "GenerateImagesPage": {

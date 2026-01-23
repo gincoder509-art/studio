@@ -50,9 +50,9 @@
     },
     {
       "id": "particulier",
-      "description": "A clean and personal portfolio website to showcase individual skills and projects effectively.",
-      "imageUrl": "https://images.unsplash.com/photo-1762330464006-46181dfe3381?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZXJzb25hbCUyMHdlYnNpdGV8ZW58MHx8fHwxNzY5MjAyNTg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "personal website"
+      "description": "A showcase site for a professional offering various trades like plumbing, electricity, and more.",
+      "imageUrl": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b29sc3xlbnwwfHx8fDE3NjkzODU3NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional tools"
     },
     {
       "id": "developer",

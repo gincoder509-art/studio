@@ -9,7 +9,7 @@ export default function GenerateImagesPage({params: {locale}}: {params: {locale:
     <div className="flex min-h-screen flex-col bg-background">
       <Header />
       <main className="flex-1 py-12 md:py-24">
-        <div className="container">
+        <div className="container px-4 md:px-6">
           <GenerateImagesForm />
         </div>
       </main>

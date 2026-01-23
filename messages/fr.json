@@ -30,39 +30,39 @@
   "Projects": {
     "restaurant": {
       "title": "Vitrine de Restaurant",
-      "description": "Un site web moderne et élégant pour un restaurant gastronomique, avec menus, réservations et galerie."
+      "description": "Un site web moderne et élégant pour un restaurant gastronomique, présentant menus, réservations et galerie."
     },
     "boutique": {
       "title": "Vitrine de Boutique",
-      "description": "Une boutique en ligne chic pour une boutique de mode, mettant en avant les dernières collections et l'histoire de la marque."
+      "description": "Un site vitrine chic pour une boutique de mode, mettant en avant les dernières collections et l'histoire de la marque."
     },
     "barber": {
       "title": "Site de Barbier",
-      "description": "Un site web élégant et convivial pour un salon de barbier moderne, avec liste de services et prise de rendez-vous."
+      "description": "Un site web élégant et convivial pour un salon de barbier moderne, présentant les services et la prise de rendez-vous."
     },
     "clinique": {
       "title": "Clinique Médicale",
-      "description": "Un site web professionnel et digne de confiance pour une clinique médicale, fournissant des informations sur les services et le personnel."
+      "description": "Un site web professionnel pour une clinique médicale, fournissant des informations sur les services et le personnel."
     },
     "ecole": {
       "title": "Site d'Établissement Scolaire",
-      "description": "Un site informatif pour un établissement d'enseignement, détaillant les cours et les informations d'inscription."
+      "description": "Un site vitrine pour un établissement d'enseignement, détaillant les cours et les informations d'inscription."
     },
     "formation": {
-      "title": "Plateforme de Formation",
-      "description": "Une plateforme dynamique pour des cours en ligne et en présentiel, offrant une expérience d'apprentissage interactive et fluide."
+      "title": "Vitrine de Formation",
+      "description": "Un site vitrine présentant les cours en ligne et en présentiel d'un centre de formation."
     },
     "eglise": {
-      "title": "Communauté Éclésiale",
-      "description": "Un site web accueillant pour une église, partageant les horaires d'événements, les sermons et les nouvelles de la communauté."
+      "title": "Communauté Ecclésiale",
+      "description": "Un site web accueillant pour une église, partageant les horaires d'événements, les sermons et les nouvelles."
     },
     "onglerie": {
       "title": "Salon de Manucure",
-      "description": "Un site web élégant pour un salon de manucure, présentant les services, un portfolio de nail art et des options de réservation."
+      "description": "Un site vitrine élégant pour un salon de manucure, présentant les services, un portfolio et la réservation."
     },
     "particulier": {
       "title": "Portfolio Personnel",
-      "description": "Un site web de portfolio personnel et épuré pour présenter efficacement les compétences et projets individuels."
+      "description": "Un site portfolio personnel et épuré pour présenter compétences et projets."
     }
   },
   "GenerateImagesPage": {

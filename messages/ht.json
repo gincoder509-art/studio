@@ -30,11 +30,11 @@
   "Projects": {
     "restaurant": {
       "title": "Vitrin Restoran",
-      "description": "Yon sit entènèt modèn ak elegant pou yon restoran goumè, ki gen meni, rezèvasyon, ak yon galri."
+      "description": "Yon sit entènèt modèn ak elegant pou yon restoran goumè, ki prezante meni, rezèvasyon, ak yon galri."
     },
     "boutique": {
       "title": "Vitrin Boutik",
-      "description": "Yon vitrin sou entènèt chik pou yon boutik alamòd, ki mete aksan sou dènye koleksyon yo ak istwa mak la."
+      "description": "Yon sit vitrin chik pou yon boutik alamòd, ki mete aksan sou dènye koleksyon yo ak istwa mak la."
     },
     "barber": {
       "title": "Sit Babiye",
@@ -42,15 +42,15 @@
     },
     "clinique": {
       "title": "Klinik Medikal",
-      "description": "Yon sit entènèt pwofesyonèl ak konfyans pou yon klinik medikal, ki bay enfòmasyon sou sèvis ak anplwaye yo."
+      "description": "Yon sit entènèt pwofesyonèl pou yon klinik medikal, ki bay enfòmasyon sou sèvis ak anplwaye yo."
     },
     "ecole": {
       "title": "Sit Lekòl",
-      "description": "Yon sit enfòmatif pou yon etablisman edikatif, ki detaye kou ak enfòmasyon sou enskripsyon."
+      "description": "Yon sit vitrin pou yon etablisman edikatif, ki detaye kou ak enfòmasyon sou enskripsyon."
     },
     "formation": {
-      "title": "Platfòm Fòmasyon",
-      "description": "Yon platfòm dinamik pou kou anliy ak an pèsòn, ki ofri yon eksperyans aprantisaj entèaktif ak san pwoblèm."
+      "title": "Vitrin Fòmasyon",
+      "description": "Yon sit vitrin ki prezante kou anliy ak an pèsòn nan yon sant fòmasyon."
     },
     "eglise": {
       "title": "Kominote Legliz",
@@ -58,11 +58,11 @@
     },
     "onglerie": {
       "title": "Salon Zong",
-      "description": "Yon sit entènèt elegant pou yon salon zong, ki montre sèvis, yon pòtfolyo atizay zong, ak opsyon anrjistreman."
+      "description": "Yon sit vitrin elegant pou yon salon zong, ki montre sèvis, yon pòtfolyo, ak opsyon anrjistreman."
     },
     "particulier": {
       "title": "Pòtfolyo Pèsonèl",
-      "description": "Yon sit entènèt pòtfolyo pèsonèl ak pwòp pou montre avèk efikasite konpetans ak pwojè endividyèl yo."
+      "description": "Yon sit entènèt pòtfolyo pèsonèl ak pwòp pou montre konpetans ak pwojè yo."
     }
   },
   "GenerateImagesPage": {

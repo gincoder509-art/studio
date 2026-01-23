@@ -34,7 +34,7 @@
     },
     "boutique": {
       "title": "Boutique Showcase",
-      "description": "A chic online storefront for a fashion boutique, highlighting the latest collections and brand story."
+      "description": "A chic showcase website for a fashion boutique, highlighting the latest collections and brand story."
     },
     "barber": {
       "title": "Barbershop Website",
@@ -42,15 +42,15 @@
     },
     "clinique": {
       "title": "Medical Clinic",
-      "description": "A professional and trustworthy website for a medical clinic, providing information on services and staff."
+      "description": "A professional website for a medical clinic, providing information on services and staff."
     },
     "ecole": {
       "title": "School Website",
-      "description": "An informative site for an educational establishment, detailing courses, and registration information."
+      "description": "A showcase website for an educational establishment, detailing courses, and registration information."
     },
     "formation": {
-      "title": "Training Platform",
-      "description": "A dynamic platform for online and in-person courses, offering an interactive and seamless learning experience."
+      "title": "Training Showcase",
+      "description": "A showcase website presenting a training center's online and in-person courses."
     },
     "eglise": {
       "title": "Church Community",
@@ -58,11 +58,11 @@
     },
     "onglerie": {
       "title": "Nail Salon",
-      "description": "An elegant website for a nail salon, showcasing services, a portfolio of nail art, and booking options."
+      "description": "An elegant showcase website for a nail salon, showing services, a portfolio, and booking."
     },
     "particulier": {
       "title": "Personal Portfolio",
-      "description": "A clean and personal portfolio website to showcase individual skills and projects effectively."
+      "description": "A clean and personal portfolio website to showcase skills and projects."
     }
   },
   "GenerateImagesPage": {

@@ -12,17 +12,17 @@
     "rightsReserved": ". © {currentYear} Tous droits réservés."
   },
   "HomePage": {
-    "heroTitle": "Vous avez une vision. J'ai le code pour la rendre réelle.",
-    "heroSubtitle": "Salut, c'est Gincoder. Développeur web freelance, je crée des sites web magnifiques et performants qui captivent et convertissent. Prêt à laisser votre marque ?",
+    "heroTitle": "Vous avez une vision. J'ai le code pour la concrétiser.",
+    "heroSubtitle": "Salut, c'est Gincoder. Développeur web freelance, je conçois des sites web sublimes et ultra-performants qui séduisent et convertissent. Prêt à laisser votre empreinte ?",
     "whatsapp": "WhatsApp",
     "facebook": "Facebook",
     "tiktok": "TikTok",
     "callMe": "Appelez-moi",
-    "portfolioBadge": "Mon Travail",
-    "portfolioTitle": "Expériences Numériques que J'ai Créées",
-    "portfolioSubtitle": "Voici un aperçu des mondes numériques que j'ai créés—chacun une histoire de collaboration et de code.",
+    "portfolioBadge": "Mes Créations",
+    "portfolioTitle": "Les Mondes Numériques que J'ai F façonnés",
+    "portfolioSubtitle": "Découvrez les expériences numériques que j'ai créées – chaque projet est une histoire de collaboration et de code.",
     "servicesTitle": "Votre Vision, Forgée avec Expertise en Code",
-    "servicesSubtitle": "Je propose une gamme complète de services pour construire votre présence numérique de A à Z, des sites e-commerce élégants aux portfolios dynamiques."
+    "servicesSubtitle": "Je propose une gamme complète de services pour bâtir votre présence numérique de A à Z, des sites e-commerce élégants aux portfolios dynamiques."
   },
   "ProjectCard": {
     "viewSite": "Voir le Site"
@@ -37,7 +37,7 @@
       "description": "Une boutique en ligne chic pour une boutique de mode, mettant en avant les dernières collections et l'histoire de la marque."
     },
     "barber": {
-      "title": "Salon de Barbier",
+      "title": "Site de Barbier",
       "description": "Un site web élégant et convivial pour un salon de barbier moderne, avec liste de services et prise de rendez-vous."
     },
     "clinique": {
@@ -45,19 +45,19 @@
       "description": "Un site web professionnel et digne de confiance pour une clinique médicale, fournissant des informations sur les services et le personnel."
     },
     "ecole": {
-      "title": "Site d'établissement scolaire",
+      "title": "Site d'Établissement Scolaire",
       "description": "Un site informatif pour un établissement d'enseignement, détaillant les cours et les informations d'inscription."
     },
     "formation": {
-      "title": "Formation en Ligne",
-      "description": "Une plateforme de cours en ligne, offrant une expérience d'apprentissage fluide pour les étudiants."
+      "title": "Plateforme de Formation",
+      "description": "Une plateforme dynamique pour des cours en ligne et en présentiel, offrant une expérience d'apprentissage interactive et fluide."
     },
     "eglise": {
       "title": "Communauté Éclésiale",
       "description": "Un site web accueillant pour une église, partageant les horaires d'événements, les sermons et les nouvelles de la communauté."
     },
     "onglerie": {
-      "title": "Salon de manucure",
+      "title": "Salon de Manucure",
       "description": "Un site web élégant pour un salon de manucure, présentant les services, un portfolio de nail art et des options de réservation."
     },
     "particulier": {

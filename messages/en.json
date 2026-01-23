@@ -12,15 +12,15 @@
     "rightsReserved": ". © {currentYear} All rights reserved."
   },
   "HomePage": {
-    "heroTitle": "You have a vision. I have the code to make it real.",
+    "heroTitle": "You have a vision. I have the code to bring it to life.",
     "heroSubtitle": "Hi, I'm Gincoder. A freelance web developer crafting beautiful, high-performance websites that captivate and convert. Ready to make your mark?",
     "whatsapp": "WhatsApp",
     "facebook": "Facebook",
     "tiktok": "TikTok",
     "callMe": "Call Me",
     "portfolioBadge": "My Work",
-    "portfolioTitle": "Digital Experiences I've Crafted",
-    "portfolioSubtitle": "Here’s a look at the digital worlds I've brought to life—each one a story of collaboration and code.",
+    "portfolioTitle": "Digital Worlds I've Forged",
+    "portfolioSubtitle": "Explore the digital experiences I've brought to life—each a story of collaboration and code.",
     "servicesTitle": "Your Vision, Expertly Forged in Code",
     "servicesSubtitle": "I offer a full suite of services to build your digital presence from the ground up, from sleek e-commerce sites to dynamic portfolios."
   },
@@ -33,11 +33,11 @@
       "description": "A modern and elegant website for a gourmet restaurant, featuring menus, reservations, and a gallery."
     },
     "boutique": {
-      "title": "Boutique Vitrine",
+      "title": "Boutique Showcase",
       "description": "A chic online storefront for a fashion boutique, highlighting the latest collections and brand story."
     },
     "barber": {
-      "title": "Barber Shop",
+      "title": "Barbershop Website",
       "description": "A stylish and user-friendly website for a modern barbershop, with service lists and appointment booking."
     },
     "clinique": {
@@ -49,8 +49,8 @@
       "description": "An informative site for an educational establishment, detailing courses, and registration information."
     },
     "formation": {
-      "title": "Online Training",
-      "description": "A platform for online courses, offering a seamless learning experience for students."
+      "title": "Training Platform",
+      "description": "A dynamic platform for online and in-person courses, offering an interactive and seamless learning experience."
     },
     "eglise": {
       "title": "Church Community",

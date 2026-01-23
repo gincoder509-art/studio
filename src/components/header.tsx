@@ -3,7 +3,7 @@ import { CodeXml, Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTranslations } from 'next-intl';
 import { LocaleSwitcher } from './locale-switcher';
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
 
 export function Header() {
   const t = useTranslations('Navigation');
@@ -61,6 +61,9 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-full max-w-xs p-6">
+              <SheetHeader className="sr-only">
+                <SheetTitle>Menu</SheetTitle>
+              </SheetHeader>
               <div className="flex h-full flex-col">
                 <Link href="/" className="mb-8 flex items-center space-x-2">
                   <CodeXml className="h-6 w-6 text-primary" />

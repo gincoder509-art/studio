@@ -12,17 +12,17 @@
     "rightsReserved": ". © {currentYear} Tout dwa rezève."
   },
   "HomePage": {
-    "heroTitle": "Soti nan Lide rive nan Enpak: Sit Entènèt ki Fè Moun Wè w.",
-    "heroSubtitle": "Bonjou, mwen se Gincoder. Yon devlopè entènèt endepandan ki transfòme vizyon ou an yon reyalite sansasyonèl ak pèfòmans segondè. Pare pou w soti nan lòt yo?",
+    "heroTitle": "Ou gen yon vizyon. Mwen gen kòd la pou fè li reyalite.",
+    "heroSubtitle": "Bonjou, mwen se Gincoder. Yon devlopè entènèt endepandan k ap kreye bèl sit entènèt pèfòmans ki atire epi konvèti. Pare pou w kite mak ou?",
     "whatsapp": "WhatsApp",
     "facebook": "Facebook",
     "tiktok": "TikTok",
     "callMe": "Rele m",
     "portfolioBadge": "Travay Mwen",
-    "portfolioTitle": "Kreyasyon Mwen yo",
-    "portfolioSubtitle": "Men yon apèsi sou eksperyans dijital mwen te bay lavi.",
-    "servicesTitle": "Vizyon Ou, Kode avèk Ekspètiz.",
-    "servicesSubtitle": "Mwen ofri yon seri sèvis konplè pou konstwi prezans dijital ou de A a Z. Kit se yon magazen elegant oswa yon pòtfolyo dinamik, mwen gen ekspètiz pou m reyalize l."
+    "portfolioTitle": "Eksperyans Nimerik Mwen Te Kreye",
+    "portfolioSubtitle": "Men yon apèsi sou mond nimerik mwen te bay lavi—chak grenn se yon istwa kolaborasyon ak kòd.",
+    "servicesTitle": "Vizyon Ou, Fòje avèk Ekspètiz nan Kòd",
+    "servicesSubtitle": "Mwen ofri yon seri sèvis konplè pou konstwi prezans dijital ou de A a Z, soti nan sit e-commerce elegant rive nan pòtfolyo dinamik."
   },
   "ProjectCard": {
     "viewSite": "Gade Sit la"
@@ -45,8 +45,8 @@
       "description": "Yon sit entènèt pwofesyonèl ak konfyans pou yon klinik dantè, ki bay enfòmasyon sou sèvis ak anplwaye yo."
     },
     "ecole": {
-      "title": "Lekòl Kondwi",
-      "description": "Yon sit enfòmatif pou yon lekòl kondwi, ki detaye kou, pri, ak enfòmasyon enskripsyon."
+      "title": "Sit pou Lekòl",
+      "description": "Yon sit enfòmatif pou yon etablisman edikatif, ki detaye kou ak enfòmasyon sou enskripsyon."
     },
     "formation": {
       "title": "Fòmasyon Anliy",

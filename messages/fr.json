@@ -12,17 +12,17 @@
     "rightsReserved": ". © {currentYear} Tous droits réservés."
   },
   "HomePage": {
-    "heroTitle": "De l'Idée à l'Impact : Des Sites Web Qui Se Démarquent.",
-    "heroSubtitle": "Salut, c'est Gincoder. Développeur web freelance, je transforme votre vision en une réalité époustouflante et performante. Prêt à vous démarquer ?",
+    "heroTitle": "Vous avez une vision. J'ai le code pour la rendre réelle.",
+    "heroSubtitle": "Salut, c'est Gincoder. Développeur web freelance, je crée des sites web magnifiques et performants qui captivent et convertissent. Prêt à laisser votre marque ?",
     "whatsapp": "WhatsApp",
     "facebook": "Facebook",
     "tiktok": "TikTok",
     "callMe": "Appelez-moi",
     "portfolioBadge": "Mon Travail",
-    "portfolioTitle": "Mes Créations",
-    "portfolioSubtitle": "Voici un aperçu des expériences numériques que j'ai créées.",
-    "servicesTitle": "Votre Vision, Codée avec Expertise.",
-    "servicesSubtitle": "Je propose une gamme complète de services pour construire votre présence numérique de A à Z. Qu'il s'agisse d'une boutique élégante ou d'un portfolio dynamique, j'ai l'expertise pour livrer."
+    "portfolioTitle": "Expériences Numériques que J'ai Créées",
+    "portfolioSubtitle": "Voici un aperçu des mondes numériques que j'ai créés—chacun une histoire de collaboration et de code.",
+    "servicesTitle": "Votre Vision, Forgée avec Expertise en Code",
+    "servicesSubtitle": "Je propose une gamme complète de services pour construire votre présence numérique de A à Z, des sites e-commerce élégants aux portfolios dynamiques."
   },
   "ProjectCard": {
     "viewSite": "Voir le Site"
@@ -45,8 +45,8 @@
       "description": "Un site web professionnel et digne de confiance pour une clinique dentaire, fournissant des informations sur les services et le personnel."
     },
     "ecole": {
-      "title": "Auto-école",
-      "description": "Un site informatif pour une auto-école, détaillant les cours, les tarifs et les informations d'inscription."
+      "title": "Site d'établissement scolaire",
+      "description": "Un site informatif pour un établissement d'enseignement, détaillant les cours et les informations d'inscription."
     },
     "formation": {
       "title": "Formation en Ligne",

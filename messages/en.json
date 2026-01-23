@@ -12,17 +12,17 @@
     "rightsReserved": ". © {currentYear} All rights reserved."
   },
   "HomePage": {
-    "heroTitle": "From Idea to Impact: Websites That Get Noticed.",
-    "heroSubtitle": "Hi, I'm Gincoder. A freelance web developer turning your vision into a stunning, high-performance reality. Ready to stand out?",
+    "heroTitle": "You have a vision. I have the code to make it real.",
+    "heroSubtitle": "Hi, I'm Gincoder. A freelance web developer crafting beautiful, high-performance websites that captivate and convert. Ready to make your mark?",
     "whatsapp": "WhatsApp",
     "facebook": "Facebook",
     "tiktok": "TikTok",
     "callMe": "Call Me",
     "portfolioBadge": "My Work",
-    "portfolioTitle": "My Creations",
-    "portfolioSubtitle": "Here's a glimpse into the digital experiences I've brought to life.",
-    "servicesTitle": "Your Vision, Expertly Coded.",
-    "servicesSubtitle": "I offer a complete suite of services to build your digital presence from the ground up. Whether it's a sleek storefront or a dynamic portfolio, I have the expertise to deliver."
+    "portfolioTitle": "Digital Experiences I've Crafted",
+    "portfolioSubtitle": "Here’s a look at the digital worlds I've brought to life—each one a story of collaboration and code.",
+    "servicesTitle": "Your Vision, Expertly Forged in Code",
+    "servicesSubtitle": "I offer a full suite of services to build your digital presence from the ground up, from sleek e-commerce sites to dynamic portfolios."
   },
   "ProjectCard": {
     "viewSite": "View Site"
@@ -45,8 +45,8 @@
       "description": "A professional and trustworthy website for a dental clinic, providing information on services and staff."
     },
     "ecole": {
-      "title": "Driving School",
-      "description": "An informative site for a driving school, detailing courses, pricing, and registration information."
+      "title": "School Website",
+      "description": "An informative site for an educational establishment, detailing courses, and registration information."
     },
     "formation": {
       "title": "Online Training",

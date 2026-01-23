@@ -1,5 +1,5 @@
-import { redirect } from '@/navigation';
+import { redirect } from 'next/navigation';
 
 export default function Page() {
-  redirect('/generate-images');
+  redirect('/fr/generate-images');
 }

@@ -34,7 +34,7 @@ export default function Home({params: {locale}}: {params: {locale: string}}) {
     { href: 'https://www.facebook.com/share/1AgEHU17B3/', Icon: Facebook, label: tContact('facebook'), className: 'bg-[#1877F2] hover:bg-[#1877F2]/90 text-primary-foreground' },
     { href: 'tel:+50944539500', Icon: Phone, label: tContact('callDigicel'), className: 'bg-[#ED1C24] hover:bg-[#ED1C24]/90 text-primary-foreground' },
     { href: 'tel:+50941704583', Icon: Phone, label: tContact('callNatcom'), className: 'bg-[#00A9E0] hover:bg-[#00A9E0]/90 text-primary-foreground' },
-    { href: 'mailto:gincoder-ms@gmail.com', Icon: Mail, label: tContact('email'), className: 'bg-gray-500 hover:bg-gray-600 text-primary-foreground' },
+    { href: 'mailto:gincoder-ms@outlook.fr', Icon: Mail, label: tContact('email'), className: 'bg-gray-500 hover:bg-gray-600 text-primary-foreground' },
   ];
 
   const heroImage = PlaceHolderImages.find(p => p.id === 'developer');

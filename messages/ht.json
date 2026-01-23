@@ -1,0 +1,105 @@
+{
+  "Navigation": {
+    "portfolio": "Pòtfolyo",
+    "services": "Sèvis",
+    "aiGenerator": "Jenaratè IA"
+  },
+  "Header": {
+    "contactMe": "Kontakte m"
+  },
+  "Footer": {
+    "builtBy": "Kreye pa",
+    "rightsReserved": ". © {currentYear} Tout dwa rezève."
+  },
+  "HomePage": {
+    "heroTitle": "Gincoder Pro",
+    "heroSubtitle": "Devlopè entènèt pwofesyonèl k ap kreye sit entènèt sansasyonèl ak pèfòmans segondè. Ann bati prezans ou sou entènèt ansanm.",
+    "whatsapp": "WhatsApp",
+    "facebook": "Facebook",
+    "tiktok": "TikTok",
+    "callMe": "Rele m",
+    "portfolioBadge": "Travay Mwen",
+    "portfolioTitle": "Pwojè An Vedèt",
+    "portfolioSubtitle": "Yon seleksyon pi bon pwojè mwen yo, ki demontre yon varyete estil ak fonksyonalite.",
+    "servicesTitle": "Ide Ou, Ekspètiz Mwen. Ann Kreye.",
+    "servicesSubtitle": "Mwen ofri yon apwòch milti-sèvis pou bay vizyon dijital ou a lavi. Soti nan vitrin magazen rive nan pòtfolyo pèsonèl, mwen gen konpetans pou konstwi sit entènèt ou bezwen an."
+  },
+  "ProjectCard": {
+    "viewSite": "Gade Sit la"
+  },
+  "Projects": {
+    "restaurant": {
+      "title": "Vitrin Restoran",
+      "description": "Yon sit entènèt modèn ak elegant pou yon restoran goumè, ki gen meni, rezèvasyon, ak yon galri."
+    },
+    "boutique": {
+      "title": "Vitrin Boutik",
+      "description": "Yon vitrin sou entènèt chik pou yon boutik alamòd, ki mete aksan sou dènye koleksyon yo ak istwa mak la."
+    },
+    "barber": {
+      "title": "Boutik Babiye",
+      "description": "Yon sit entènèt élégance ak fasil pou itilize pou yon boutik babiye modèn, avèk lis sèvis ak anrjistreman randevou."
+    },
+    "clinique": {
+      "title": "Klinik Dantè",
+      "description": "Yon sit entènèt pwofesyonèl ak konfyans pou yon klinik dantè, ki bay enfòmasyon sou sèvis ak anplwaye yo."
+    },
+    "ecole": {
+      "title": "Lekòl Kondwi",
+      "description": "Yon sit enfòmatif pou yon lekòl kondwi, ki detaye kou, pri, ak enfòmasyon enskripsyon."
+    },
+    "formation": {
+      "title": "Fòmasyon Anliy",
+      "description": "Yon platfòm pou kou anliy, ki ofri yon eksperyans aprantisaj san pwoblèm pou elèv yo."
+    },
+    "eglise": {
+      "title": "Kominote Legliz",
+      "description": "Yon sit entènèt akeyan pou yon legliz, ki pataje orè evènman, prèch, ak nouvèl kominote a."
+    },
+    "onglerie": {
+      "title": "Salon Zong",
+      "description": "Yon sit entènèt elegant pou yon salon zong, ki montre sèvis, yon pòtfolyo atizay zong, ak opsyon anrjistreman."
+    },
+    "particulier": {
+      "title": "Pòtfolyo Pèsonèl",
+      "description": "Yon sit entènèt pòtfolyo pèsonèl ak pwòp pou montre avèk efikasite konpetans ak pwojè endividyèl yo."
+    }
+  },
+  "GenerateImagesPage": {
+    "title": "Jenaratè Imaj IA",
+    "description": "Dekri pwojè ou a epi telechaje yon logo pou jenere imaj ki enpòtan.",
+    "form": {
+      "projectDescriptionLabel": "Deskripsyon Pwojè",
+      "projectDescriptionPlaceholder": "egzanp, Yon sit entènèt modèn pou yon restoran goumè...",
+      "projectLogoLabel": "Logo Pwojè",
+      "logoPreview": "Apèsi logo :",
+      "submitButton": "Jenere Imaj yo"
+    },
+    "validation": {
+      "descriptionMin": "Deskripsyon dwe gen omwen 10 karaktè.",
+      "logoRequired": "Imaj logo obligatwa.",
+      "logoSize": "Gwosè maksimòm fichye a se 5MB.",
+      "logoType": "Se sèlman fòma .jpg, .png, ak .webp ki sipòte.",
+      "invalidUri": "URI done imaj pa valab."
+    },
+    "toasts": {
+      "errorTitle": "Erè pandan jenerasyon imaj",
+      "successTitle": "Siksè!",
+      "successMessage": "Imaj yo te jenere avèk siksè!",
+      "errorForm": "Done fòmilè pa valab. Tanpri korije erè yo epi eseye ankò.",
+      "errorApiFail": "IA pa t 'kapab jenere imaj. Tanpri eseye ankò.",
+      "errorApiGeneral": "Jenerasyon imaj echwe. Tanpri eseye ankò pita.",
+      "errorUnexpected": "Yon erè inatandi te fèt."
+    },
+    "generatedImages": {
+      "title": "Imaj Jenere",
+      "description": "Men imaj IA te jenere baze sou enfòmasyon ou yo."
+    }
+  },
+  "LocaleSwitcher": {
+    "label": "Chanje lang",
+    "en": "Angle",
+    "fr": "Franse",
+    "ht": "Kreyòl Ayisyen"
+  }
+}

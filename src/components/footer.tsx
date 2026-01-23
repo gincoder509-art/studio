@@ -1,6 +1,8 @@
 import { CodeXml } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export function Footer() {
+  const t = useTranslations('Footer');
   const currentYear = new Date().getFullYear();
   return (
     <footer className="border-t">
@@ -8,7 +10,7 @@ export function Footer() {
         <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
           <CodeXml className="h-6 w-6 text-primary" />
           <p className="text-center text-sm leading-loose md:text-left text-muted-foreground">
-            Built by{' '}
+            {t('builtBy')}{' '}
             <a
               href="https://gincoder509-art.github.io/particulier-vitrine/"
               target="_blank"
@@ -17,7 +19,7 @@ export function Footer() {
             >
               Gincoder
             </a>
-            . © {currentYear} All rights reserved.
+            {t('rightsReserved', {currentYear})}
           </p>
         </div>
       </div>

@@ -14,20 +14,7 @@ import { Textarea } from '@/components/ui/textarea';
 import Image from 'next/image';
 import { Loader2, PartyPopper } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
-
-const FormSchema = z.object({
-  projectDescription: z.string().min(10, 'Description must be at least 10 characters.'),
-  projectLogo: z
-    .custom<FileList>()
-    .refine((files) => files?.length === 1, 'Logo image is required.')
-    .refine((files) => files?.[0]?.size <= 5 * 1024 * 1024, 'Max file size is 5MB.')
-    .refine(
-      (files) => ['image/jpeg', 'image/png', 'image/webp'].includes(files?.[0]?.type),
-      'Only .jpg, .png, and .webp formats are supported.'
-    ),
-});
-
-type FormValues = z.infer<typeof FormSchema>;
+import { useTranslations } from 'next-intl';
 
 function fileToDataUri(file: File): Promise<string> {
   return new Promise((resolve, reject) => {
@@ -40,15 +27,32 @@ function fileToDataUri(file: File): Promise<string> {
 
 function SubmitButton() {
   const { pending } = useFormStatus();
+  const t = useTranslations('GenerateImagesPage.form');
   return (
     <Button type="submit" disabled={pending} className="w-full">
       {pending ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : null}
-      Generate Images
+      {t('submitButton')}
     </Button>
   );
 }
 
 export function GenerateImagesForm() {
+  const t = useTranslations('GenerateImagesPage');
+  
+  const FormSchema = z.object({
+    projectDescription: z.string().min(10, t('validation.descriptionMin')),
+    projectLogo: z
+      .custom<FileList>()
+      .refine((files) => files?.length === 1, t('validation.logoRequired'))
+      .refine((files) => files?.[0]?.size <= 5 * 1024 * 1024, t('validation.logoSize'))
+      .refine(
+        (files) => ['image/jpeg', 'image/png', 'image/webp'].includes(files?.[0]?.type),
+        t('validation.logoType')
+      ),
+  });
+  
+  type FormValues = z.infer<typeof FormSchema>;
+
   const initialState: State = { message: null, errors: {} };
   const [state, dispatch] = useFormState(handleImageGeneration, initialState);
   const { toast } = useToast();
@@ -93,34 +97,34 @@ export function GenerateImagesForm() {
     if (state.errors?._form) {
       toast({
         variant: 'destructive',
-        title: 'Error Generating Images',
+        title: t('toasts.errorTitle'),
         description: state.errors._form.join(', '),
       });
     } else if (state.message && state.generatedImageDataUris) {
         toast({
-            title: 'Success!',
+            title: t('toasts.successTitle'),
             description: state.message,
         });
         form.reset();
         formRef.current?.reset();
         setLogoPreview(null);
     }
-  }, [state, toast, form]);
+  }, [state, toast, form, t]);
 
   return (
     <div className="w-full max-w-4xl mx-auto space-y-8">
       <form ref={formRef} onSubmit={form.handleSubmit(onSubmit)} noValidate>
         <Card>
           <CardHeader>
-            <CardTitle className="font-headline">AI Image Generator</CardTitle>
-            <CardDescription>Describe your project and upload a logo to generate relevant images.</CardDescription>
+            <CardTitle className="font-headline">{t('title')}</CardTitle>
+            <CardDescription>{t('description')}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
             <div className="space-y-2">
-              <Label htmlFor="projectDescription">Project Description</Label>
+              <Label htmlFor="projectDescription">{t('form.projectDescriptionLabel')}</Label>
               <Textarea
                 id="projectDescription"
-                placeholder="e.g., A modern website for a gourmet restaurant..."
+                placeholder={t('form.projectDescriptionPlaceholder')}
                 {...form.register('projectDescription')}
                 className={form.formState.errors.projectDescription ? 'border-destructive' : ''}
                 rows={4}
@@ -130,7 +134,7 @@ export function GenerateImagesForm() {
               )}
             </div>
             <div className="space-y-2">
-              <Label htmlFor="projectLogo">Project Logo</Label>
+              <Label htmlFor="projectLogo">{t('form.projectLogoLabel')}</Label>
               <Input
                 id="projectLogo"
                 type="file"
@@ -140,7 +144,7 @@ export function GenerateImagesForm() {
               />
                {logoPreview && (
                 <div className="mt-4">
-                  <p className="text-sm font-medium mb-2">Logo Preview:</p>
+                  <p className="text-sm font-medium mb-2">{t('form.logoPreview')}</p>
                   <Image src={logoPreview} alt="Logo preview" width={100} height={100} className="rounded-md border object-contain bg-muted p-2"/>
                 </div>
                )}
@@ -160,9 +164,9 @@ export function GenerateImagesForm() {
           <CardHeader>
             <CardTitle className="font-headline flex items-center gap-2">
               <PartyPopper className="text-primary h-6 w-6"/>
-              Generated Images
+              {t('generatedImages.title')}
             </CardTitle>
-            <CardDescription>Here are the images generated by the AI based on your input.</CardDescription>
+            <CardDescription>{t('generatedImages.description')}</CardDescription>
           </CardHeader>
           <CardContent>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">

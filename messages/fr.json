@@ -1,0 +1,105 @@
+{
+  "Navigation": {
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "aiGenerator": "Générateur d'IA"
+  },
+  "Header": {
+    "contactMe": "Contactez-moi"
+  },
+  "Footer": {
+    "builtBy": "Créé par",
+    "rightsReserved": ". © {currentYear} Tous droits réservés."
+  },
+  "HomePage": {
+    "heroTitle": "Gincoder Pro",
+    "heroSubtitle": "Développeur web professionnel créant des sites web époustouflants et performants. Construisons ensemble votre présence en ligne.",
+    "whatsapp": "WhatsApp",
+    "facebook": "Facebook",
+    "tiktok": "TikTok",
+    "callMe": "Appelez-moi",
+    "portfolioBadge": "Mon Travail",
+    "portfolioTitle": "Projets en Vedette",
+    "portfolioSubtitle": "Une sélection de mes meilleurs projets, démontrant une gamme de styles et de fonctionnalités.",
+    "servicesTitle": "Votre Idée, Mon Expertise. Créons Ensemble.",
+    "servicesSubtitle": "J'offre une approche multi-services pour donner vie à votre vision numérique. Des vitrines de magasins aux portfolios personnels, j'ai les compétences pour construire le site web dont vous avez besoin."
+  },
+  "ProjectCard": {
+    "viewSite": "Voir le Site"
+  },
+  "Projects": {
+    "restaurant": {
+      "title": "Vitrine de Restaurant",
+      "description": "Un site web moderne et élégant pour un restaurant gastronomique, avec menus, réservations et galerie."
+    },
+    "boutique": {
+      "title": "Vitrine de Boutique",
+      "description": "Une boutique en ligne chic pour une boutique de mode, mettant en avant les dernières collections et l'histoire de la marque."
+    },
+    "barber": {
+      "title": "Salon de Barbier",
+      "description": "Un site web élégant et convivial pour un salon de barbier moderne, avec liste de services et prise de rendez-vous."
+    },
+    "clinique": {
+      "title": "Clinique Dentaire",
+      "description": "Un site web professionnel et digne de confiance pour une clinique dentaire, fournissant des informations sur les services et le personnel."
+    },
+    "ecole": {
+      "title": "Auto-école",
+      "description": "Un site informatif pour une auto-école, détaillant les cours, les tarifs et les informations d'inscription."
+    },
+    "formation": {
+      "title": "Formation en Ligne",
+      "description": "Une plateforme de cours en ligne, offrant une expérience d'apprentissage fluide pour les étudiants."
+    },
+    "eglise": {
+      "title": "Communauté Éclésiale",
+      "description": "Un site web accueillant pour une église, partageant les horaires d'événements, les sermons et les nouvelles de la communauté."
+    },
+    "onglerie": {
+      "title": "Salon de manucure",
+      "description": "Un site web élégant pour un salon de manucure, présentant les services, un portfolio de nail art et des options de réservation."
+    },
+    "particulier": {
+      "title": "Portfolio Personnel",
+      "description": "Un site web de portfolio personnel et épuré pour présenter efficacement les compétences et projets individuels."
+    }
+  },
+  "GenerateImagesPage": {
+    "title": "Générateur d'Images IA",
+    "description": "Décrivez votre projet et téléchargez un logo pour générer des images pertinentes.",
+    "form": {
+      "projectDescriptionLabel": "Description du Projet",
+      "projectDescriptionPlaceholder": "ex: Un site web moderne pour un restaurant gastronomique...",
+      "projectLogoLabel": "Logo du Projet",
+      "logoPreview": "Aperçu du logo :",
+      "submitButton": "Générer les Images"
+    },
+    "validation": {
+      "descriptionMin": "La description doit comporter au moins 10 caractères.",
+      "logoRequired": "L'image du logo est requise.",
+      "logoSize": "La taille maximale du fichier est de 5 Mo.",
+      "logoType": "Seuls les formats .jpg, .png et .webp sont pris en charge.",
+      "invalidUri": "URI de données d'image non valide."
+    },
+    "toasts": {
+      "errorTitle": "Erreur lors de la génération des images",
+      "successTitle": "Succès !",
+      "successMessage": "Images générées avec succès !",
+      "errorForm": "Données de formulaire non valides. Veuillez corriger les erreurs et réessayer.",
+      "errorApiFail": "L'IA n'a pas pu générer d'images. Veuillez réessayer.",
+      "errorApiGeneral": "La génération d'images a échoué. Veuillez réessayer plus tard.",
+      "errorUnexpected": "Une erreur inattendue est survenue."
+    },
+    "generatedImages": {
+      "title": "Images Générées",
+      "description": "Voici les images générées par l'IA en fonction de votre saisie."
+    }
+  },
+  "LocaleSwitcher": {
+    "label": "Changer de langue",
+    "en": "Anglais",
+    "fr": "Français",
+    "ht": "Créole Haïtien"
+  }
+}

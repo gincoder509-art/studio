@@ -1,8 +1,13 @@
-import Link from 'next/link';
+import { Link } from '@/navigation';
 import { CodeXml } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { useTranslations } from 'next-intl';
+import { LocaleSwitcher } from './locale-switcher';
 
 export function Header() {
+  const t = useTranslations('Navigation');
+  const tHeader = useTranslations('Header');
+
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 max-w-screen-2xl items-center">
@@ -16,25 +21,26 @@ export function Header() {
               href="/#portfolio"
               className="text-foreground/60 transition-colors hover:text-foreground/80"
             >
-              Portfolio
+              {t('portfolio')}
             </Link>
             <Link
               href="/#services"
               className="text-foreground/60 transition-colors hover:text-foreground/80"
             >
-              Services
+              {t('services')}
             </Link>
             <Link
               href="/generate-images"
               className="font-medium text-foreground/80 transition-colors hover:text-foreground"
             >
-              AI Generator
+              {t('aiGenerator')}
             </Link>
           </nav>
         </div>
         <div className="flex flex-1 items-center justify-end gap-4">
+          <LocaleSwitcher />
           <Button asChild>
-            <Link href="/#contact">Contact Me</Link>
+            <Link href="/#contact">{tHeader('contactMe')}</Link>
           </Button>
         </div>
       </div>

@@ -5,24 +5,24 @@
     "aiGenerator": "Jenaratè IA"
   },
   "Header": {
-    "contactMe": "Kontakte m"
+    "contactMe": "An n Pale"
   },
   "Footer": {
     "builtBy": "Kreye pa",
     "rightsReserved": ". © {currentYear} Tout dwa rezève."
   },
   "HomePage": {
-    "heroTitle": "Gincoder Pro",
-    "heroSubtitle": "Devlopè entènèt pwofesyonèl k ap kreye sit entènèt sansasyonèl ak pèfòmans segondè. Ann bati prezans ou sou entènèt ansanm.",
+    "heroTitle": "Soti nan Lide rive nan Enpak: Sit Entènèt ki Fè Moun Wè w.",
+    "heroSubtitle": "Bonjou, mwen se Gincoder. Yon devlopè entènèt endepandan ki transfòme vizyon ou an yon reyalite sansasyonèl ak pèfòmans segondè. Pare pou w soti nan lòt yo?",
     "whatsapp": "WhatsApp",
     "facebook": "Facebook",
     "tiktok": "TikTok",
     "callMe": "Rele m",
     "portfolioBadge": "Travay Mwen",
-    "portfolioTitle": "Pwojè An Vedèt",
-    "portfolioSubtitle": "Yon seleksyon pi bon pwojè mwen yo, ki demontre yon varyete estil ak fonksyonalite.",
-    "servicesTitle": "Ide Ou, Ekspètiz Mwen. Ann Kreye.",
-    "servicesSubtitle": "Mwen ofri yon apwòch milti-sèvis pou bay vizyon dijital ou a lavi. Soti nan vitrin magazen rive nan pòtfolyo pèsonèl, mwen gen konpetans pou konstwi sit entènèt ou bezwen an."
+    "portfolioTitle": "Kreyasyon Mwen yo",
+    "portfolioSubtitle": "Men yon apèsi sou eksperyans dijital mwen te bay lavi.",
+    "servicesTitle": "Vizyon Ou, Kode avèk Ekspètiz.",
+    "servicesSubtitle": "Mwen ofri yon seri sèvis konplè pou konstwi prezans dijital ou de A a Z. Kit se yon magazen elegant oswa yon pòtfolyo dinamik, mwen gen ekspètiz pou m reyalize l."
   },
   "ProjectCard": {
     "viewSite": "Gade Sit la"

@@ -5,24 +5,24 @@
     "aiGenerator": "AI Generator"
   },
   "Header": {
-    "contactMe": "Contact Me"
+    "contactMe": "Let's Talk"
   },
   "Footer": {
     "builtBy": "Built by",
     "rightsReserved": ". © {currentYear} All rights reserved."
   },
   "HomePage": {
-    "heroTitle": "Gincoder Pro",
-    "heroSubtitle": "Professional web developer creating stunning, high-performance websites. Let's build your online presence together.",
+    "heroTitle": "From Idea to Impact: Websites That Get Noticed.",
+    "heroSubtitle": "Hi, I'm Gincoder. A freelance web developer turning your vision into a stunning, high-performance reality. Ready to stand out?",
     "whatsapp": "WhatsApp",
     "facebook": "Facebook",
     "tiktok": "TikTok",
     "callMe": "Call Me",
     "portfolioBadge": "My Work",
-    "portfolioTitle": "Featured Projects",
-    "portfolioSubtitle": "A selection of my best projects, demonstrating a range of styles and functionalities.",
-    "servicesTitle": "Your Idea, My Expertise. Let's Create.",
-    "servicesSubtitle": "I offer a multi-service approach to bring your digital vision to life. From storefronts to personal portfolios, I have the skills to build the website you need."
+    "portfolioTitle": "My Creations",
+    "portfolioSubtitle": "Here's a glimpse into the digital experiences I've brought to life.",
+    "servicesTitle": "Your Vision, Expertly Coded.",
+    "servicesSubtitle": "I offer a complete suite of services to build your digital presence from the ground up. Whether it's a sleek storefront or a dynamic portfolio, I have the expertise to deliver."
   },
   "ProjectCard": {
     "viewSite": "View Site"

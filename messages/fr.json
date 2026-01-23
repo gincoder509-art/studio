@@ -5,24 +5,24 @@
     "aiGenerator": "Générateur d'IA"
   },
   "Header": {
-    "contactMe": "Contactez-moi"
+    "contactMe": "Discutons"
   },
   "Footer": {
     "builtBy": "Créé par",
     "rightsReserved": ". © {currentYear} Tous droits réservés."
   },
   "HomePage": {
-    "heroTitle": "Gincoder Pro",
-    "heroSubtitle": "Développeur web professionnel créant des sites web époustouflants et performants. Construisons ensemble votre présence en ligne.",
+    "heroTitle": "De l'Idée à l'Impact : Des Sites Web Qui Se Démarquent.",
+    "heroSubtitle": "Salut, c'est Gincoder. Développeur web freelance, je transforme votre vision en une réalité époustouflante et performante. Prêt à vous démarquer ?",
     "whatsapp": "WhatsApp",
     "facebook": "Facebook",
     "tiktok": "TikTok",
     "callMe": "Appelez-moi",
     "portfolioBadge": "Mon Travail",
-    "portfolioTitle": "Projets en Vedette",
-    "portfolioSubtitle": "Une sélection de mes meilleurs projets, démontrant une gamme de styles et de fonctionnalités.",
-    "servicesTitle": "Votre Idée, Mon Expertise. Créons Ensemble.",
-    "servicesSubtitle": "J'offre une approche multi-services pour donner vie à votre vision numérique. Des vitrines de magasins aux portfolios personnels, j'ai les compétences pour construire le site web dont vous avez besoin."
+    "portfolioTitle": "Mes Créations",
+    "portfolioSubtitle": "Voici un aperçu des expériences numériques que j'ai créées.",
+    "servicesTitle": "Votre Vision, Codée avec Expertise.",
+    "servicesSubtitle": "Je propose une gamme complète de services pour construire votre présence numérique de A à Z. Qu'il s'agisse d'une boutique élégante ou d'un portfolio dynamique, j'ai l'expertise pour livrer."
   },
   "ProjectCard": {
     "viewSite": "Voir le Site"

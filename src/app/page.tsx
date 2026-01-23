@@ -1,3 +1,5 @@
+import { redirect } from '@/navigation';
+
 export default function Page() {
-  return null;
+  redirect('/');
 }

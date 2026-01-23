@@ -3,8 +3,7 @@ import { Footer } from '@/components/footer';
 import { projectIds, projectLinks, getProjectImage, type Project } from '@/app/lib/data';
 import { ProjectCard } from '@/components/project-card';
 import { Button } from '@/components/ui/button';
-import { Phone, MessageSquare, Facebook } from 'lucide-react';
-import { TikTokIcon } from '@/components/icons/tiktok';
+import { Phone, MessageSquare, Facebook, Mail } from 'lucide-react';
 import { Link } from '@/navigation';
 import Image from 'next/image';
 import { Badge } from "@/components/ui/badge";
@@ -31,10 +30,11 @@ export default function Home({params: {locale}}: {params: {locale: string}}) {
   });
 
   const contactLinks = [
-    { href: 'https://wa.me/50934892461', Icon: MessageSquare, label: tContact('whatsapp') },
-    { href: 'https://www.facebook.com/gincoder509', Icon: Facebook, label: tContact('facebook') },
-    { href: 'https://www.tiktok.com/@gincoderht', Icon: TikTokIcon, label: tContact('tiktok') },
-    { href: 'tel:+50934892461', Icon: Phone, label: tContact('callMe') },
+    { href: 'https://wa.me/50933377934', Icon: MessageSquare, label: tContact('whatsapp'), className: 'bg-[#25D366] hover:bg-[#25D366]/90 text-primary-foreground' },
+    { href: 'https://www.facebook.com/share/1AgEHU17B3/', Icon: Facebook, label: tContact('facebook'), className: 'bg-[#1877F2] hover:bg-[#1877F2]/90 text-primary-foreground' },
+    { href: 'tel:+50944539500', Icon: Phone, label: tContact('callDigicel'), className: 'bg-[#ED1C24] hover:bg-[#ED1C24]/90 text-primary-foreground' },
+    { href: 'tel:+50941704583', Icon: Phone, label: tContact('callNatcom'), className: 'bg-[#00A9E0] hover:bg-[#00A9E0]/90 text-primary-foreground' },
+    { href: 'mailto:gincoder-ms@gmail.com', Icon: Mail, label: tContact('email'), className: 'bg-gray-500 hover:bg-gray-600 text-primary-foreground' },
   ];
 
   const heroImage = PlaceHolderImages.find(p => p.id === 'developer');
@@ -58,8 +58,8 @@ export default function Home({params: {locale}}: {params: {locale: string}}) {
                   </p>
                 </div>
                 <div id="contact" className="flex flex-col gap-2 min-[400px]:flex-row pt-4 flex-wrap">
-                  {contactLinks.map(({ href, Icon, label }) => (
-                    <Button key={label} asChild variant="outline" size="lg" className="flex-grow sm:flex-grow-0">
+                  {contactLinks.map(({ href, Icon, label, className }) => (
+                    <Button key={label} asChild size="lg" className={`flex-grow sm:flex-grow-0 ${className}`}>
                       <Link href={href} target="_blank" rel="noopener noreferrer">
                         <Icon className="mr-2 h-5 w-5" />
                         {label}
@@ -128,8 +128,8 @@ export default function Home({params: {locale}}: {params: {locale: string}}) {
               </div>
             )}
              <div className="flex justify-center flex-wrap gap-4 pt-8">
-               {contactLinks.map(({ href, Icon, label }) => (
-                <Button key={label} asChild size="lg">
+               {contactLinks.map(({ href, Icon, label, className }) => (
+                <Button key={label} asChild size="lg" className={className}>
                   <Link href={href} target="_blank" rel="noopener noreferrer">
                     <Icon className="mr-2 h-5 w-5" />
                     {label}

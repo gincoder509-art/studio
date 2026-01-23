@@ -14,15 +14,16 @@
   "HomePage": {
     "heroTitle": "Vous avez une vision. J'ai le code pour la concrétiser.",
     "heroSubtitle": "Salut, c'est Gincoder. Développeur web freelance, je conçois des sites web sublimes et ultra-performants qui séduisent et convertissent. Prêt à laisser votre empreinte ?",
-    "whatsapp": "WhatsApp",
-    "facebook": "Facebook",
-    "tiktok": "TikTok",
-    "callMe": "Appelez-moi",
+    "whatsapp": "Contactez-moi sur WhatsApp",
+    "facebook": "Retrouvez-moi sur Facebook",
+    "email": "Envoyez-moi un e-mail",
+    "callDigicel": "Appel (Digicel)",
+    "callNatcom": "Appel (Natcom)",
     "portfolioBadge": "Mes Créations",
     "portfolioTitle": "Les Mondes Numériques que J'ai F façonnés",
     "portfolioSubtitle": "Découvrez les expériences numériques que j'ai créées – chaque projet est une histoire de collaboration et de code.",
     "servicesTitle": "Votre Vision, Forgée avec Expertise en Code",
-    "servicesSubtitle": "Je propose une gamme complète de services pour bâtir votre présence numérique de A à Z, des sites e-commerce élégants aux portfolios dynamiques."
+    "servicesSubtitle": "Je propose une gamme complète de services pour bâtir votre presence numérique de A à Z, des sites e-commerce élégants aux portfolios dynamiques."
   },
   "ProjectCard": {
     "viewSite": "Voir le Site"

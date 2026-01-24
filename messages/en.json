@@ -76,6 +76,11 @@
     "subtitle": "Custom digital solutions to boost your project. From web design to automation, I turn your ideas into reality.",
     "priceDisclaimer": "Please note that the prices shown are estimates. The final price will be determined after discussion and will depend on the complexity and quality of the desired work.",
     "cta": "Request a Quote",
+    "qrDialog": {
+      "title": "Contact me on WhatsApp",
+      "description": "Scan the QR code with your phone's camera or click the button below to open WhatsApp.",
+      "button": "Open WhatsApp"
+    },
     "categories": {
       "web": {
         "title": "Web Development",

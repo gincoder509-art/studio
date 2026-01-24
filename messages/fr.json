@@ -76,6 +76,11 @@
     "subtitle": "Solutions numériques sur mesure pour propulser votre projet. De la conception web à l'automatisation, je transforme vos idées en réalité.",
     "priceDisclaimer": "Veuillez noter que les prix affichés sont des estimations. Le tarif final sera déterminé après discussion et dépendra de la complexité et de la qualité du travail souhaité.",
     "cta": "Demander un devis",
+    "qrDialog": {
+      "title": "Contactez-moi sur WhatsApp",
+      "description": "Scannez le code QR avec l'appareil photo de votre téléphone ou cliquez sur le bouton ci-dessous pour ouvrir WhatsApp.",
+      "button": "Ouvrir WhatsApp"
+    },
     "categories": {
       "web": {
         "title": "Développement Web",

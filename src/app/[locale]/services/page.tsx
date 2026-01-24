@@ -4,7 +4,8 @@ import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { ServiceCard } from '@/components/service-card';
-import { Globe, Bot, Code, Sparkles } from 'lucide-react';
+import { Globe, Bot, Code, Sparkles, Info } from 'lucide-react';
+import { Alert, AlertDescription } from '@/components/ui/alert';
 
 const categoryIcons: Record<string, React.ElementType> = {
   web: Globe,
@@ -32,6 +33,12 @@ export default function ServicesPage({ params: { locale } }: { params: { locale:
               <p className="mt-4 max-w-3xl mx-auto text-foreground/80 md:text-xl">
                 {t('subtitle')}
               </p>
+              <Alert className="mt-8 text-left">
+                <Info className="h-4 w-4" />
+                <AlertDescription>
+                  {t('priceDisclaimer')}
+                </AlertDescription>
+              </Alert>
             </div>
 
             <div className="mx-auto mt-16 max-w-4xl">

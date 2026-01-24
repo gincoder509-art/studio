@@ -74,6 +74,7 @@
   "ServicesPage": {
     "title": "Discover My Services",
     "subtitle": "Custom digital solutions to boost your project. From web design to automation, I turn your ideas into reality.",
+    "priceDisclaimer": "Please note that the prices shown are estimates. The final price will be determined after discussion and will depend on the complexity and quality of the desired work.",
     "cta": "Request a Quote",
     "categories": {
       "web": {

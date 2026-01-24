@@ -70,5 +70,127 @@
     "en": "Anglais",
     "fr": "Français",
     "ht": "Créole Haïtien"
+  },
+  "ServicesPage": {
+    "title": "Découvrez Mes Services",
+    "subtitle": "Solutions numériques sur mesure pour propulser votre projet. De la conception web à l'automatisation, je transforme vos idées en réalité.",
+    "cta": "Demander un devis",
+    "categories": {
+      "web": {
+        "title": "Développement Web",
+        "services": {
+          "simple-showcase": {
+            "title": "Site Vitrine Simple",
+            "description": "Une présence en ligne élégante et professionnelle pour présenter votre activité. Idéal pour un impact rapide et efficace.",
+            "price": "$20 - $40 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Site Vitrine Simple' et j'aimerais obtenir plus d'informations."
+          },
+          "whatsapp-qr": {
+            "title": "Page WhatsApp QR",
+            "description": "Une page web simple accessible via QR code, pour rediriger vos clients vers une conversation WhatsApp instantanée.",
+            "price": "$10 - $20 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Page WhatsApp QR' et j'aimerais obtenir plus d'informations."
+          },
+          "advanced-landing": {
+            "title": "Landing Page Avancée",
+            "description": "Une page de destination optimisée pour la conversion, avec un design percutant pour capturer des leads.",
+            "price": "$40 - $80 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Landing Page Avancée' et j'aimerais obtenir plus d'informations."
+          }
+        }
+      },
+      "design": {
+        "title": "Design Graphique",
+        "services": {
+          "pro-flyer": {
+            "title": "Flyer / Visuel Pro",
+            "description": "Des designs percutants pour vos campagnes marketing, événements ou communications sur les réseaux sociaux.",
+            "price": "$10 - $25 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Flyer / Visuel Pro' et j'aimerais obtenir plus d'informations."
+          },
+          "simple-logo": {
+            "title": "Logo Simple",
+            "description": "Créez une identité visuelle forte avec un logo mémorable et épuré qui représente parfaitement votre marque.",
+            "price": "$20 - $50 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Logo Simple' et j'aimerais obtenir plus d'informations."
+          },
+          "social-banner": {
+            "title": "Bannière Réseaux Sociaux",
+            "description": "Des bannières optimisées pour Facebook, Twitter, etc., pour garantir une image de marque cohérente et professionnelle.",
+            "price": "$15 - $30 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Bannière Réseaux Sociaux' et j'aimerais obtenir plus d'informations."
+          }
+        }
+      },
+      "automation": {
+        "title": "Automatisation",
+        "services": {
+          "telegram-bot": {
+            "title": "Bot Telegram de Base",
+            "description": "Automatisez les interactions et la diffusion d'informations sur Telegram avec un bot personnalisé, simple et efficace.",
+            "price": "$30 - $60 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Bot Telegram de Base' et j'aimerais obtenir plus d'informations."
+          },
+          "python-script": {
+            "title": "Script Python Automatisé",
+            "description": "Gagnez du temps et réduisez les erreurs avec des scripts Python sur mesure pour automatiser vos tâches répétitives.",
+            "price": "$25 - $50 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Script Python Automatisé' et j'aimerais obtenir plus d'informations."
+          },
+          "whatsapp-autoresponder": {
+            "title": "Auto-Répondeur WhatsApp",
+            "description": "Assurez une communication instantanée avec vos clients grâce à un répondeur automatique intelligent pour WhatsApp.",
+            "price": "$40 - $80 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Auto-Répondeur WhatsApp' et j'aimerais obtenir plus d'informations."
+          }
+        }
+      },
+      "dev": {
+        "title": "Développement & Programmation",
+        "services": {
+          "php-script": {
+            "title": "Petit Script Web (PHP)",
+            "description": "Intégrez des fonctionnalités spécifiques à votre site avec des scripts PHP légers, performants et sécurisés.",
+            "price": "$25 - $50 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Petit Script Web (PHP)' et j'aimerais obtenir plus d'informations."
+          },
+          "discord-bot": {
+            "title": "Bot Discord / API",
+            "description": "Améliorez votre serveur Discord avec un bot personnalisé ou intégrez diverses APIs pour des fonctionnalités avancées.",
+            "price": "$40 - $80 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Bot Discord / API' et j'aimerais obtenir plus d'informations."
+          },
+          "dynamic-app": {
+            "title": "App Web Dynamique",
+            "description": "Développez une application web complète, interactive et évolutive, avec base de données et fonctionnalités complexes.",
+            "price": "$60 - $120 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'App Web Dynamique' et j'aimerais obtenir plus d'informations."
+          }
+        }
+      },
+      "consulting": {
+        "title": "Conseil & Stratégie",
+        "services": {
+          "tech-consultation": {
+            "title": "Consultation Tech",
+            "description": "Obtenez des conseils d'expert pour orienter vos choix technologiques et planifier votre projet numérique.",
+            "price": "$35 - $70 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Consultation Tech' et j'aimerais obtenir plus d'informations."
+          },
+          "security-audit": {
+            "title": "Audit Site / Sécurité",
+            "description": "Identifiez et corrigez les failles de sécurité de votre site pour protéger vos données et celles de vos utilisateurs.",
+            "price": "$35 - $70 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Audit Site / Sécurité' et j'aimerais obtenir plus d'informations."
+          },
+          "express-training": {
+            "title": "Formation Express",
+            "description": "Une session de formation rapide et ciblée pour maîtriser un outil, un langage ou un concept technologique.",
+            "price": "$20 - $50 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Formation Express' et j'aimerais obtenir plus d'informations."
+          }
+        }
+      }
+    }
   }
 }

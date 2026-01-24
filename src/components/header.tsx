@@ -11,7 +11,7 @@ export function Header() {
 
   const navLinks = [
     { href: '/#portfolio', label: t('portfolio') },
-    { href: '/#services', label: t('services') },
+    { href: '/services', label: t('services') },
   ];
 
   return (
@@ -23,18 +23,15 @@ export function Header() {
             <span className="font-bold font-headline">Gincoder</span>
           </Link>
           <nav className="hidden items-center gap-6 text-sm md:flex">
-            <Link
-              href="/#portfolio"
-              className="text-foreground/60 transition-colors hover:text-foreground/80"
-            >
-              {t('portfolio')}
-            </Link>
-            <Link
-              href="/#services"
-              className="text-foreground/60 transition-colors hover:text-foreground/80"
-            >
-              {t('services')}
-            </Link>
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-foreground/60 transition-colors hover:text-foreground/80"
+              >
+                {link.label}
+              </Link>
+            ))}
           </nav>
         </div>
 

@@ -3,7 +3,7 @@ import { Footer } from '@/components/footer';
 import { projectIds, projectLinks, getProjectImage, type Project } from '@/app/lib/data';
 import { ProjectCard } from '@/components/project-card';
 import { Button } from '@/components/ui/button';
-import { Phone, MessageSquare, Facebook, Mail } from 'lucide-react';
+import { Phone, MessageSquare, Facebook, Mail, ArrowRight } from 'lucide-react';
 import { Link } from '@/navigation';
 import Image from 'next/image';
 import { Badge } from "@/components/ui/badge";
@@ -16,6 +16,7 @@ export default function Home({params: {locale}}: {params: {locale: string}}) {
   const t = useTranslations('HomePage');
   const tProjects = useTranslations('Projects');
   const tContact = useTranslations('HomePage');
+  const tNav = useTranslations('Navigation');
 
   const projects: Project[] = projectIds.map(id => {
     const image = getProjectImage(id);
@@ -38,7 +39,6 @@ export default function Home({params: {locale}}: {params: {locale: string}}) {
   ];
 
   const heroImage = PlaceHolderImages.find(p => p.id === 'developer');
-  const flyerImage = PlaceHolderImages.find(p => p.id === 'flyer');
 
   return (
     <div className="flex min-h-screen flex-col bg-background">
@@ -104,7 +104,7 @@ export default function Home({params: {locale}}: {params: {locale: string}}) {
           </div>
         </section>
 
-        {/* Services/Flyer Section */}
+        {/* Services Section */}
         <section id="services" className="w-full py-12 md:py-24 lg:py-32">
           <div className="container grid items-center justify-center gap-6 px-4 text-center md:px-6">
             <div className="space-y-3">
@@ -115,27 +115,12 @@ export default function Home({params: {locale}}: {params: {locale: string}}) {
                 {t('servicesSubtitle')}
               </p>
             </div>
-            {flyerImage && (
-              <div className="relative mx-auto w-full max-w-4xl overflow-hidden rounded-2xl shadow-2xl shadow-primary/20">
-                <Image
-                  src={flyerImage.imageUrl}
-                  alt={flyerImage.description}
-                  width={1200}
-                  height={600}
-                  className="w-full object-cover"
-                  data-ai-hint={flyerImage.imageHint}
-                />
-              </div>
-            )}
-             <div className="flex justify-center flex-wrap gap-4 pt-8">
-               {contactLinks.map(({ href, Icon, label, className }) => (
-                <Button key={label} asChild size="lg" className={className}>
-                  <Link href={href} target="_blank" rel="noopener noreferrer">
-                    <Icon className="mr-2 h-5 w-5" />
-                    {label}
-                  </Link>
+             <div className="flex justify-center">
+                <Button asChild size="lg">
+                    <Link href="/services">
+                        {tNav('services')} <ArrowRight className="ml-2 h-5 w-5" />
+                    </Link>
                 </Button>
-              ))}
             </div>
           </div>
         </section>

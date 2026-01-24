@@ -7,8 +7,7 @@ export const locales = ['en', 'fr', 'ht'] as const;
 export const pathnames = {
   // If all locales use the same path, use
   // the star `*` to catch all of them.
-  '/': '/',
-  '/generate-images': '/generate-images'
+  '/': '/'
 };
 
 export const {Link, redirect, usePathname, useRouter} =

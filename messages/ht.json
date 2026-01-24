@@ -1,8 +1,7 @@
 {
   "Navigation": {
     "portfolio": "Pòtfolyo",
-    "services": "Sèvis",
-    "aiGenerator": "Jenaratè IA"
+    "services": "Sèvis"
   },
   "Header": {
     "contactMe": "An n Pale"
@@ -64,37 +63,6 @@
     "particulier": {
       "title": "Pwofesyonèl Plizyè Metye",
       "description": "Yon sit vitrin pou yon pwofesyonèl ki ofri plizyè sèvis tankou plonbri, elektrisite, ak lòt ankò."
-    }
-  },
-  "GenerateImagesPage": {
-    "title": "Jenaratè Imaj IA",
-    "description": "Dekri pwojè ou a epi telechaje yon logo pou jenere imaj ki enpòtan.",
-    "form": {
-      "projectDescriptionLabel": "Deskripsyon Pwojè",
-      "projectDescriptionPlaceholder": "egzanp, Yon sit entènèt modèn pou yon restoran goumè...",
-      "projectLogoLabel": "Logo Pwojè",
-      "logoPreview": "Apèsi logo :",
-      "submitButton": "Jenere Imaj yo"
-    },
-    "validation": {
-      "descriptionMin": "Deskripsyon dwe gen omwen 10 karaktè.",
-      "logoRequired": "Imaj logo obligatwa.",
-      "logoSize": "Gwosè maksimòm fichye a se 5MB.",
-      "logoType": "Se sèlman fòma .jpg, .png, ak .webp ki sipòte.",
-      "invalidUri": "URI done imaj pa valab."
-    },
-    "toasts": {
-      "errorTitle": "Erè pandan jenerasyon imaj",
-      "successTitle": "Siksè!",
-      "successMessage": "Imaj yo te jenere avèk siksè!",
-      "errorForm": "Done fòmilè pa valab. Tanpri korije erè yo epi eseye ankò.",
-      "errorApiFail": "IA pa t 'kapab jenere imaj. Tanpri eseye ankò.",
-      "errorApiGeneral": "Jenerasyon imaj echwe. Tanpri eseye ankò pita.",
-      "errorUnexpected": "Yon erè inatandi te fèt."
-    },
-    "generatedImages": {
-      "title": "Imaj Jenere",
-      "description": "Men imaj IA te jenere baze sou enfòmasyon ou yo."
     }
   },
   "LocaleSwitcher": {

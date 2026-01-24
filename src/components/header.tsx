@@ -12,7 +12,6 @@ export function Header() {
   const navLinks = [
     { href: '/#portfolio', label: t('portfolio') },
     { href: '/#services', label: t('services') },
-    { href: '/generate-images', label: t('aiGenerator') },
   ];
 
   return (
@@ -36,12 +35,6 @@ export function Header() {
             >
               {t('services')}
             </Link>
-            <Link
-              href="/generate-images"
-              className="font-medium text-foreground/80 transition-colors hover:text-foreground"
-            >
-              {t('aiGenerator')}
-            </Link>
           </nav>
         </div>
 
@@ -61,8 +54,8 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-full max-w-xs p-6">
-              <SheetHeader className="sr-only">
-                <SheetTitle>Menu</SheetTitle>
+              <SheetHeader>
+                <SheetTitle className="sr-only">Menu</SheetTitle>
               </SheetHeader>
               <div className="flex h-full flex-col">
                 <Link href="/" className="mb-8 flex items-center space-x-2">

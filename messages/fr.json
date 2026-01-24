@@ -1,8 +1,7 @@
 {
   "Navigation": {
     "portfolio": "Portfolio",
-    "services": "Services",
-    "aiGenerator": "Générateur d'IA"
+    "services": "Services"
   },
   "Header": {
     "contactMe": "Discutons"
@@ -64,37 +63,6 @@
     "particulier": {
       "title": "Artisan Multi-Services",
       "description": "Un site vitrine pour un professionnel proposant plusieurs corps de métier : plomberie, électricité, etc."
-    }
-  },
-  "GenerateImagesPage": {
-    "title": "Générateur d'Images IA",
-    "description": "Décrivez votre projet et téléchargez un logo pour générer des images pertinentes.",
-    "form": {
-      "projectDescriptionLabel": "Description du Projet",
-      "projectDescriptionPlaceholder": "ex: Un site web moderne pour un restaurant gastronomique...",
-      "projectLogoLabel": "Logo du Projet",
-      "logoPreview": "Aperçu du logo :",
-      "submitButton": "Générer les Images"
-    },
-    "validation": {
-      "descriptionMin": "La description doit comporter au moins 10 caractères.",
-      "logoRequired": "L'image du logo est requise.",
-      "logoSize": "La taille maximale du fichier est de 5 Mo.",
-      "logoType": "Seuls les formats .jpg, .png et .webp sont pris en charge.",
-      "invalidUri": "URI de données d'image non valide."
-    },
-    "toasts": {
-      "errorTitle": "Erreur lors de la génération des images",
-      "successTitle": "Succès !",
-      "successMessage": "Images générées avec succès !",
-      "errorForm": "Données de formulaire non valides. Veuillez corriger les erreurs et réessayer.",
-      "errorApiFail": "L'IA n'a pas pu générer d'images. Veuillez réessayer.",
-      "errorApiGeneral": "La génération d'images a échoué. Veuillez réessayer plus tard.",
-      "errorUnexpected": "Une erreur inattendue est survenue."
-    },
-    "generatedImages": {
-      "title": "Images Générées",
-      "description": "Voici les images générées par l'IA en fonction de votre saisie."
     }
   },
   "LocaleSwitcher": {

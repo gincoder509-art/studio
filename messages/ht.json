@@ -30,22 +30,22 @@
   "Projects": {
     "restaurant": {
       "title": "Vitrin Restoran",
-      "description": "Yon sit entènèt modèn ak elegant pou yon restoran goumè, ki prezante meni, rezèvasyon, ak yon galri."
+      "description": "Yon sit entènèt vitrin modèn ak elegant pou yon restoran goumè, ki prezante meni, rezèvasyon, ak yon galri."
     },
     "boutique": {
       "title": "Vitrin Boutik",
       "description": "Yon sit vitrin chik pou yon boutik alamòd, ki mete aksan sou dènye koleksyon yo ak istwa mak la."
     },
     "barber": {
-      "title": "Sit Babiye",
-      "description": "Yon sit entènèt élégance ak fasil pou itilize pou yon boutik babiye modèn, avèk lis sèvis ak anrjistreman randevou."
+      "title": "Sit Vitrin Babiye",
+      "description": "Yon sit entènèt vitrin élégance ak fasil pou itilize pou yon boutik babiye modèn, avèk lis sèvis ak anrjistreman randevou."
     },
     "clinique": {
-      "title": "Klinik Medikal",
-      "description": "Yon sit entènèt pwofesyonèl pou yon klinik medikal, ki bay enfòmasyon sou sèvis ak anplwaye yo."
+      "title": "Vitrin Klinik Medikal",
+      "description": "Yon sit entènèt vitrin pwofesyonèl pou yon klinik medikal, ki bay enfòmasyon sou sèvis ak anplwaye yo."
     },
     "ecole": {
-      "title": "Sit Lekòl",
+      "title": "Sit Vitrin Lekòl",
       "description": "Yon sit vitrin pou yon etablisman edikatif, ki detaye kou ak enfòmasyon sou enskripsyon."
     },
     "formation": {
@@ -53,11 +53,11 @@
       "description": "Yon sit vitrin ki prezante kou anliy ak an pèsòn nan yon sant fòmasyon."
     },
     "eglise": {
-      "title": "Kominote Legliz",
-      "description": "Yon sit entènèt akeyan pou yon legliz, ki pataje orè evènman, prèch, ak nouvèl kominote a."
+      "title": "Sit Kominote Legliz",
+      "description": "Yon sit entènèt vitrin akeyan pou yon legliz, ki pataje orè evènman, prèch, ak nouvèl kominote a."
     },
     "onglerie": {
-      "title": "Salon Zong",
+      "title": "Sit Vitrin Salon Zong",
       "description": "Yon sit vitrin elegant pou yon salon zong, ki montre sèvis, yon pòtfolyo, ak opsyon anrjistreman."
     },
     "particulier": {
@@ -81,19 +81,19 @@
         "services": {
           "simple-showcase": {
             "title": "Sit Vitrin Senp",
-            "description": "Yon prezans sou entènèt elegant ak pwofesyonèl pou prezante biznis ou, pwodwi ou oswa pòtfolyo ou. Ideyal pou yon enpak rapid ak efikas.",
+            "description": "Yon prezans sou entènèt ki elegant e pwofesyonèl pou prezante aktivite w. Solisyon ideyal pou yon enpak rapid epi efikas.",
             "price": "$20 - $40 USD",
             "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Sit Vitrin Senp' la e mwen ta renmen jwenn plis enfòmasyon."
           },
           "whatsapp-qr": {
             "title": "Paj WhatsApp QR",
-            "description": "Yon paj wèb senp ki aksesib atravè yon kòd QR, ki fèt pou redireksyone kliyan ou yo nan yon konvèsasyon WhatsApp touswit.",
+            "description": "Yon paj wèb ki senp epi dirèk, ou ka jwenn li ak yon kòd QR, pou voye kliyan ou yo dirèkteman nan yon konvèsasyon WhatsApp.",
             "price": "$10 - $20 USD",
             "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Paj WhatsApp QR' la e mwen ta renmen jwenn plis enfòmasyon."
           },
           "advanced-landing": {
             "title": "Paj Daterisaj Avanse",
-            "description": "Yon paj daterisaj ki optimize pou konvèsyon, ak yon konsepsyon enpaktan ak fonksyonalite avanse pou kaptire kontak.",
+            "description": "Yon paj wèb unik ki gen gwo enpak, ki fèt pou atire nouvo kliyan epi fè biznis ou grandi.",
             "price": "$40 - $80 USD",
             "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Paj Daterisaj Avanse' la e mwen ta renmen jwenn plis enfòmasyon."
           }
@@ -127,15 +127,15 @@
         "services": {
           "telegram-bot": {
             "title": "Bòt Telegram Debaz",
-            "description": "Otomatize entèraksyon ak difizyon enfòmasyon sou Telegram ak yon bòt pèsonalize, senp epi efikas.",
+            "description": "Yon asistan entèlijan pou gwoup Telegram ou a ki ka reponn kesyon epi pataje enfòmasyon otomatikman.",
             "price": "$30 - $60 USD",
             "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Bòt Telegram Debaz' la e mwen ta renmen jwenn plis enfòmasyon."
           },
           "python-script": {
-            "title": "Script Python Otomatize",
-            "description": "Ekonomize tan epi redwi erè manyèl ak script Python pèsonalize pou otomatize travay repetitif ou yo.",
+            "title": "Script Pèsonalize Otomatik",
+            "description": "Yon zouti pèsonalize pou jere travay dijital repetitif ou yo, pou fè w ekonomize tan ak enèji.",
             "price": "$25 - $50 USD",
-            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Script Python Otomatize' la e mwen ta renmen jwenn plis enfòmasyon."
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Script Pèsonalize Otomatik' la e mwen ta renmen jwenn plis enfòmasyon."
           },
           "whatsapp-autoresponder": {
             "title": "Repons Otomatik WhatsApp",
@@ -146,25 +146,25 @@
         }
       },
       "dev": {
-        "title": "Devlopman & Pwogramasyon",
+        "title": "Devlopman Pèsonalize",
         "services": {
           "php-script": {
-            "title": "Ti Script Wèb (PHP)",
-            "description": "Entegre fonksyonalite espesifik sou sit wèb ou a ak script PHP ki lejè, pèfòman, ak sekirize.",
+            "title": "Ti Fonksyonalite Pèsonalize",
+            "description": "Ajoute yon fonksyonalite espesyal sou sit wèb ou a, tankou yon fòmilè kontak oswa yon kalkilatris pèsonalize.",
             "price": "$25 - $50 USD",
-            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Ti Script Wèb (PHP)' la e mwen ta renmen jwenn plis enfòmasyon."
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Ti Fonksyonalite Pèsonalize' la e mwen ta renmen jwenn plis enfòmasyon."
           },
           "discord-bot": {
-            "title": "Bòt Discord / API",
-            "description": "Amelyore sèvè Discord ou a ak yon bòt pèsonalize oswa entegre divès API pou fonksyonalite avanse.",
+            "title": "Bòt Discord",
+            "description": "Bay kominote Discord ou a lavi ak yon bòt pèsonalize pou jwèt, modération, ak fonksyon amizan.",
             "price": "$40 - $80 USD",
             "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Bòt Discord / API' la e mwen ta renmen jwenn plis enfòmasyon."
           },
           "dynamic-app": {
-            "title": "Aplikasyon Wèb Dinamik",
-            "description": "Devlope yon aplikasyon wèb konplè, entèaktif, ak evolitif, ak yon baz done ak fonksyonalite konplèks.",
+            "title": "Aplikasyon Wèb Pèsonalize",
+            "description": "Yon aplikasyon wèb konplè, ki fèt sou mezi, ak kont itilizatè, espas pou sere done, ak zouti entèaktif.",
             "price": "$60 - $120 USD",
-            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Aplikasyon Wèb Dinamik' la e mwen ta renmen jwenn plis enfòmasyon."
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Aplikasyon Wèb Pèsonalize' la e mwen ta renmen jwenn plis enfòmasyon."
           }
         }
       },
@@ -173,19 +173,19 @@
         "services": {
           "tech-consultation": {
             "title": "Konsiltasyon Teknik",
-            "description": "Jwenn konsèy ekspè pou gide chwa teknolojik ou, optimize enfrastrikti ou, epi planifye pwojè dijital ou a.",
+            "description": "Jwenn konsèy klè sou pi bon zouti dijital pou pwojè w la ak yon plan pou ede w reyisi.",
             "price": "$35 - $70 USD",
             "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Konsiltasyon Teknik' la e mwen ta renmen jwenn plis enfòmasyon."
           },
           "security-audit": {
             "title": "Odit Sit / Sekirite",
-            "description": "Idantifye ak korije feblès sekirite sou sit wèb ou a pou pwoteje done ou ak done itilizatè ou yo.",
+            "description": "Idantifye epi korije feblès sekirite sou sit wèb ou a pou pwoteje done ou ak done itilizatè ou yo.",
             "price": "$35 - $70 USD",
             "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Odit Sit / Sekirite' la e mwen ta renmen jwenn plis enfòmasyon."
           },
           "express-training": {
             "title": "Fòmasyon Eksprès",
-            "description": "Yon sesyon fòmasyon rapid ak sible pou metrize yon zouti, yon langaj, oswa yon konsèp teknolojik espesifik.",
+            "description": "Yon sesyon fòmasyon rapid pou ede w metrize yon zouti dijital espesifik pou biznis ou.",
             "price": "$20 - $50 USD",
             "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Fòmasyon Eksprès' la e mwen ta renmen jwenn plis enfòmasyon."
           }

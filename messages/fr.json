@@ -30,22 +30,22 @@
   "Projects": {
     "restaurant": {
       "title": "Vitrine de Restaurant",
-      "description": "Un site web moderne et élégant pour un restaurant gastronomique, présentant menus, réservations et galerie."
+      "description": "Un site web vitrine moderne et élégant pour un restaurant gastronomique, présentant menus, réservations et galerie."
     },
     "boutique": {
       "title": "Vitrine de Boutique",
       "description": "Un site vitrine chic pour une boutique de mode, mettant en avant les dernières collections et l'histoire de la marque."
     },
     "barber": {
-      "title": "Site de Barbier",
-      "description": "Un site web élégant et convivial pour un salon de barbier moderne, présentant les services et la prise de rendez-vous."
+      "title": "Site Vitrine de Barbier",
+      "description": "Un site web vitrine élégant et convivial pour un salon de barbier moderne, présentant les services et la prise de rendez-vous."
     },
     "clinique": {
-      "title": "Clinique Médicale",
-      "description": "Un site web professionnel pour une clinique médicale, fournissant des informations sur les services et le personnel."
+      "title": "Vitrine de Clinique Médicale",
+      "description": "Un site web vitrine professionnel pour une clinique médicale, fournissant des informations sur les services et le personnel."
     },
     "ecole": {
-      "title": "Site d'Établissement Scolaire",
+      "title": "Site Vitrine d'École",
       "description": "Un site vitrine pour un établissement d'enseignement, détaillant les cours et les informations d'inscription."
     },
     "formation": {
@@ -53,11 +53,11 @@
       "description": "Un site vitrine présentant les cours en ligne et en présentiel d'un centre de formation."
     },
     "eglise": {
-      "title": "Communauté Ecclésiale",
-      "description": "Un site web accueillant pour une église, partageant les horaires d'événements, les sermons et les nouvelles."
+      "title": "Site de Communauté Ecclésiale",
+      "description": "Un site web vitrine accueillant pour une église, partageant les horaires d'événements, les sermons et les nouvelles."
     },
     "onglerie": {
-      "title": "Salon de Manucure",
+      "title": "Site Vitrine de Salon de Manucure",
       "description": "Un site vitrine élégant pour un salon de manucure, présentant les services, un portfolio et la réservation."
     },
     "particulier": {
@@ -92,10 +92,10 @@
             "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Page WhatsApp QR' et j'aimerais obtenir plus d'informations."
           },
           "advanced-landing": {
-            "title": "Landing Page Avancée",
-            "description": "Une page de destination optimisée pour la conversion, avec un design percutant pour capturer des leads.",
+            "title": "Page de Destination Avancée",
+            "description": "Une page web unique et percutante, conçue pour attirer de nouveaux clients et développer votre activité.",
             "price": "$40 - $80 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Landing Page Avancée' et j'aimerais obtenir plus d'informations."
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Page de Destination Avancée' et j'aimerais obtenir plus d'informations."
           }
         }
       },
@@ -127,15 +127,15 @@
         "services": {
           "telegram-bot": {
             "title": "Bot Telegram de Base",
-            "description": "Automatisez les interactions et la diffusion d'informations sur Telegram avec un bot personnalisé, simple et efficace.",
+            "description": "Un assistant intelligent pour votre groupe Telegram qui répond aux questions et partage des informations automatiquement.",
             "price": "$30 - $60 USD",
             "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Bot Telegram de Base' et j'aimerais obtenir plus d'informations."
           },
           "python-script": {
-            "title": "Script Python Automatisé",
-            "description": "Gagnez du temps et réduisez les erreurs avec des scripts Python sur mesure pour automatiser vos tâches répétitives.",
+            "title": "Script Automatisé",
+            "description": "Un outil sur mesure pour gérer vos tâches numériques répétitives, vous faisant gagner du temps et de l'énergie.",
             "price": "$25 - $50 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Script Python Automatisé' et j'aimerais obtenir plus d'informations."
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Script Automatisé' et j'aimerais obtenir plus d'informations."
           },
           "whatsapp-autoresponder": {
             "title": "Auto-Répondeur WhatsApp",
@@ -146,25 +146,25 @@
         }
       },
       "dev": {
-        "title": "Développement & Programmation",
+        "title": "Développement sur Mesure",
         "services": {
           "php-script": {
-            "title": "Petit Script Web (PHP)",
-            "description": "Intégrez des fonctionnalités spécifiques à votre site avec des scripts PHP légers, performants et sécurisés.",
+            "title": "Petite Fonctionnalité Web",
+            "description": "Ajoutez une fonctionnalité spéciale à votre site web, comme un formulaire de contact ou un calculateur personnalisé.",
             "price": "$25 - $50 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Petit Script Web (PHP)' et j'aimerais obtenir plus d'informations."
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Petite Fonctionnalité Web' et j'aimerais obtenir plus d'informations."
           },
           "discord-bot": {
-            "title": "Bot Discord / API",
-            "description": "Améliorez votre serveur Discord avec un bot personnalisé ou intégrez diverses APIs pour des fonctionnalités avancées.",
+            "title": "Bot Discord",
+            "description": "Animez votre communauté Discord avec un bot sur mesure pour des jeux, la modération et des fonctions amusantes.",
             "price": "$40 - $80 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Bot Discord / API' et j'aimerais obtenir plus d'informations."
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Bot Discord' et j'aimerais obtenir plus d'informations."
           },
           "dynamic-app": {
-            "title": "App Web Dynamique",
-            "description": "Développez une application web complète, interactive et évolutive, avec base de données et fonctionnalités complexes.",
+            "title": "Application Web Personnalisée",
+            "description": "Une application web complète avec des comptes utilisateurs, du stockage de données et des outils interactifs.",
             "price": "$60 - $120 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'App Web Dynamique' et j'aimerais obtenir plus d'informations."
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Application Web Personnalisée' et j'aimerais obtenir plus d'informations."
           }
         }
       },
@@ -173,7 +173,7 @@
         "services": {
           "tech-consultation": {
             "title": "Consultation Tech",
-            "description": "Obtenez des conseils d'expert pour orienter vos choix technologiques et planifier votre projet numérique.",
+            "description": "Obtenez des conseils clairs sur les meilleurs outils numériques pour votre projet et une feuille de route pour réussir.",
             "price": "$35 - $70 USD",
             "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Consultation Tech' et j'aimerais obtenir plus d'informations."
           },
@@ -185,7 +185,7 @@
           },
           "express-training": {
             "title": "Formation Express",
-            "description": "Une session de formation rapide et ciblée pour maîtriser un outil, un langage ou un concept technologique.",
+            "description": "Une session de formation rapide pour vous aider à maîtriser un outil numérique spécifique pour votre entreprise.",
             "price": "$20 - $50 USD",
             "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Formation Express' et j'aimerais obtenir plus d'informations."
           }

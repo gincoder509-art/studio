@@ -30,7 +30,7 @@
   "Projects": {
     "restaurant": {
       "title": "Restaurant Showcase",
-      "description": "A modern and elegant website for a gourmet restaurant, featuring menus, reservations, and a gallery."
+      "description": "A modern and elegant showcase website for a gourmet restaurant, featuring menus, reservations, and a gallery."
     },
     "boutique": {
       "title": "Boutique Showcase",
@@ -38,11 +38,11 @@
     },
     "barber": {
       "title": "Barbershop Website",
-      "description": "A stylish and user-friendly website for a modern barbershop, with service lists and appointment booking."
+      "description": "A stylish and user-friendly showcase website for a modern barbershop, with service lists and appointment booking."
     },
     "clinique": {
       "title": "Medical Clinic",
-      "description": "A professional website for a medical clinic, providing information on services and staff."
+      "description": "A professional showcase website for a medical clinic, providing information on services and staff."
     },
     "ecole": {
       "title": "School Website",
@@ -54,7 +54,7 @@
     },
     "eglise": {
       "title": "Church Community",
-      "description": "A welcoming website for a church, sharing event schedules, sermons, and community news."
+      "description": "A welcoming showcase website for a church, sharing event schedules, sermons, and community news."
     },
     "onglerie": {
       "title": "Nail Salon",
@@ -93,7 +93,7 @@
           },
           "advanced-landing": {
             "title": "Advanced Landing Page",
-            "description": "A conversion-optimized landing page, with a striking design and advanced features to capture leads.",
+            "description": "A powerful one-page website designed to attract new customers and grow your business.",
             "price": "$40 - $80 USD",
             "whatsappMessage": "Hello! I am interested in the 'Advanced Landing Page' service and would like to get more information."
           }
@@ -127,15 +127,15 @@
         "services": {
           "telegram-bot": {
             "title": "Basic Telegram Bot",
-            "description": "Automate interactions and information dissemination on Telegram with a simple and effective custom bot.",
+            "description": "A smart assistant for your Telegram group that can answer questions and share information automatically.",
             "price": "$30 - $60 USD",
             "whatsappMessage": "Hello! I am interested in the 'Basic Telegram Bot' service and would like to get more information."
           },
           "python-script": {
-            "title": "Automated Python Script",
-            "description": "Save time and reduce manual errors with custom Python scripts to automate your repetitive tasks.",
+            "title": "Automated Custom Script",
+            "description": "A custom tool to handle your repetitive digital tasks automatically, saving you time and effort.",
             "price": "$25 - $50 USD",
-            "whatsappMessage": "Hello! I am interested in the 'Automated Python Script' service and would like to get more information."
+            "whatsappMessage": "Hello! I am interested in the 'Automated Custom Script' service and would like to get more information."
           },
           "whatsapp-autoresponder": {
             "title": "WhatsApp Auto-Responder",
@@ -146,25 +146,25 @@
         }
       },
       "dev": {
-        "title": "Development & Programming",
+        "title": "Custom Development",
         "services": {
           "php-script": {
-            "title": "Small Web Script (PHP)",
-            "description": "Integrate specific functionalities into your website with lightweight, high-performance, and secure PHP scripts.",
+            "title": "Small Custom Feature",
+            "description": "Add a special feature to your website, like a contact form or a custom calculator.",
             "price": "$25 - $50 USD",
-            "whatsappMessage": "Hello! I am interested in the 'Small Web Script (PHP)' service and would like to get more information."
+            "whatsappMessage": "Hello! I am interested in the 'Small Custom Feature' service and would like to get more information."
           },
           "discord-bot": {
-            "title": "Discord Bot / API",
-            "description": "Enhance your Discord server with a custom bot or integrate various APIs for advanced features.",
+            "title": "Discord Bot",
+            "description": "Bring your Discord community to life with a custom bot for games, moderation, and fun features.",
             "price": "$40 - $80 USD",
-            "whatsappMessage": "Hello! I am interested in the 'Discord Bot / API' service and would like to get more information."
+            "whatsappMessage": "Hello! I am interested in the 'Discord Bot' service and would like to get more information."
           },
           "dynamic-app": {
-            "title": "Dynamic Web App",
-            "description": "Develop a complete, interactive, and scalable web application with a database and complex functionalities.",
+            "title": "Custom Web App",
+            "description": "A complete web application with features like user accounts, data storage, and interactive tools.",
             "price": "$60 - $120 USD",
-            "whatsappMessage": "Hello! I am interested in the 'Dynamic Web App' service and would like to get more information."
+            "whatsappMessage": "Hello! I am interested in the 'Custom Web App' service and would like to get more information."
           }
         }
       },
@@ -173,7 +173,7 @@
         "services": {
           "tech-consultation": {
             "title": "Tech Consultation",
-            "description": "Get expert advice to guide your technology choices, optimize your infrastructure, and plan your digital project.",
+            "description": "Get clear advice on the best digital tools for your project and a roadmap for success.",
             "price": "$35 - $70 USD",
             "whatsappMessage": "Hello! I am interested in the 'Tech Consultation' service and would like to get more information."
           },
@@ -185,7 +185,7 @@
           },
           "express-training": {
             "title": "Express Training",
-            "description": "A quick and targeted training session to master a specific tool, language, or technological concept.",
+            "description": "A quick training session to help you master a specific digital tool for your business.",
             "price": "$20 - $50 USD",
             "whatsappMessage": "Hello! I am interested in the 'Express Training' service and would like to get more information."
           }

@@ -4,10 +4,10 @@ import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { ServiceCard } from '@/components/service-card';
-import { Web, Palette, Bot, Code, Handshake } from 'lucide-react';
+import { Globe, Palette, Bot, Code, Handshake } from 'lucide-react';
 
 const categoryIcons: Record<string, React.ElementType> = {
-  web: Web,
+  web: Globe,
   design: Palette,
   automation: Bot,
   dev: Code,

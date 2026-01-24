@@ -4,20 +4,19 @@ import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { ServiceCard } from '@/components/service-card';
-import { Globe, Palette, Bot, Code, Handshake } from 'lucide-react';
+import { Globe, Bot, Code, Sparkles } from 'lucide-react';
 
 const categoryIcons: Record<string, React.ElementType> = {
   web: Globe,
-  design: Palette,
   automation: Bot,
   dev: Code,
-  consulting: Handshake,
+  other: Sparkles,
 };
 
 export default function ServicesPage({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale);
   const t = useTranslations('ServicesPage');
-  const categories = ['web', 'design', 'automation', 'dev', 'consulting'];
+  const categories = ['web', 'automation', 'dev', 'other'];
   const whatsappNumber = '50933377934';
 
   return (

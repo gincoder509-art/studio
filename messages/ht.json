@@ -99,29 +99,6 @@
           }
         }
       },
-      "design": {
-        "title": "Konsepsyon Grafik",
-        "services": {
-          "pro-flyer": {
-            "title": "Fleyè / Vizyèl Pwofesyonèl",
-            "description": "Konsepsyon fleyè ak vizyèl pwofesyonèl pou kanpay maketing ou, evènman ou, oswa kominikasyon sou rezo sosyal yo.",
-            "price": "$10 - $25 USD",
-            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Fleyè / Vizyèl Pwofesyonèl' la e mwen ta renmen jwenn plis enfòmasyon."
-          },
-          "simple-logo": {
-            "title": "Logo Senp",
-            "description": "Kreye yon idantite vizyèl solid ak yon logo memorab ak pwòp ki reprezante mak ou a pafètman.",
-            "price": "$20 - $50 USD",
-            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Logo Senp' la e mwen ta renmen jwenn plis enfòmasyon."
-          },
-          "social-banner": {
-            "title": "Banyè Rezo Sosyal",
-            "description": "Banyè ki optimize pou Facebook, Twitter, LinkedIn, elatriye, pou asire yon imaj mak ki koeran ak pwofesyonèl.",
-            "price": "$15 - $30 USD",
-            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Banyè Rezo Sosyal' la e mwen ta renmen jwenn plis enfòmasyon."
-          }
-        }
-      },
       "automation": {
         "title": "Otomatizasyon",
         "services": {
@@ -168,9 +145,27 @@
           }
         }
       },
-      "consulting": {
-        "title": "Konsèy & Estrateji",
+      "other": {
+        "title": "Lòt Sèvis Itil",
         "services": {
+          "pro-flyer": {
+            "title": "Fleyè / Vizyèl Pwofesyonèl",
+            "description": "Konsepsyon fleyè ak vizyèl pwofesyonèl pou kanpay maketing ou, evènman ou, oswa kominikasyon sou rezo sosyal yo.",
+            "price": "$10 - $25 USD",
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Fleyè / Vizyèl Pwofesyonèl' la e mwen ta renmen jwenn plis enfòmasyon."
+          },
+          "simple-logo": {
+            "title": "Logo Senp",
+            "description": "Kreye yon idantite vizyèl solid ak yon logo memorab ak pwòp ki reprezante mak ou a pafètman.",
+            "price": "$20 - $50 USD",
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Logo Senp' la e mwen ta renmen jwenn plis enfòmasyon."
+          },
+          "social-banner": {
+            "title": "Banyè Rezo Sosyal",
+            "description": "Banyè ki optimize pou Facebook, Twitter, LinkedIn, elatriye, pou asire yon imaj mak ki koeran ak pwofesyonèl.",
+            "price": "$15 - $30 USD",
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Banyè Rezo Sosyal' la e mwen ta renmen jwenn plis enfòmasyon."
+          },
           "tech-consultation": {
             "title": "Konsiltasyon Teknik",
             "description": "Jwenn konsèy klè sou pi bon zouti dijital pou pwojè w la ak yon plan pou ede w reyisi.",

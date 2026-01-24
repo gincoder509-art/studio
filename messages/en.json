@@ -99,29 +99,6 @@
           }
         }
       },
-      "design": {
-        "title": "Graphic Design",
-        "services": {
-          "pro-flyer": {
-            "title": "Pro Flyer / Visual",
-            "description": "Professional flyer and visual designs for your marketing campaigns, events, or social media communications.",
-            "price": "$10 - $25 USD",
-            "whatsappMessage": "Hello! I am interested in the 'Pro Flyer / Visual' service and would like to get more information."
-          },
-          "simple-logo": {
-            "title": "Simple Logo",
-            "description": "Create a strong visual identity with a memorable and clean logo that perfectly represents your brand.",
-            "price": "$20 - $50 USD",
-            "whatsappMessage": "Hello! I am interested in the 'Simple Logo' service and would like to get more information."
-          },
-          "social-banner": {
-            "title": "Social Media Banner",
-            "description": "Banners optimized for Facebook, Twitter, LinkedIn, etc., to ensure a consistent and professional brand image.",
-            "price": "$15 - $30 USD",
-            "whatsappMessage": "Hello! I am interested in the 'Social Media Banner' service and would like to get more information."
-          }
-        }
-      },
       "automation": {
         "title": "Automation",
         "services": {
@@ -168,9 +145,27 @@
           }
         }
       },
-      "consulting": {
-        "title": "Consulting & Strategy",
+      "other": {
+        "title": "Other Useful Services",
         "services": {
+          "pro-flyer": {
+            "title": "Pro Flyer / Visual",
+            "description": "Professional flyer and visual designs for your marketing campaigns, events, or social media communications.",
+            "price": "$10 - $25 USD",
+            "whatsappMessage": "Hello! I am interested in the 'Pro Flyer / Visual' service and would like to get more information."
+          },
+          "simple-logo": {
+            "title": "Simple Logo",
+            "description": "Create a strong visual identity with a memorable and clean logo that perfectly represents your brand.",
+            "price": "$20 - $50 USD",
+            "whatsappMessage": "Hello! I am interested in the 'Simple Logo' service and would like to get more information."
+          },
+          "social-banner": {
+            "title": "Social Media Banner",
+            "description": "Banners optimized for Facebook, Twitter, LinkedIn, etc., to ensure a consistent and professional brand image.",
+            "price": "$15 - $30 USD",
+            "whatsappMessage": "Hello! I am interested in the 'Social Media Banner' service and would like to get more information."
+          },
           "tech-consultation": {
             "title": "Tech Consultation",
             "description": "Get clear advice on the best digital tools for your project and a roadmap for success.",

@@ -99,29 +99,6 @@
           }
         }
       },
-      "design": {
-        "title": "Design Graphique",
-        "services": {
-          "pro-flyer": {
-            "title": "Flyer / Visuel Pro",
-            "description": "Des designs percutants pour vos campagnes marketing, événements ou communications sur les réseaux sociaux.",
-            "price": "$10 - $25 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Flyer / Visuel Pro' et j'aimerais obtenir plus d'informations."
-          },
-          "simple-logo": {
-            "title": "Logo Simple",
-            "description": "Créez une identité visuelle forte avec un logo mémorable et épuré qui représente parfaitement votre marque.",
-            "price": "$20 - $50 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Logo Simple' et j'aimerais obtenir plus d'informations."
-          },
-          "social-banner": {
-            "title": "Bannière Réseaux Sociaux",
-            "description": "Des bannières optimisées pour Facebook, Twitter, etc., pour garantir une image de marque cohérente et professionnelle.",
-            "price": "$15 - $30 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Bannière Réseaux Sociaux' et j'aimerais obtenir plus d'informations."
-          }
-        }
-      },
       "automation": {
         "title": "Automatisation",
         "services": {
@@ -168,9 +145,27 @@
           }
         }
       },
-      "consulting": {
-        "title": "Conseil & Stratégie",
+      "other": {
+        "title": "Autres services utiles",
         "services": {
+          "pro-flyer": {
+            "title": "Flyer / Visuel Pro",
+            "description": "Des designs percutants pour vos campagnes marketing, événements ou communications sur les réseaux sociaux.",
+            "price": "$10 - $25 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Flyer / Visuel Pro' et j'aimerais obtenir plus d'informations."
+          },
+          "simple-logo": {
+            "title": "Logo Simple",
+            "description": "Créez une identité visuelle forte avec un logo mémorable et épuré qui représente parfaitement votre marque.",
+            "price": "$20 - $50 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Logo Simple' et j'aimerais obtenir plus d'informations."
+          },
+          "social-banner": {
+            "title": "Bannière Réseaux Sociaux",
+            "description": "Des bannières optimisées pour Facebook, Twitter, etc., pour garantir une image de marque cohérente et professionnelle.",
+            "price": "$15 - $30 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Bannière Réseaux Sociaux' et j'aimerais obtenir plus d'informations."
+          },
           "tech-consultation": {
             "title": "Consultation Tech",
             "description": "Obtenez des conseils clairs sur les meilleurs outils numériques pour votre projet et une feuille de route pour réussir.",

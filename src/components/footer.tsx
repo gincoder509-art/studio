@@ -11,14 +11,11 @@ export function Footer() {
           <CodeXml className="h-6 w-6 text-primary" />
           <p className="text-center text-sm leading-loose md:text-left text-muted-foreground">
             {t('builtBy')}{' '}
-            <a
-              href="https://gincoder-ms.netlify.app"
-              target="_blank"
-              rel="noreferrer"
-              className="font-medium underline underline-offset-4 text-foreground/80 hover:text-foreground"
+            <span
+              className="font-medium text-foreground/80"
             >
               Gincoder
-            </a>
+            </span>
             {t('rightsReserved', {currentYear})}
           </p>
         </div>

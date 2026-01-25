@@ -13,7 +13,9 @@ export function Footer() {
           <p className="text-center text-sm leading-loose md:text-left text-muted-foreground">
             {t('builtBy')}{' '}
             <Link
-              href="/"
+              href="https://gincoder-ms.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
               className="font-medium text-foreground/80 hover:text-foreground"
             >
               Gincoder

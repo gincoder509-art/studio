@@ -1,5 +1,6 @@
 import { CodeXml } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { Link } from "@/navigation";
 
 export function Footer() {
   const t = useTranslations('Footer');
@@ -11,11 +12,12 @@ export function Footer() {
           <CodeXml className="h-6 w-6 text-primary" />
           <p className="text-center text-sm leading-loose md:text-left text-muted-foreground">
             {t('builtBy')}{' '}
-            <span
-              className="font-medium text-foreground/80"
+            <Link
+              href="/"
+              className="font-medium text-foreground/80 hover:text-foreground"
             >
               Gincoder
-            </span>
+            </Link>
             {t('rightsReserved', {currentYear})}
           </p>
         </div>

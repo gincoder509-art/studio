@@ -12,7 +12,7 @@ export function Footer() {
           <p className="text-center text-sm leading-loose md:text-left text-muted-foreground">
             {t('builtBy')}{' '}
             <a
-              href="https://gincoder509-art.github.io/particulier-vitrine/"
+              href="https://gincoder-ms.netlify.app"
               target="_blank"
               rel="noreferrer"
               className="font-medium underline underline-offset-4 text-foreground/80 hover:text-foreground"

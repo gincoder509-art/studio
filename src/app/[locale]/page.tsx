@@ -66,6 +66,12 @@ export default function Home({params: {locale}}: {params: {locale: string}}) {
                       </Link>
                     </Button>
                   ))}
+                   <Button asChild size="lg" variant="secondary" className="flex-grow sm:flex-grow-0">
+                   <Link href="https://gincoder-ms.netlify.app" target="_blank" rel="noopener noreferrer">
+                     {t('moreAboutMe')}
+                     <ArrowRight className="ml-2 h-5 w-5" />
+                   </Link>
+                 </Button>
                 </div>
               </div>
               {heroImage && (

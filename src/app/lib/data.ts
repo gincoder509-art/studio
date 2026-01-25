@@ -35,5 +35,5 @@ export const projectLinks: Record<string, string> = {
   formation: 'https://gincoder509-art.github.io/formation-vitrine/',
   eglise: 'https://gincoder509-art.github.io/eglise-vitrine/',
   onglerie: 'https://gincoder509-art.github.io/onglerie-vitrine/',
-  particulier: 'https://gincoder-ms.netlify.app',
+  particulier: 'https://gincoder509-art.github.io/particulier-vitrine/',
 };

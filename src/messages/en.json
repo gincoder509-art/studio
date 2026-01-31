@@ -1,0 +1,206 @@
+{
+  "Navigation": {
+    "portfolio": "Portfolio",
+    "services": "Services"
+  },
+  "Header": {
+    "contactMe": "Let's Talk"
+  },
+  "Footer": {
+    "builtBy": "Built by",
+    "rightsReserved": ". © {currentYear} All rights reserved."
+  },
+  "HomePage": {
+    "heroTitle": "You have a vision. I have the code to bring it to life.",
+    "heroSubtitle": "Hi, I'm Gincoder. A freelance web developer crafting beautiful, high-performance websites that captivate and convert. Ready to make your mark?",
+    "typewriter": {
+      "static": "I HELP BUSINESSES TO",
+      "words": [
+        "CREATE HIGH-PERFORMANCE SITES.",
+        "TURN THEIR VISION INTO REALITY.",
+        "DEVELOP CUSTOM SOLUTIONS."
+      ]
+    },
+    "whatsapp": "WhatsApp Me",
+    "facebook": "Find me on Facebook",
+    "email": "Email Me",
+    "callDigicel": "Call (Digicel)",
+    "callNatcom": "Call (Natcom)",
+    "portfolioBadge": "My Work",
+    "portfolioTitle": "Digital Worlds I've Forged",
+    "portfolioSubtitle": "Explore the digital experiences I've brought to life—each a story of collaboration and code.",
+    "servicesTitle": "Your Vision, Expertly Forged in Code",
+    "servicesSubtitle": "I offer a full suite of services to build your digital presence from the ground up, from sleek e-commerce sites to dynamic portfolios.",
+    "moreAboutMe": "About Me & Multi-Services"
+  },
+  "ProjectCard": {
+    "viewSite": "View Site"
+  },
+  "Projects": {
+    "restaurant": {
+      "title": "Restaurant Showcase",
+      "description": "A modern and elegant showcase website for a gourmet restaurant, featuring menus, reservations, and a gallery."
+    },
+    "boutique": {
+      "title": "Boutique Showcase",
+      "description": "A chic showcase website for a fashion boutique, highlighting the latest collections and brand story."
+    },
+    "barber": {
+      "title": "Barbershop Website",
+      "description": "A stylish and user-friendly showcase website for a modern barbershop, with service lists and appointment booking."
+    },
+    "clinique": {
+      "title": "Medical Clinic",
+      "description": "A professional showcase website for a medical clinic, providing information on services and staff."
+    },
+    "ecole": {
+      "title": "School Website",
+      "description": "A showcase website for an educational establishment, detailing courses, and registration information."
+    },
+    "formation": {
+      "title": "Training Showcase",
+      "description": "A showcase website presenting a training center's online and in-person courses."
+    },
+    "eglise": {
+      "title": "Church Community",
+      "description": "A welcoming showcase website for a church, sharing event schedules, sermons, and community news."
+    },
+    "onglerie": {
+      "title": "Nail Salon",
+      "description": "An elegant showcase website for a nail salon, showing services, a portfolio, and booking."
+    },
+    "particulier": {
+      "title": "Multi-Trade Professional",
+      "description": "A showcase site for a professional offering various trades like plumbing, electricity, and more."
+    }
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "en": "English",
+    "fr": "French",
+    "ht": "Haitian Creole"
+  },
+  "ServicesPage": {
+    "title": "Discover My Services",
+    "subtitle": "Custom digital solutions to boost your project. From web design to automation, I turn your ideas into reality.",
+    "priceDisclaimer": "Please note that the prices shown are estimates. The final price will be determined after discussion and will depend on the complexity and quality of the desired work.",
+    "cta": "Request a Quote",
+    "qrDialog": {
+      "title": "Contact me on WhatsApp",
+      "description": "Scan the QR code with your phone's camera or click the button below to open WhatsApp.",
+      "button": "Open WhatsApp"
+    },
+    "categories": {
+      "web": {
+        "title": "Web Solutions",
+        "services": {
+          "simple-showcase": {
+            "title": "Showcase Website",
+            "description": "An elegant, professional site to present your business. Perfect for making a quick and effective impact.",
+            "price": "$20 - $40 USD",
+            "whatsappMessage": "Hello! I am interested in the 'Showcase Website' service and would like to get more information."
+          },
+          "whatsapp-qr": {
+            "title": "WhatsApp QR Page",
+            "description": "A simple page accessible via QR code, to instantly redirect your customers to a WhatsApp chat.",
+            "price": "$10 - $20 USD",
+            "whatsappMessage": "Hello! I am interested in the 'WhatsApp QR Page' service and would like to get more information."
+          },
+          "advanced-landing": {
+            "title": "Advanced Landing Page",
+            "description": "A powerful single-page site designed to attract new customers and grow your business.",
+            "price": "$40 - $80 USD",
+            "whatsappMessage": "Hello! I am interested in the 'Advanced Landing Page' service and would like to get more information."
+          }
+        }
+      },
+      "automation": {
+        "title": "Time Saving",
+        "services": {
+          "telegram-bot": {
+            "title": "Telegram Group Assistant",
+            "description": "An intelligent assistant for your Telegram group that automatically answers questions and shares information.",
+            "price": "$30 - $60 USD",
+            "whatsappMessage": "Hello! I am interested in the 'Telegram Group Assistant' service and would like to get more information."
+          },
+          "python-script": {
+            "title": "Task Automation",
+            "description": "A custom tool to handle your repetitive digital tasks, saving you time and effort every day.",
+            "price": "$25 - $50 USD",
+            "whatsappMessage": "Hello! I am interested in the 'Task Automation' service and would like to get more information."
+          },
+          "whatsapp-autoresponder": {
+            "title": "WhatsApp Auto-Responder",
+            "description": "Ensure instant communication with an intelligent auto-responder that handles messages for you.",
+            "price": "$40 - $80 USD",
+            "whatsappMessage": "Hello! I am interested in the 'WhatsApp Auto-Responder' service and would like to get more information."
+          }
+        }
+      },
+      "dev": {
+        "title": "Custom Solutions",
+        "services": {
+          "php-script": {
+            "title": "Small Custom Feature",
+            "description": "Add a special feature to your website, like a contact form or a custom calculator.",
+            "price": "$25 - $50 USD",
+            "whatsappMessage": "Hello! I am interested in the 'Small Custom Feature' service and would like to get more information."
+          },
+          "discord-bot": {
+            "title": "Community Bot (Discord)",
+            "description": "Liven up your community with a custom bot for games, moderation, and fun interactive features.",
+            "price": "$40 - $80 USD",
+            "whatsappMessage": "Hello! I am interested in the 'Community Bot (Discord)' service and would like to get more information."
+          },
+          "dynamic-app": {
+            "title": "Custom Web App",
+            "description": "A complete, tailor-made web application with user accounts, data storage, and interactive tools.",
+            "price": "$60 - $120 USD",
+            "whatsappMessage": "Hello! I am interested in the 'Custom Web App' service and would like to get more information."
+          }
+        }
+      },
+      "other": {
+        "title": "Other Useful Services",
+        "services": {
+          "pro-flyer": {
+            "title": "Pro Flyer / Visual",
+            "description": "Eye-catching designs for your marketing campaigns, events, or social media communications.",
+            "price": "$10 - $25 USD",
+            "whatsappMessage": "Hello! I am interested in the 'Pro Flyer / Visual' service and would like to get more information."
+          },
+          "simple-logo": {
+            "title": "Simple Logo",
+            "description": "Create a strong visual identity with a memorable and clean logo that perfectly represents your brand.",
+            "price": "$20 - $50 USD",
+            "whatsappMessage": "Hello! I am interested in the 'Simple Logo' service and would like to get more information."
+          },
+          "social-banner": {
+            "title": "Social Media Banner",
+            "description": "Banners optimized for Facebook, Twitter, etc., to ensure a consistent and professional brand image.",
+            "price": "$15 - $30 USD",
+            "whatsappMessage": "Hello! I am interested in the 'Social Media Banner' service and would like to get more information."
+          },
+          "tech-consultation": {
+            "title": "Digital Strategy Advice",
+            "description": "Get clear advice on the best digital tools for your project and a roadmap for success.",
+            "price": "$35 - $70 USD",
+            "whatsappMessage": "Hello! I am interested in the 'Digital Strategy Advice' service and would like to get more information."
+          },
+          "security-audit": {
+            "title": "Site / Security Check-up",
+            "description": "Identify and fix security weak points on your website to protect your data and your users' data.",
+            "price": "$35 - $70 USD",
+            "whatsappMessage": "Hello! I am interested in the 'Site / Security Check-up' service and would like to get more information."
+          },
+          "express-training": {
+            "title": "Quick-start Training",
+            "description": "A short training session to help you master a specific digital tool for your business needs.",
+            "price": "$20 - $50 USD",
+            "whatsappMessage": "Hello! I am interested in the 'Quick-start Training' service and would like to get more information."
+          }
+        }
+      }
+    }
+  }
+}

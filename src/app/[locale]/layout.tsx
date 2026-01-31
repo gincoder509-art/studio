@@ -1,6 +1,7 @@
 import { Toaster } from '@/components/ui/toaster';
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages, unstable_setRequestLocale} from 'next-intl/server';
+import { BackgroundBubbles } from '@/components/background-bubbles';
 
 const locales = ['en', 'fr', 'ht'];
 
@@ -20,6 +21,7 @@ export default async function LocaleLayout({
  
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
+      <BackgroundBubbles />
       {children}
       <Toaster />
     </NextIntlClientProvider>

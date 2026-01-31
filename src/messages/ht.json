@@ -1,0 +1,206 @@
+{
+  "Navigation": {
+    "portfolio": "Pòtfolyo",
+    "services": "Sèvis"
+  },
+  "Header": {
+    "contactMe": "An n Pale"
+  },
+  "Footer": {
+    "builtBy": "Kreye pa",
+    "rightsReserved": ". © {currentYear} Tout dwa rezève."
+  },
+  "HomePage": {
+    "heroTitle": "Ou gen yon vizyon. Mwen gen kòd la pou fè l tounen reyalite.",
+    "heroSubtitle": "Bonjou, mwen se Gincoder. Yon devlopè endepandan ki kreye sit entènèt estrawòdinè ak pèfòmans wo ki atire epi konvèti. Pare pou kite mak ou?",
+    "typewriter": {
+      "static": "MWEN EDE ANTREPRIZ YO",
+      "words": [
+        "KREYE SIT PÈFÒMANS WO.",
+        "FÈ VIZYON YO TOUNEN REYALITE.",
+        "DEVLOPE SOLISYON PÈSONALIZE."
+      ]
+    },
+    "whatsapp": "Kontakte m sou WhatsApp",
+    "facebook": "Jwenn mwen sou Facebook",
+    "email": "Voye yon imèl",
+    "callDigicel": "Rele (Digicel)",
+    "callNatcom": "Rele (Natcom)",
+    "portfolioBadge": "Travay Mwen",
+    "portfolioTitle": "Mond Dijital Mwen Fòje",
+    "portfolioSubtitle": "Eksplore eksperyans dijital mwen te bay lavi—chak pwojè se yon istwa kolaborasyon ak kòd.",
+    "servicesTitle": "Vizyon Ou, Fòje ak Ekspètiz nan Kòd",
+    "servicesSubtitle": "Mwen ofri yon seri sèvis konplè pou konstwi prezans dijital ou de A a Z, soti nan sit e-commerce elegant rive nan pòtfolyo dinamik.",
+    "moreAboutMe": "Apwopo & Plizyè Sèvis"
+  },
+  "ProjectCard": {
+    "viewSite": "Gade Sit la"
+  },
+  "Projects": {
+    "restaurant": {
+      "title": "Vitrin Restoran",
+      "description": "Yon sit entènèt vitrin modèn ak elegant pou yon restoran goumè, ki prezante meni, rezèvasyon, ak yon galri."
+    },
+    "boutique": {
+      "title": "Vitrin Boutik",
+      "description": "Yon sit vitrin chik pou yon boutik alamòd, ki mete aksan sou dènye koleksyon yo ak istwa mak la."
+    },
+    "barber": {
+      "title": "Sit Vitrin Babiye",
+      "description": "Yon sit entènèt vitrin élégance ak fasil pou itilize pou yon boutik babiye modèn, avèk lis sèvis ak anrjistreman randevou."
+    },
+    "clinique": {
+      "title": "Vitrin Klinik Medikal",
+      "description": "Yon sit entènèt vitrin pwofesyonèl pou yon klinik medikal, ki bay enfòmasyon sou sèvis ak anplwaye yo."
+    },
+    "ecole": {
+      "title": "Sit Vitrin Lekòl",
+      "description": "Yon sit vitrin pou yon etablisman edikatif, ki detaye kou ak enfòmasyon sou enskripsyon."
+    },
+    "formation": {
+      "title": "Vitrin Fòmasyon",
+      "description": "Yon sit vitrin ki prezante kou anliy ak an pèsòn nan yon sant fòmasyon."
+    },
+    "eglise": {
+      "title": "Sit Kominote Legliz",
+      "description": "Yon sit entènèt vitrin akeyan pou yon legliz, ki pataje orè evènman, prèch, ak nouvèl kominote a."
+    },
+    "onglerie": {
+      "title": "Sit Vitrin Salon Zong",
+      "description": "Yon sit vitrin elegant pou yon salon zong, ki montre sèvis, yon pòtfolyo, ak opsyon anrjistreman."
+    },
+    "particulier": {
+      "title": "Pwofesyonèl Plizyè Metye",
+      "description": "Yon sit vitrin pou yon pwofesyonèl ki ofri plizyè sèvis tankou plonbri, elektrisite, ak lòt ankò."
+    }
+  },
+  "LocaleSwitcher": {
+    "label": "Chanje lang",
+    "en": "Angle",
+    "fr": "Franse",
+    "ht": "Kreyòl Ayisyen"
+  },
+  "ServicesPage": {
+    "title": "Dekouvri Sèvis Mwen Yo",
+    "subtitle": "Solisyon dijital pèsonalize pou pouse pwojè ou. Soti nan konsepsyon wèb rive nan otomatizasyon, mwen transfòme lide ou an reyalite.",
+    "priceDisclaimer": "Tanpri sonje ke pri ki afiche yo se estimasyon. Pri final la ap detèmine apre yon diskisyon epi li pral depann de konpleksite ak kalite travay ou vle a.",
+    "cta": "Mande yon Pri",
+    "qrDialog": {
+      "title": "Kontakte m sou WhatsApp",
+      "description": "Skane kòd QR la avèk kamera telefòn ou oswa klike sou bouton ki anba a pou louvri WhatsApp.",
+      "button": "Louvri WhatsApp"
+    },
+    "categories": {
+      "web": {
+        "title": "Solisyon Entènèt",
+        "services": {
+          "simple-showcase": {
+            "title": "Sit Vitrin",
+            "description": "Yon prezans sou entènèt ki elegant e pwofesyonèl pou prezante aktivite w. Solisyon ideyal pou yon enpak rapid epi efikas.",
+            "price": "$20 - $40 USD",
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Sit Vitrin' la e mwen ta renmen jwenn plis enfòmasyon."
+          },
+          "whatsapp-qr": {
+            "title": "Paj QR pou WhatsApp",
+            "description": "Yon paj wèb ki senp, ou ka jwenn li ak yon kòd QR, pou voye kliyan ou yo dirèkteman nan yon konvèsasyon WhatsApp.",
+            "price": "$10 - $20 USD",
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Paj QR pou WhatsApp' la e mwen ta renmen jwenn plis enfòmasyon."
+          },
+          "advanced-landing": {
+            "title": "Paj pou Vann",
+            "description": "Yon paj wèb ki gen gwo enpak, ki fèt pou atire nouvo kliyan epi fè biznis ou grandi.",
+            "price": "$40 - $80 USD",
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Paj pou Vann' la e mwen ta renmen jwenn plis enfòmasyon."
+          }
+        }
+      },
+      "automation": {
+        "title": "Ekonomize Tan",
+        "services": {
+          "telegram-bot": {
+            "title": "Asistan pou Gwoup Telegram",
+            "description": "Yon asistan entèlijan pou gwoup ou a ki ka reponn kesyon epi pataje enfòmasyon otomatikman.",
+            "price": "$30 - $60 USD",
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Asistan pou Gwoup Telegram' la e mwen ta renmen jwenn plis enfòmasyon."
+          },
+          "python-script": {
+            "title": "Otomatizasyon Travay",
+            "description": "Yon zouti pèsonalize pou jere travay dijital repetitif ou yo, pou fè w ekonomize tan ak enèji.",
+            "price": "$25 - $50 USD",
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Otomatizasyon Travay' la e mwen ta renmen jwenn plis enfòmasyon."
+          },
+          "whatsapp-autoresponder": {
+            "title": "Repons Otomatik WhatsApp",
+            "description": "Asire kominikasyon enstantane ak kliyan ou yo gras a yon repons otomatik entelijan ki jere mesaj pou ou.",
+            "price": "$40 - $80 USD",
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Repons Otomatik WhatsApp' la e mwen ta renmen jwenn plis enfòmasyon."
+          }
+        }
+      },
+      "dev": {
+        "title": "Solisyon Pèsonalize",
+        "services": {
+          "php-script": {
+            "title": "Ti Fonksyonalite",
+            "description": "Ajoute yon ti bagay espesyal sou sit ou a, tankou yon fòmilè kontak oswa yon kalkilatris pèsonalize.",
+            "price": "$25 - $50 USD",
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Ti Fonksyonalite' la e mwen ta renmen jwenn plis enfòmasyon."
+          },
+          "discord-bot": {
+            "title": "Bòt pou Kominote (Discord)",
+            "description": "Bay kominote w la lavi ak yon bòt pèsonalize pou jwèt, modération, ak fonksyon amizan.",
+            "price": "$40 - $80 USD",
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Bòt pou Kominote (Discord)' la e mwen ta renmen jwenn plis enfòmasyon."
+          },
+          "dynamic-app": {
+            "title": "Aplikasyon Entènèt",
+            "description": "Yon aplikasyon konplè, ki fèt sou mezi, ak kont itilizatè, espas pou sere done, ak zouti entèaktif.",
+            "price": "$60 - $120 USD",
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Aplikasyon Entènèt' la e mwen ta renmen jwenn plis enfòmasyon."
+          }
+        }
+      },
+      "other": {
+        "title": "Lòt Sèvis Itil",
+        "services": {
+          "pro-flyer": {
+            "title": "Fleyè / Vizyèl Pwofesyonèl",
+            "description": "Konsepsyon fleyè ak vizyèl pwofesyonèl pou kanpay maketing ou, evènman ou, oswa kominikasyon sou rezo sosyal yo.",
+            "price": "$10 - $25 USD",
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Fleyè / Vizyèl Pwofesyonèl' la e mwen ta renmen jwenn plis enfòmasyon."
+          },
+          "simple-logo": {
+            "title": "Logo Senp",
+            "description": "Kreye yon idantite vizyèl solid ak yon logo memorab ak pwòp ki reprezante mak ou a pafètman.",
+            "price": "$20 - $50 USD",
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Logo Senp' la e mwen ta renmen jwenn plis enfòmasyon."
+          },
+          "social-banner": {
+            "title": "Banyè Rezo Sosyal",
+            "description": "Banyè ki optimize pou Facebook, Twitter, LinkedIn, elatriye, pou asire yon imaj mak ki koeran ak pwofesyonèl.",
+            "price": "$15 - $30 USD",
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Banyè Rezo Sosyal' la e mwen ta renmen jwenn plis enfòmasyon."
+          },
+          "tech-consultation": {
+            "title": "Konsèy Estrateji Dijital",
+            "description": "Jwenn konsèy klè sou pi bon zouti dijital pou pwojè w la ak yon plan pou ede w reyisi.",
+            "price": "$35 - $70 USD",
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Konsèy Estrateji Dijital' la e mwen ta renmen jwenn plis enfòmasyon."
+          },
+          "security-audit": {
+            "title": "Tcheke Sekirite Sit ou",
+            "description": "Idantifye epi korije feblès sekirite sou sit wèb ou a pou pwoteje done ou ak done itilizatè ou yo.",
+            "price": "$35 - $70 USD",
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Tcheke Sekirite Sit ou' la e mwen ta renmen jwenn plis enfòmasyon."
+          },
+          "express-training": {
+            "title": "Fòmasyon pou Demare",
+            "description": "Yon sesyon fòmasyon rapid pou ede w metrize yon zouti dijital espesifik pou biznis ou.",
+            "price": "$20 - $50 USD",
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Fòmasyon pou Demare' la e mwen ta renmen jwenn plis enfòmasyon."
+          }
+        }
+      }
+    }
+  }
+}

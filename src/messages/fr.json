@@ -1,0 +1,206 @@
+{
+  "Navigation": {
+    "portfolio": "Portfolio",
+    "services": "Services"
+  },
+  "Header": {
+    "contactMe": "Discutons"
+  },
+  "Footer": {
+    "builtBy": "Créé par",
+    "rightsReserved": ". © {currentYear} Tous droits réservés."
+  },
+  "HomePage": {
+    "heroTitle": "Vous avez une vision. J'ai le code pour la concrétiser.",
+    "heroSubtitle": "Salut, c'est Gincoder. Développeur web freelance, je conçois des sites web sublimes et ultra-performants qui séduisent et convertissent. Prêt à laisser votre empreinte ?",
+    "typewriter": {
+      "static": "J’AIDE LES ENTREPRISES À",
+      "words": [
+        "CRÉER DES SITES ULTRA-PERFORMANTS.",
+        "TRANSFORMER LEUR VISION EN RÉALITÉ.",
+        "DÉVELOPPER DES SOLUTIONS SUR MESURE."
+      ]
+    },
+    "whatsapp": "Contactez-moi sur WhatsApp",
+    "facebook": "Retrouvez-moi sur Facebook",
+    "email": "Envoyez-moi un e-mail",
+    "callDigicel": "Appel (Digicel)",
+    "callNatcom": "Appel (Natcom)",
+    "portfolioBadge": "Mes Créations",
+    "portfolioTitle": "Les Mondes Numériques que j'ai façonnés",
+    "portfolioSubtitle": "Découvrez les expériences numériques que j'ai créées – chaque projet est une histoire de collaboration et de code.",
+    "servicesTitle": "Votre Vision, Forgée avec Expertise en Code",
+    "servicesSubtitle": "Je propose une gamme complète de services pour bâtir votre presence numérique de A à Z, des sites e-commerce élégants aux portfolios dynamiques.",
+    "moreAboutMe": "À Propos & Multi-Services"
+  },
+  "ProjectCard": {
+    "viewSite": "Voir le Site"
+  },
+  "Projects": {
+    "restaurant": {
+      "title": "Vitrine de Restaurant",
+      "description": "Un site web vitrine moderne et élégant pour un restaurant gastronomique, présentant menus, réservations et galerie."
+    },
+    "boutique": {
+      "title": "Vitrine de Boutique",
+      "description": "Un site vitrine chic pour une boutique de mode, mettant en avant les dernières collections et l'histoire de la marque."
+    },
+    "barber": {
+      "title": "Site Vitrine de Barbier",
+      "description": "Un site web vitrine élégant et convivial pour un salon de barbier moderne, présentant les services et la prise de rendez-vous."
+    },
+    "clinique": {
+      "title": "Vitrine de Clinique Médicale",
+      "description": "Un site web vitrine professionnel pour une clinique médicale, fournissant des informations sur les services et le personnel."
+    },
+    "ecole": {
+      "title": "Site Vitrine d'École",
+      "description": "Un site vitrine pour un établissement d'enseignement, détaillant les cours et les informations d'inscription."
+    },
+    "formation": {
+      "title": "Vitrine de Formation",
+      "description": "Un site vitrine présentant les cours en ligne et en présentiel d'un centre de formation."
+    },
+    "eglise": {
+      "title": "Site de Communauté Ecclésiale",
+      "description": "Un site web vitrine accueillant pour une église, partageant les horaires d'événements, les sermons et les nouvelles."
+    },
+    "onglerie": {
+      "title": "Site Vitrine de Salon de Manucure",
+      "description": "Un site vitrine élégant pour un salon de manucure, présentant les services, un portfolio et la réservation."
+    },
+    "particulier": {
+      "title": "Artisan Multi-Services",
+      "description": "Un site vitrine pour un professionnel proposant plusieurs corps de métier : plomberie, électricité, etc."
+    }
+  },
+  "LocaleSwitcher": {
+    "label": "Changer de langue",
+    "en": "Anglais",
+    "fr": "Français",
+    "ht": "Créole Haïtien"
+  },
+  "ServicesPage": {
+    "title": "Découvrez Mes Services",
+    "subtitle": "Solutions numériques sur mesure pour propulser votre projet. De la conception web à l'automatisation, je transforme vos idées en réalité.",
+    "priceDisclaimer": "Veuillez noter que les prix affichés sont des estimations. Le tarif final sera déterminé après discussion et dépendra de la complexité et de la qualité du travail souhaité.",
+    "cta": "Demander un devis",
+    "qrDialog": {
+      "title": "Contactez-moi sur WhatsApp",
+      "description": "Scannez le code QR avec l'appareil photo de votre téléphone ou cliquez sur le bouton ci-dessous pour ouvrir WhatsApp.",
+      "button": "Ouvrir WhatsApp"
+    },
+    "categories": {
+      "web": {
+        "title": "Solutions Web",
+        "services": {
+          "simple-showcase": {
+            "title": "Site Vitrine",
+            "description": "Un site élégant et professionnel pour présenter votre activité. Idéal pour un impact rapide et efficace.",
+            "price": "$20 - $40 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Site Vitrine' et j'aimerais obtenir plus d'informations."
+          },
+          "whatsapp-qr": {
+            "title": "Page QR vers WhatsApp",
+            "description": "Une page simple accessible via QR code, pour rediriger vos clients vers une conversation WhatsApp instantanée.",
+            "price": "$10 - $20 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Page QR vers WhatsApp' et j'aimerais obtenir plus d'informations."
+          },
+          "advanced-landing": {
+            "title": "Page de Vente",
+            "description": "Une page unique et percutante, conçue pour attirer de nouveaux clients et développer votre activité.",
+            "price": "$40 - $80 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Page de Vente' et j'aimerais obtenir plus d'informations."
+          }
+        }
+      },
+      "automation": {
+        "title": "Gain de Temps",
+        "services": {
+          "telegram-bot": {
+            "title": "Assistant pour Groupe Telegram",
+            "description": "Un assistant intelligent pour votre groupe qui répond aux questions et partage des informations automatiquement.",
+            "price": "$30 - $60 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Assistant pour Groupe Telegram' et j'aimerais obtenir plus d'informations."
+          },
+          "python-script": {
+            "title": "Automatisation de Tâches",
+            "description": "Un outil sur mesure pour gérer vos tâches numériques répétitives, vous faisant gagner du temps et de l'énergie.",
+            "price": "$25 - $50 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Automatisation de Tâches' et j'aimerais obtenir plus d'informations."
+          },
+          "whatsapp-autoresponder": {
+            "title": "Répondeur Automatique WhatsApp",
+            "description": "Assurez une communication instantanée avec un répondeur intelligent qui gère les messages pour vous.",
+            "price": "$40 - $80 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Répondeur Automatique WhatsApp' et j'aimerais obtenir plus d'informations."
+          }
+        }
+      },
+      "dev": {
+        "title": "Solutions sur Mesure",
+        "services": {
+          "php-script": {
+            "title": "Petite Fonctionnalité",
+            "description": "Ajoutez une touche spéciale à votre site, comme un formulaire de contact ou un calculateur personnalisé.",
+            "price": "$25 - $50 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Petite Fonctionnalité' et j'aimerais obtenir plus d'informations."
+          },
+          "discord-bot": {
+            "title": "Bot pour Communauté (Discord)",
+            "description": "Animez votre communauté avec un bot sur mesure pour des jeux, la modération et des fonctions interactives.",
+            "price": "$40 - $80 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Bot pour Communauté (Discord)' et j'aimerais obtenir plus d'informations."
+          },
+          "dynamic-app": {
+            "title": "Application Web",
+            "description": "Une application complète et personnalisée avec des comptes utilisateurs, du stockage de données et des outils interactifs.",
+            "price": "$60 - $120 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Application Web' et j'aimerais obtenir plus d'informations."
+          }
+        }
+      },
+      "other": {
+        "title": "Autres services utiles",
+        "services": {
+          "pro-flyer": {
+            "title": "Flyer / Visuel Pro",
+            "description": "Des designs percutants pour vos campagnes marketing, événements ou communications sur les réseaux sociaux.",
+            "price": "$10 - $25 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Flyer / Visuel Pro' et j'aimerais obtenir plus d'informations."
+          },
+          "simple-logo": {
+            "title": "Logo Simple",
+            "description": "Créez une identité visuelle forte avec un logo mémorable et épuré qui représente parfaitement votre marque.",
+            "price": "$20 - $50 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Logo Simple' et j'aimerais obtenir plus d'informations."
+          },
+          "social-banner": {
+            "title": "Bannière Réseaux Sociaux",
+            "description": "Des bannières optimisées pour Facebook, Twitter, etc., pour garantir une image de marque cohérente et professionnelle.",
+            "price": "$15 - $30 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Bannière Réseaux Sociaux' et j'aimerais obtenir plus d'informations."
+          },
+          "tech-consultation": {
+            "title": "Conseil en Stratégie Digitale",
+            "description": "Obtenez des conseils clairs sur les meilleurs outils numériques pour votre projet et une feuille de route pour réussir.",
+            "price": "$35 - $70 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Conseil en Stratégie Digitale' et j'aimerais obtenir plus d'informations."
+          },
+          "security-audit": {
+            "title": "Bilan de Santé Site / Sécurité",
+            "description": "Identifiez et corrigez les failles de sécurité de votre site pour protéger vos données et celles de vos utilisateurs.",
+            "price": "$35 - $70 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Bilan de Santé Site / Sécurité' et j'aimerais obtenir plus d'informations."
+          },
+          "express-training": {
+            "title": "Formation Prise en Main",
+            "description": "Une session de formation rapide pour vous aider à maîtriser un outil numérique spécifique pour votre activité.",
+            "price": "$20 - $50 USD",
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Formation Prise en Main' et j'aimerais obtenir plus d'informations."
+          }
+        }
+      }
+    }
+  }
+}

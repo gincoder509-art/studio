@@ -6,6 +6,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { ServiceCard } from '@/components/service-card';
 import { Globe, Bot, Code, Sparkles, Info } from 'lucide-react';
 import { Alert, AlertDescription } from '@/components/ui/alert';
+import { TypewriterEffect } from '@/components/typewriter-effect';
 
 const categoryIcons: Record<string, React.ElementType> = {
   web: Globe,
@@ -19,6 +20,7 @@ export default function ServicesPage({ params: { locale } }: { params: { locale:
   const t = useTranslations('ServicesPage');
   const categories = ['web', 'automation', 'dev', 'other'];
   const whatsappNumber = '50933377934';
+  const tTypewriterWords = t.raw('typewriter.words') as string[];
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -30,6 +32,11 @@ export default function ServicesPage({ params: { locale } }: { params: { locale:
               <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                 {t('title')}
               </h1>
+              <TypewriterEffect
+                staticText={t('typewriter.static')}
+                words={tTypewriterWords}
+                className="mt-4"
+              />
               <p className="mt-4 max-w-3xl mx-auto text-foreground/80 md:text-xl">
                 {t('subtitle')}
               </p>

@@ -13,6 +13,14 @@
   "HomePage": {
     "heroTitle": "Ou gen yon vizyon. Mwen gen kòd la pou fè l tounen reyalite.",
     "heroSubtitle": "Bonjou, mwen se Gincoder. Yon devlopè endepandan ki kreye sit entènèt estrawòdinè ak pèfòmans wo ki atire epi konvèti. Pare pou kite mak ou?",
+    "typewriter": {
+      "static": "Mwen ede antrepriz yo",
+      "words": [
+        "kreye sit pèfòmans wo.",
+        "fè vizyon yo tounen reyalite.",
+        "devlope solisyon pèsonalize."
+      ]
+    },
     "whatsapp": "Kontakte m sou WhatsApp",
     "facebook": "Jwenn mwen sou Facebook",
     "email": "Voye yon imèl",
@@ -77,78 +85,78 @@
     "subtitle": "Solisyon dijital pèsonalize pou pouse pwojè ou. Soti nan konsepsyon wèb rive nan otomatizasyon, mwen transfòme lide ou an reyalite.",
     "priceDisclaimer": "Tanpri sonje ke pri ki afiche yo se estimasyon. Pri final la ap detèmine apre yon diskisyon epi li pral depann de konpleksite ak kalite travay ou vle a.",
     "cta": "Mande yon Pri",
-     "qrDialog": {
+    "qrDialog": {
       "title": "Kontakte m sou WhatsApp",
       "description": "Skane kòd QR la avèk kamera telefòn ou oswa klike sou bouton ki anba a pou louvri WhatsApp.",
       "button": "Louvri WhatsApp"
     },
     "categories": {
       "web": {
-        "title": "Devlopman Wèb",
+        "title": "Solisyon Entènèt",
         "services": {
           "simple-showcase": {
-            "title": "Sit Vitrin Senp",
+            "title": "Sit Vitrin",
             "description": "Yon prezans sou entènèt ki elegant e pwofesyonèl pou prezante aktivite w. Solisyon ideyal pou yon enpak rapid epi efikas.",
             "price": "$20 - $40 USD",
-            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Sit Vitrin Senp' la e mwen ta renmen jwenn plis enfòmasyon."
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Sit Vitrin' la e mwen ta renmen jwenn plis enfòmasyon."
           },
           "whatsapp-qr": {
-            "title": "Paj WhatsApp QR",
-            "description": "Yon paj wèb ki senp epi dirèk, ou ka jwenn li ak yon kòd QR, pou voye kliyan ou yo dirèkteman nan yon konvèsasyon WhatsApp.",
+            "title": "Paj QR pou WhatsApp",
+            "description": "Yon paj wèb ki senp, ou ka jwenn li ak yon kòd QR, pou voye kliyan ou yo dirèkteman nan yon konvèsasyon WhatsApp.",
             "price": "$10 - $20 USD",
-            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Paj WhatsApp QR' la e mwen ta renmen jwenn plis enfòmasyon."
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Paj QR pou WhatsApp' la e mwen ta renmen jwenn plis enfòmasyon."
           },
           "advanced-landing": {
-            "title": "Paj Daterisaj Avanse",
-            "description": "Yon paj wèb unik ki gen gwo enpak, ki fèt pou atire nouvo kliyan epi fè biznis ou grandi.",
+            "title": "Paj pou Vann",
+            "description": "Yon paj wèb ki gen gwo enpak, ki fèt pou atire nouvo kliyan epi fè biznis ou grandi.",
             "price": "$40 - $80 USD",
-            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Paj Daterisaj Avanse' la e mwen ta renmen jwenn plis enfòmasyon."
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Paj pou Vann' la e mwen ta renmen jwenn plis enfòmasyon."
           }
         }
       },
       "automation": {
-        "title": "Otomatizasyon",
+        "title": "Ekonomize Tan",
         "services": {
           "telegram-bot": {
-            "title": "Bòt Telegram Debaz",
-            "description": "Yon asistan entèlijan pou gwoup Telegram ou a ki ka reponn kesyon epi pataje enfòmasyon otomatikman.",
+            "title": "Asistan pou Gwoup Telegram",
+            "description": "Yon asistan entèlijan pou gwoup ou a ki ka reponn kesyon epi pataje enfòmasyon otomatikman.",
             "price": "$30 - $60 USD",
-            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Bòt Telegram Debaz' la e mwen ta renmen jwenn plis enfòmasyon."
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Asistan pou Gwoup Telegram' la e mwen ta renmen jwenn plis enfòmasyon."
           },
           "python-script": {
-            "title": "Script Pèsonalize Otomatik",
+            "title": "Otomatizasyon Travay",
             "description": "Yon zouti pèsonalize pou jere travay dijital repetitif ou yo, pou fè w ekonomize tan ak enèji.",
             "price": "$25 - $50 USD",
-            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Script Pèsonalize Otomatik' la e mwen ta renmen jwenn plis enfòmasyon."
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Otomatizasyon Travay' la e mwen ta renmen jwenn plis enfòmasyon."
           },
           "whatsapp-autoresponder": {
             "title": "Repons Otomatik WhatsApp",
-            "description": "Asire kominikasyon enstantane ak kliyan ou yo gras a yon repons otomatik entelijan pou WhatsApp.",
+            "description": "Asire kominikasyon enstantane ak kliyan ou yo gras a yon repons otomatik entelijan ki jere mesaj pou ou.",
             "price": "$40 - $80 USD",
             "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Repons Otomatik WhatsApp' la e mwen ta renmen jwenn plis enfòmasyon."
           }
         }
       },
       "dev": {
-        "title": "Devlopman Pèsonalize",
+        "title": "Solisyon Pèsonalize",
         "services": {
           "php-script": {
-            "title": "Ti Fonksyonalite Pèsonalize",
-            "description": "Ajoute yon fonksyonalite espesyal sou sit wèb ou a, tankou yon fòmilè kontak oswa yon kalkilatris pèsonalize.",
+            "title": "Ti Fonksyonalite",
+            "description": "Ajoute yon ti bagay espesyal sou sit ou a, tankou yon fòmilè kontak oswa yon kalkilatris pèsonalize.",
             "price": "$25 - $50 USD",
-            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Ti Fonksyonalite Pèsonalize' la e mwen ta renmen jwenn plis enfòmasyon."
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Ti Fonksyonalite' la e mwen ta renmen jwenn plis enfòmasyon."
           },
           "discord-bot": {
-            "title": "Bòt Discord",
-            "description": "Bay kominote Discord ou a lavi ak yon bòt pèsonalize pou jwèt, modération, ak fonksyon amizan.",
+            "title": "Bòt pou Kominote (Discord)",
+            "description": "Bay kominote w la lavi ak yon bòt pèsonalize pou jwèt, modération, ak fonksyon amizan.",
             "price": "$40 - $80 USD",
-            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Bòt Discord / API' la e mwen ta renmen jwenn plis enfòmasyon."
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Bòt pou Kominote (Discord)' la e mwen ta renmen jwenn plis enfòmasyon."
           },
           "dynamic-app": {
-            "title": "Aplikasyon Wèb Pèsonalize",
-            "description": "Yon aplikasyon wèb konplè, ki fèt sou mezi, ak kont itilizatè, espas pou sere done, ak zouti entèaktif.",
+            "title": "Aplikasyon Entènèt",
+            "description": "Yon aplikasyon konplè, ki fèt sou mezi, ak kont itilizatè, espas pou sere done, ak zouti entèaktif.",
             "price": "$60 - $120 USD",
-            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Aplikasyon Wèb Pèsonalize' la e mwen ta renmen jwenn plis enfòmasyon."
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Aplikasyon Entènèt' la e mwen ta renmen jwenn plis enfòmasyon."
           }
         }
       },
@@ -174,22 +182,22 @@
             "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Banyè Rezo Sosyal' la e mwen ta renmen jwenn plis enfòmasyon."
           },
           "tech-consultation": {
-            "title": "Konsiltasyon Teknik",
+            "title": "Konsèy Estrateji Dijital",
             "description": "Jwenn konsèy klè sou pi bon zouti dijital pou pwojè w la ak yon plan pou ede w reyisi.",
             "price": "$35 - $70 USD",
-            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Konsiltasyon Teknik' la e mwen ta renmen jwenn plis enfòmasyon."
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Konsèy Estrateji Dijital' la e mwen ta renmen jwenn plis enfòmasyon."
           },
           "security-audit": {
-            "title": "Odit Sit / Sekirite",
+            "title": "Tcheke Sekirite Sit ou",
             "description": "Idantifye epi korije feblès sekirite sou sit wèb ou a pou pwoteje done ou ak done itilizatè ou yo.",
             "price": "$35 - $70 USD",
-            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Odit Sit / Sekirite' la e mwen ta renmen jwenn plis enfòmasyon."
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Tcheke Sekirite Sit ou' la e mwen ta renmen jwenn plis enfòmasyon."
           },
           "express-training": {
-            "title": "Fòmasyon Eksprès",
+            "title": "Fòmasyon pou Demare",
             "description": "Yon sesyon fòmasyon rapid pou ede w metrize yon zouti dijital espesifik pou biznis ou.",
             "price": "$20 - $50 USD",
-            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Fòmasyon Eksprès' la e mwen ta renmen jwenn plis enfòmasyon."
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Fòmasyon pou Demare' la e mwen ta renmen jwenn plis enfòmasyon."
           }
         }
       }

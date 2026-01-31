@@ -13,13 +13,21 @@
   "HomePage": {
     "heroTitle": "Vous avez une vision. J'ai le code pour la concrétiser.",
     "heroSubtitle": "Salut, c'est Gincoder. Développeur web freelance, je conçois des sites web sublimes et ultra-performants qui séduisent et convertissent. Prêt à laisser votre empreinte ?",
+    "typewriter": {
+      "static": "J’aide les entreprises à",
+      "words": [
+        "créer des sites ultra-performants.",
+        "transformer leur vision en réalité.",
+        "développer des solutions sur mesure."
+      ]
+    },
     "whatsapp": "Contactez-moi sur WhatsApp",
     "facebook": "Retrouvez-moi sur Facebook",
     "email": "Envoyez-moi un e-mail",
     "callDigicel": "Appel (Digicel)",
     "callNatcom": "Appel (Natcom)",
     "portfolioBadge": "Mes Créations",
-    "portfolioTitle": "Les Mondes Numériques que J'ai façonnés",
+    "portfolioTitle": "Les Mondes Numériques que j'ai façonnés",
     "portfolioSubtitle": "Découvrez les expériences numériques que j'ai créées – chaque projet est une histoire de collaboration et de code.",
     "servicesTitle": "Votre Vision, Forgée avec Expertise en Code",
     "servicesSubtitle": "Je propose une gamme complète de services pour bâtir votre presence numérique de A à Z, des sites e-commerce élégants aux portfolios dynamiques.",
@@ -84,71 +92,71 @@
     },
     "categories": {
       "web": {
-        "title": "Développement Web",
+        "title": "Solutions Web",
         "services": {
           "simple-showcase": {
-            "title": "Site Vitrine Simple",
-            "description": "Une présence en ligne élégante et professionnelle pour présenter votre activité. Idéal pour un impact rapide et efficace.",
+            "title": "Site Vitrine",
+            "description": "Un site élégant et professionnel pour présenter votre activité. Idéal pour un impact rapide et efficace.",
             "price": "$20 - $40 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Site Vitrine Simple' et j'aimerais obtenir plus d'informations."
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Site Vitrine' et j'aimerais obtenir plus d'informations."
           },
           "whatsapp-qr": {
-            "title": "Page WhatsApp QR",
-            "description": "Une page web simple accessible via QR code, pour rediriger vos clients vers une conversation WhatsApp instantanée.",
+            "title": "Page QR vers WhatsApp",
+            "description": "Une page simple accessible via QR code, pour rediriger vos clients vers une conversation WhatsApp instantanée.",
             "price": "$10 - $20 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Page WhatsApp QR' et j'aimerais obtenir plus d'informations."
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Page QR vers WhatsApp' et j'aimerais obtenir plus d'informations."
           },
           "advanced-landing": {
-            "title": "Page de Destination Avancée",
-            "description": "Une page web unique et percutante, conçue pour attirer de nouveaux clients et développer votre activité.",
+            "title": "Page de Vente",
+            "description": "Une page unique et percutante, conçue pour attirer de nouveaux clients et développer votre activité.",
             "price": "$40 - $80 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Page de Destination Avancée' et j'aimerais obtenir plus d'informations."
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Page de Vente' et j'aimerais obtenir plus d'informations."
           }
         }
       },
       "automation": {
-        "title": "Automatisation",
+        "title": "Gain de Temps",
         "services": {
           "telegram-bot": {
-            "title": "Bot Telegram de Base",
-            "description": "Un assistant intelligent pour votre groupe Telegram qui répond aux questions et partage des informations automatiquement.",
+            "title": "Assistant pour Groupe Telegram",
+            "description": "Un assistant intelligent pour votre groupe qui répond aux questions et partage des informations automatiquement.",
             "price": "$30 - $60 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Bot Telegram de Base' et j'aimerais obtenir plus d'informations."
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Assistant pour Groupe Telegram' et j'aimerais obtenir plus d'informations."
           },
           "python-script": {
-            "title": "Script Automatisé",
+            "title": "Automatisation de Tâches",
             "description": "Un outil sur mesure pour gérer vos tâches numériques répétitives, vous faisant gagner du temps et de l'énergie.",
             "price": "$25 - $50 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Script Automatisé' et j'aimerais obtenir plus d'informations."
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Automatisation de Tâches' et j'aimerais obtenir plus d'informations."
           },
           "whatsapp-autoresponder": {
-            "title": "Auto-Répondeur WhatsApp",
-            "description": "Assurez une communication instantanée avec vos clients grâce à un répondeur automatique intelligent pour WhatsApp.",
+            "title": "Répondeur Automatique WhatsApp",
+            "description": "Assurez une communication instantanée avec un répondeur intelligent qui gère les messages pour vous.",
             "price": "$40 - $80 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Auto-Répondeur WhatsApp' et j'aimerais obtenir plus d'informations."
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Répondeur Automatique WhatsApp' et j'aimerais obtenir plus d'informations."
           }
         }
       },
       "dev": {
-        "title": "Développement sur Mesure",
+        "title": "Solutions sur Mesure",
         "services": {
           "php-script": {
-            "title": "Petite Fonctionnalité Web",
-            "description": "Ajoutez une fonctionnalité spéciale à votre site web, comme un formulaire de contact ou un calculateur personnalisé.",
+            "title": "Petite Fonctionnalité",
+            "description": "Ajoutez une touche spéciale à votre site, comme un formulaire de contact ou un calculateur personnalisé.",
             "price": "$25 - $50 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Petite Fonctionnalité Web' et j'aimerais obtenir plus d'informations."
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Petite Fonctionnalité' et j'aimerais obtenir plus d'informations."
           },
           "discord-bot": {
-            "title": "Bot Discord",
-            "description": "Animez votre communauté Discord avec un bot sur mesure pour des jeux, la modération et des fonctions amusantes.",
+            "title": "Bot pour Communauté (Discord)",
+            "description": "Animez votre communauté avec un bot sur mesure pour des jeux, la modération et des fonctions interactives.",
             "price": "$40 - $80 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Bot Discord' et j'aimerais obtenir plus d'informations."
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Bot pour Communauté (Discord)' et j'aimerais obtenir plus d'informations."
           },
           "dynamic-app": {
-            "title": "Application Web Personnalisée",
-            "description": "Une application web complète avec des comptes utilisateurs, du stockage de données et des outils interactifs.",
+            "title": "Application Web",
+            "description": "Une application complète et personnalisée avec des comptes utilisateurs, du stockage de données et des outils interactifs.",
             "price": "$60 - $120 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Application Web Personnalisée' et j'aimerais obtenir plus d'informations."
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Application Web' et j'aimerais obtenir plus d'informations."
           }
         }
       },
@@ -174,22 +182,22 @@
             "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Bannière Réseaux Sociaux' et j'aimerais obtenir plus d'informations."
           },
           "tech-consultation": {
-            "title": "Consultation Tech",
+            "title": "Conseil en Stratégie Digitale",
             "description": "Obtenez des conseils clairs sur les meilleurs outils numériques pour votre projet et une feuille de route pour réussir.",
             "price": "$35 - $70 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Consultation Tech' et j'aimerais obtenir plus d'informations."
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Conseil en Stratégie Digitale' et j'aimerais obtenir plus d'informations."
           },
           "security-audit": {
-            "title": "Audit Site / Sécurité",
+            "title": "Bilan de Santé Site / Sécurité",
             "description": "Identifiez et corrigez les failles de sécurité de votre site pour protéger vos données et celles de vos utilisateurs.",
             "price": "$35 - $70 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Audit Site / Sécurité' et j'aimerais obtenir plus d'informations."
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Bilan de Santé Site / Sécurité' et j'aimerais obtenir plus d'informations."
           },
           "express-training": {
-            "title": "Formation Express",
-            "description": "Une session de formation rapide pour vous aider à maîtriser un outil numérique spécifique pour votre entreprise.",
+            "title": "Formation Prise en Main",
+            "description": "Une session de formation rapide pour vous aider à maîtriser un outil numérique spécifique pour votre activité.",
             "price": "$20 - $50 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Formation Express' et j'aimerais obtenir plus d'informations."
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Formation Prise en Main' et j'aimerais obtenir plus d'informations."
           }
         }
       }

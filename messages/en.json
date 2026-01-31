@@ -13,6 +13,14 @@
   "HomePage": {
     "heroTitle": "You have a vision. I have the code to bring it to life.",
     "heroSubtitle": "Hi, I'm Gincoder. A freelance web developer crafting beautiful, high-performance websites that captivate and convert. Ready to make your mark?",
+    "typewriter": {
+      "static": "I help businesses to",
+      "words": [
+        "create high-performance sites.",
+        "turn their vision into reality.",
+        "develop custom solutions."
+      ]
+    },
     "whatsapp": "WhatsApp Me",
     "facebook": "Find me on Facebook",
     "email": "Email Me",
@@ -84,53 +92,53 @@
     },
     "categories": {
       "web": {
-        "title": "Web Development",
+        "title": "Web Solutions",
         "services": {
           "simple-showcase": {
-            "title": "Simple Showcase Site",
-            "description": "An elegant and professional online presence to present your business, products, or portfolio. Ideal for a quick and effective impact.",
+            "title": "Showcase Website",
+            "description": "An elegant, professional site to present your business. Perfect for making a quick and effective impact.",
             "price": "$20 - $40 USD",
-            "whatsappMessage": "Hello! I am interested in the 'Simple Showcase Site' service and would like to get more information."
+            "whatsappMessage": "Hello! I am interested in the 'Showcase Website' service and would like to get more information."
           },
           "whatsapp-qr": {
             "title": "WhatsApp QR Page",
-            "description": "A simple and direct web page accessible via a QR code, designed to redirect your customers to an instant WhatsApp conversation.",
+            "description": "A simple page accessible via QR code, to instantly redirect your customers to a WhatsApp chat.",
             "price": "$10 - $20 USD",
             "whatsappMessage": "Hello! I am interested in the 'WhatsApp QR Page' service and would like to get more information."
           },
           "advanced-landing": {
             "title": "Advanced Landing Page",
-            "description": "A powerful one-page website designed to attract new customers and grow your business.",
+            "description": "A powerful single-page site designed to attract new customers and grow your business.",
             "price": "$40 - $80 USD",
             "whatsappMessage": "Hello! I am interested in the 'Advanced Landing Page' service and would like to get more information."
           }
         }
       },
       "automation": {
-        "title": "Automation",
+        "title": "Time Saving",
         "services": {
           "telegram-bot": {
-            "title": "Basic Telegram Bot",
-            "description": "A smart assistant for your Telegram group that can answer questions and share information automatically.",
+            "title": "Telegram Group Assistant",
+            "description": "An intelligent assistant for your Telegram group that automatically answers questions and shares information.",
             "price": "$30 - $60 USD",
-            "whatsappMessage": "Hello! I am interested in the 'Basic Telegram Bot' service and would like to get more information."
+            "whatsappMessage": "Hello! I am interested in the 'Telegram Group Assistant' service and would like to get more information."
           },
           "python-script": {
-            "title": "Automated Custom Script",
-            "description": "A custom tool to handle your repetitive digital tasks automatically, saving you time and effort.",
+            "title": "Task Automation",
+            "description": "A custom tool to handle your repetitive digital tasks, saving you time and effort every day.",
             "price": "$25 - $50 USD",
-            "whatsappMessage": "Hello! I am interested in the 'Automated Custom Script' service and would like to get more information."
+            "whatsappMessage": "Hello! I am interested in the 'Task Automation' service and would like to get more information."
           },
           "whatsapp-autoresponder": {
             "title": "WhatsApp Auto-Responder",
-            "description": "Ensure instant communication with your customers with an intelligent auto-responder for WhatsApp.",
+            "description": "Ensure instant communication with an intelligent auto-responder that handles messages for you.",
             "price": "$40 - $80 USD",
             "whatsappMessage": "Hello! I am interested in the 'WhatsApp Auto-Responder' service and would like to get more information."
           }
         }
       },
       "dev": {
-        "title": "Custom Development",
+        "title": "Custom Solutions",
         "services": {
           "php-script": {
             "title": "Small Custom Feature",
@@ -139,14 +147,14 @@
             "whatsappMessage": "Hello! I am interested in the 'Small Custom Feature' service and would like to get more information."
           },
           "discord-bot": {
-            "title": "Discord Bot",
-            "description": "Bring your Discord community to life with a custom bot for games, moderation, and fun features.",
+            "title": "Community Bot (Discord)",
+            "description": "Liven up your community with a custom bot for games, moderation, and fun interactive features.",
             "price": "$40 - $80 USD",
-            "whatsappMessage": "Hello! I am interested in the 'Discord Bot' service and would like to get more information."
+            "whatsappMessage": "Hello! I am interested in the 'Community Bot (Discord)' service and would like to get more information."
           },
           "dynamic-app": {
             "title": "Custom Web App",
-            "description": "A complete web application with features like user accounts, data storage, and interactive tools.",
+            "description": "A complete, tailor-made web application with user accounts, data storage, and interactive tools.",
             "price": "$60 - $120 USD",
             "whatsappMessage": "Hello! I am interested in the 'Custom Web App' service and would like to get more information."
           }
@@ -157,7 +165,7 @@
         "services": {
           "pro-flyer": {
             "title": "Pro Flyer / Visual",
-            "description": "Professional flyer and visual designs for your marketing campaigns, events, or social media communications.",
+            "description": "Eye-catching designs for your marketing campaigns, events, or social media communications.",
             "price": "$10 - $25 USD",
             "whatsappMessage": "Hello! I am interested in the 'Pro Flyer / Visual' service and would like to get more information."
           },
@@ -169,27 +177,27 @@
           },
           "social-banner": {
             "title": "Social Media Banner",
-            "description": "Banners optimized for Facebook, Twitter, LinkedIn, etc., to ensure a consistent and professional brand image.",
+            "description": "Banners optimized for Facebook, Twitter, etc., to ensure a consistent and professional brand image.",
             "price": "$15 - $30 USD",
             "whatsappMessage": "Hello! I am interested in the 'Social Media Banner' service and would like to get more information."
           },
           "tech-consultation": {
-            "title": "Tech Consultation",
+            "title": "Digital Strategy Advice",
             "description": "Get clear advice on the best digital tools for your project and a roadmap for success.",
             "price": "$35 - $70 USD",
-            "whatsappMessage": "Hello! I am interested in the 'Tech Consultation' service and would like to get more information."
+            "whatsappMessage": "Hello! I am interested in the 'Digital Strategy Advice' service and would like to get more information."
           },
           "security-audit": {
-            "title": "Site / Security Audit",
-            "description": "Identify and fix security vulnerabilities on your website to protect your data and that of your users.",
+            "title": "Site / Security Check-up",
+            "description": "Identify and fix security weak points on your website to protect your data and your users' data.",
             "price": "$35 - $70 USD",
-            "whatsappMessage": "Hello! I am interested in the 'Site / Security Audit' service and would like to get more information."
+            "whatsappMessage": "Hello! I am interested in the 'Site / Security Check-up' service and would like to get more information."
           },
           "express-training": {
-            "title": "Express Training",
-            "description": "A quick training session to help you master a specific digital tool for your business.",
+            "title": "Quick-start Training",
+            "description": "A short training session to help you master a specific digital tool for your business needs.",
             "price": "$20 - $50 USD",
-            "whatsappMessage": "Hello! I am interested in the 'Express Training' service and would like to get more information."
+            "whatsappMessage": "Hello! I am interested in the 'Quick-start Training' service and would like to get more information."
           }
         }
       }

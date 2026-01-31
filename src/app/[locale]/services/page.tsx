@@ -21,7 +21,7 @@ export default function ServicesPage({ params: { locale } }: { params: { locale:
   const whatsappNumber = '50933377934';
 
   return (
-    <div className="flex min-h-screen flex-col bg-background">
+    <div className="flex min-h-screen flex-col">
       <Header />
       <main className="flex-1">
         <section className="w-full py-20 md:py-32">

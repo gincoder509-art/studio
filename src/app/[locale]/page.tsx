@@ -43,7 +43,7 @@ export default function Home({params: {locale}}: {params: {locale: string}}) {
   const heroImage = PlaceHolderImages.find(p => p.id === 'developer');
 
   return (
-    <div className="flex min-h-screen flex-col bg-background">
+    <div className="flex min-h-screen flex-col">
       <Header />
       <main className="flex-1">
         {/* Hero Section */}

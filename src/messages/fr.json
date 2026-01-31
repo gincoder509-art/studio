@@ -83,14 +83,6 @@
   "ServicesPage": {
     "title": "Découvrez Mes Services",
     "subtitle": "Solutions numériques sur mesure pour propulser votre projet. De la conception web à l'automatisation, je transforme vos idées en réalité.",
-    "typewriter": {
-      "static": "JE TRANSFORME VOS IDÉES EN",
-      "words": [
-        "SITES WEB PERFORMANTS.",
-        "AUTOMATISATIONS INTELLIGENTES.",
-        "SOLUTIONS NUMÉRIQUES SUR MESURE."
-      ]
-    },
     "priceDisclaimer": "Veuillez noter que les prix affichés sont des estimations. Le tarif final sera déterminé après discussion et dépendra de la complexité et de la qualité du travail souhaité.",
     "cta": "Demander un devis",
     "qrDialog": {

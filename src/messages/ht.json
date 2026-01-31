@@ -83,14 +83,6 @@
   "ServicesPage": {
     "title": "Dekouvri Sèvis Mwen Yo",
     "subtitle": "Solisyon dijital pèsonalize pou pouse pwojè ou. Soti nan konsepsyon wèb rive nan otomatizasyon, mwen transfòme lide ou an reyalite.",
-    "typewriter": {
-      "static": "MWEN TRANSFÒME LIDE OU AN",
-      "words": [
-        "SIT ENTÈNÈT PÈFÒMAN.",
-        "OTOMATIZASYON ENTÈLIJAN.",
-        "SOLISYON DIJITAL PÈSONALIZE."
-      ]
-    },
     "priceDisclaimer": "Tanpri sonje ke pri ki afiche yo se estimasyon. Pri final la ap detèmine apre yon diskisyon epi li pral depann de konpleksite ak kalite travay ou vle a.",
     "cta": "Mande yon Pri",
     "qrDialog": {

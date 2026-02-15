@@ -4,7 +4,7 @@ import { Footer } from '@/components/footer';
 import { projectIds, projectLinks, getProjectImage, type Project } from '@/app/lib/data';
 import { ProjectCard } from '@/components/project-card';
 import { Button } from '@/components/ui/button';
-import { Phone, MessageSquare, Facebook, Mail, ArrowRight, Code, BrainCircuit, PenTool, SearchCheck, CheckCircle, Lightbulb, Bot } from 'lucide-react';
+import { Phone, MessageSquare, Facebook, Mail, ArrowRight, Code, BrainCircuit, PenTool, SearchCheck, CheckCircle, Lightbulb, Bot, Instagram } from 'lucide-react';
 import { Link } from '@/navigation';
 import Image from 'next/image';
 import { Badge } from "@/components/ui/badge";
@@ -15,7 +15,6 @@ import { TypewriterEffect } from '@/components/typewriter-effect';
 import { siteConfig } from '@/config/site';
 import { locales } from '@/navigation';
 import { JsonLd, personSchema, generateBreadcrumbs } from '@/components/json-ld';
-import { TikTokIcon } from '@/components/icons/tiktok';
 import { FaqSection } from '@/components/faq-section';
 
 export async function generateMetadata({params: {locale}}: {params: {locale: string}}): Promise<Metadata> {
@@ -79,7 +78,7 @@ export default function Home({params: {locale}}: {params: {locale: string}}) {
   const contactLinks = [
     { name: "whatsapp", href: siteConfig.socials.whatsapp, Icon: MessageSquare, label: t('contactMethods.whatsapp'), className: 'bg-[#25D366] hover:bg-[#25D366]/90 text-primary-foreground' },
     { name: "facebook", href: siteConfig.socials.facebook, Icon: Facebook, label: t('contactMethods.facebook'), className: 'bg-[#1877F2] hover:bg-[#1877F2]/90 text-primary-foreground' },
-    { name: "tiktok", href: siteConfig.socials.tiktok, Icon: TikTokIcon, label: t('contactMethods.tiktok'), className: 'bg-black hover:bg-gray-800 text-white border border-gray-600' },
+    { name: "instagram", href: siteConfig.socials.instagram, Icon: Instagram, label: t('contactMethods.instagram'), className: 'bg-black hover:bg-gray-800 text-white border border-gray-600' },
     { name: "email", href: `mailto:${siteConfig.email}`, Icon: Mail, label: t('contactMethods.email'), className: 'bg-gray-500 hover:bg-gray-600 text-primary-foreground' },
   ];
   

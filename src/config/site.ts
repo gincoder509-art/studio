@@ -11,7 +11,7 @@ export const siteConfig = {
   socials: {
     facebook: "https://www.facebook.com/share/1AgEHU17B3/",
     whatsapp: "https://wa.me/50933377934",
-    tiktok: "https://www.tiktok.com/@gincoder",
+    instagram: "https://www.instagram.com/gincoderms",
   },
   keywords: [
     "Freelance Web Developer",

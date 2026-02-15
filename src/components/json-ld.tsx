@@ -22,7 +22,7 @@ export const organizationSchema: Organization = {
   logo: `${siteConfig.url}/apple-touch-icon.png`,
   sameAs: [
     siteConfig.socials.facebook,
-    siteConfig.socials.tiktok,
+    siteConfig.socials.instagram,
   ],
   contactPoint: {
     '@type': 'ContactPoint',
@@ -52,7 +52,7 @@ export const personSchema: Person = {
     url: siteConfig.url,
     sameAs: [
       siteConfig.socials.facebook,
-      siteConfig.socials.tiktok,
+      siteConfig.socials.instagram,
     ],
     jobTitle: 'Freelance Web & AI Developer',
     worksFor: {

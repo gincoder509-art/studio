@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
-import { useTranslations, getTranslations } from 'next-intl';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { useTranslations } from 'next-intl';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { ServiceCard } from '@/components/service-card';
 import { Globe, Bot, Code, Sparkles, Info, ArrowRight } from 'lucide-react';

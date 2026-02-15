@@ -11,6 +11,7 @@ import { siteConfig } from '@/config/site';
 import { locales } from '@/navigation';
 import { JsonLd, generateBreadcrumbs, type Service } from '@/components/json-ld';
 import { Badge } from '@/components/ui/badge';
+import { FaqSection } from '@/components/faq-section';
 
 export async function generateMetadata({params: {locale}}: {params: {locale: string}}): Promise<Metadata> {
   const t = await getTranslations({locale, namespace: 'Seo.services'});
@@ -60,9 +61,6 @@ export default function ServicesPage({ params: { locale } }: { params: { locale:
   const tNav = useTranslations('Navigation');
   const categories = ['web', 'automation', 'dev', 'other'];
   const whatsappNumber = '50933377934';
-
-  const tFaq = useTranslations('ServicesPage.faq');
-  const faqItems = ['q1', 'q2', 'q3', 'q4'];
 
   const breadcrumbs = generateBreadcrumbs([
     { name: tNav('home'), item: `${siteConfig.url}/${locale}` },
@@ -156,25 +154,7 @@ export default function ServicesPage({ params: { locale } }: { params: { locale:
         </section>
         
         {/* FAQ Section */}
-        <section id="faq" className="w-full py-12 md:py-24 lg:py-32 bg-card/50">
-          <div className="container max-w-3xl px-4 md:px-6">
-            <div className="text-center">
-              <Badge>{t('faq.badge')}</Badge>
-              <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl mt-2">{t('faq.title')}</h2>
-              <p className="mt-4 text-foreground/80 md:text-lg">{t('faq.subtitle')}</p>
-            </div>
-            <Accordion type="single" collapsible className="w-full mt-8">
-              {faqItems.map((item) => (
-                <AccordionItem key={item} value={item}>
-                  <AccordionTrigger className="text-left font-bold text-lg hover:no-underline">{tFaq(`${item}.question`)}</AccordionTrigger>
-                  <AccordionContent className="text-base text-muted-foreground">
-                    {tFaq(`${item}.answer`)}
-                  </AccordionContent>
-                </AccordionItem>
-              ))}
-            </Accordion>
-          </div>
-        </section>
+        <FaqSection page="ServicesPage" />
       </main>
       <Footer />
     </div>

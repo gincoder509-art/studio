@@ -1,3 +1,5 @@
+'use client';
+
 import { Link } from '@/navigation';
 import { CodeXml, Menu, Home, Briefcase, Settings, Info, Bot, HelpCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';

@@ -1,22 +1,66 @@
+import type { Metadata } from 'next';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
 import { projectIds, projectLinks, getProjectImage, type Project } from '@/app/lib/data';
 import { ProjectCard } from '@/components/project-card';
 import { Button } from '@/components/ui/button';
-import { Phone, MessageSquare, Facebook, Mail, ArrowRight } from 'lucide-react';
+import { Phone, MessageSquare, Facebook, Mail, ArrowRight, Code, BrainCircuit, PenTool, SearchCheck, CheckCircle, Lightbulb, Bot } from 'lucide-react';
 import { Link } from '@/navigation';
 import Image from 'next/image';
 import { Badge } from "@/components/ui/badge";
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { useTranslations } from 'next-intl';
-import {unstable_setRequestLocale} from 'next-intl/server';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { TypewriterEffect } from '@/components/typewriter-effect';
+import { siteConfig } from '@/config/site';
+import { locales } from '@/navigation';
+import { JsonLd, personSchema, generateBreadcrumbs } from '@/components/json-ld';
+import { TikTokIcon } from '@/components/icons/tiktok';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+
+export async function generateMetadata({params: {locale}}: {params: {locale: string}}): Promise<Metadata> {
+  const t = await getTranslations({locale, namespace: 'Seo.home'});
+  
+  const alternates = locales.reduce((acc, loc) => {
+    acc[loc] = `${siteConfig.url}/${loc}`;
+    return acc;
+  }, {} as Record<string, string>);
+
+  return {
+    title: t('title'),
+    description: t('description'),
+    keywords: t('keywords').split(',').map(k => k.trim()),
+    alternates: {
+      canonical: `${siteConfig.url}/${locale}`,
+      languages: {
+        ...alternates,
+        'x-default': `${siteConfig.url}/fr`,
+      },
+    },
+    openGraph: {
+      title: t('title'),
+      description: t('description'),
+      url: `${siteConfig.url}/${locale}`,
+      images: [ { url: `${siteConfig.url}/og-home.jpg`, width: 1200, height: 630, alt: t('title') } ],
+      locale: locale,
+      type: 'profile',
+      profile: {
+        firstName: 'Gincoder',
+        username: 'Gincoder',
+      }
+    },
+     twitter: {
+      title: t('title'),
+      description: t('description'),
+      images: [ `${siteConfig.url}/og-home.jpg` ],
+    },
+  };
+}
 
 export default function Home({params: {locale}}: {params: {locale: string}}) {
   unstable_setRequestLocale(locale);
   const t = useTranslations('HomePage');
   const tProjects = useTranslations('Projects');
-  const tContact = useTranslations('HomePage');
   const tNav = useTranslations('Navigation');
   const tTypewriterWords = t.raw('typewriter.words') as string[];
 
@@ -33,25 +77,60 @@ export default function Home({params: {locale}}: {params: {locale: string}}) {
   });
 
   const contactLinks = [
-    { href: 'https://wa.me/50933377934', Icon: MessageSquare, label: tContact('whatsapp'), className: 'bg-[#25D366] hover:bg-[#25D366]/90 text-primary-foreground' },
-    { href: 'https://www.facebook.com/share/1AgEHU17B3/', Icon: Facebook, label: tContact('facebook'), className: 'bg-[#1877F2] hover:bg-[#1877F2]/90 text-primary-foreground' },
-    { href: 'tel:+50944539500', Icon: Phone, label: tContact('callDigicel'), className: 'bg-[#ED1C24] hover:bg-[#ED1C24]/90 text-primary-foreground' },
-    { href: 'tel:+50941704583', Icon: Phone, label: tContact('callNatcom'), className: 'bg-[#00A9E0] hover:bg-[#00A9E0]/90 text-primary-foreground' },
-    { href: 'mailto:gincoder-ms@outlook.fr', Icon: Mail, label: tContact('email'), className: 'bg-gray-500 hover:bg-gray-600 text-primary-foreground' },
+    { name: "whatsapp", href: siteConfig.socials.whatsapp, Icon: MessageSquare, label: t('contactMethods.whatsapp'), className: 'bg-[#25D366] hover:bg-[#25D366]/90 text-primary-foreground' },
+    { name: "facebook", href: siteConfig.socials.facebook, Icon: Facebook, label: t('contactMethods.facebook'), className: 'bg-[#1877F2] hover:bg-[#1877F2]/90 text-primary-foreground' },
+    { name: "tiktok", href: siteConfig.socials.tiktok, Icon: TikTokIcon, label: t('contactMethods.tiktok'), className: 'bg-black hover:bg-gray-800 text-white border border-gray-600' },
+    { name: "email", href: `mailto:${siteConfig.email}`, Icon: Mail, label: t('contactMethods.email'), className: 'bg-gray-500 hover:bg-gray-600 text-primary-foreground' },
+  ];
+  
+  const skills = [
+    { Icon: Code, title: t('skills.frontend.title'), description: t('skills.frontend.description') },
+    { Icon: BrainCircuit, title: t('skills.ai.title'), description: t('skills.ai.description') },
+    { Icon: PenTool, title: t('skills.design.title'), description: t('skills.design.description') },
+    { Icon: SearchCheck, title: t('skills.seo.title'), description: t('skills.seo.description') },
+  ];
+
+  const processSteps = [
+    {
+      title: t('process.step1.title'),
+      description: t('process.step1.description'),
+    },
+    {
+      title: t('process.step2.title'),
+      description: t('process.step2.description'),
+    },
+    {
+      title: t('process.step3.title'),
+      description: t('process.step3.description'),
+    },
+    {
+      title: t('process.step4.title'),
+      description: t('process.step4.description'),
+    },
   ];
 
   const heroImage = PlaceHolderImages.find(p => p.id === 'developer');
+  const tFaq = useTranslations('HomePage.faq');
+  const faqItems = ['q1', 'q2', 'q3', 'q4'];
+
+  const breadcrumbs = generateBreadcrumbs([
+    { name: tNav('home'), item: `${siteConfig.url}/${locale}` }
+  ]);
 
   return (
+    <>
+    <JsonLd schema={personSchema} />
+    <JsonLd schema={breadcrumbs} />
     <div className="flex min-h-screen flex-col">
       <Header />
       <main className="flex-1">
         {/* Hero Section */}
         <section className="w-full py-20 md:py-32 lg:py-40">
           <div className="container px-4 md:px-6">
-            <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
+            <div className="grid gap-12 lg:grid-cols-[1fr_550px] lg:gap-12 xl:grid-cols-[1fr_600px]">
               <div className="flex flex-col justify-center space-y-4">
-                <div className="space-y-2">
+                <div className="space-y-4">
+                   <Badge variant="secondary">{t('heroBadge')}</Badge>
                   <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                     {t('heroTitle')}
                   </h1>
@@ -73,26 +152,68 @@ export default function Home({params: {locale}}: {params: {locale: string}}) {
                       </Link>
                     </Button>
                   ))}
-                   <Button asChild size="lg" variant="secondary" className="flex-grow sm:flex-grow-0">
-                   <Link href="https://gincoder.online" target="_blank" rel="noopener noreferrer">
-                     {t('moreAboutMe')}
-                     <ArrowRight className="ml-2 h-5 w-5" />
-                   </Link>
-                 </Button>
                 </div>
               </div>
               {heroImage && (
-                <div className="hidden lg:block relative">
+                <div className="hidden lg:block relative group">
                    <Image
                       src={heroImage.imageUrl}
                       alt={heroImage.description}
                       width={600}
                       height={400}
-                      className="mx-auto aspect-video overflow-hidden rounded-xl object-cover"
+                      priority
+                      className="mx-auto aspect-video overflow-hidden rounded-xl object-cover transition-all duration-300 group-hover:scale-105"
                       data-ai-hint={heroImage.imageHint}
                     />
                 </div>
               )}
+            </div>
+          </div>
+        </section>
+
+        {/* About Me Section */}
+        <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-card/50">
+            <div className="container px-4 md:px-6">
+                <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
+                    <div>
+                        <Badge>{t('about.badge')}</Badge>
+                        <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl mt-2">{t('about.title')}</h2>
+                        <p className="mt-4 text-foreground/80 md:text-lg">{t('about.p1')}</p>
+                        <p className="mt-4 text-foreground/80 md:text-lg">{t('about.p2')}</p>
+                        <Button asChild size="lg" className="mt-6">
+                            <Link href="/services">{t('about.cta')} <ArrowRight className="ml-2"/></Link>
+                        </Button>
+                    </div>
+                     <div className="grid grid-cols-2 gap-4">
+                        {skills.map(skill => (
+                            <div key={skill.title} className="flex flex-col items-center p-6 text-center bg-card rounded-lg shadow-md border border-border/20">
+                                <skill.Icon className="h-10 w-10 text-primary mb-3" />
+                                <h3 className="text-lg font-bold font-headline">{skill.title}</h3>
+                                <p className="text-sm text-muted-foreground mt-1">{skill.description}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {/* Process Section */}
+        <section id="process" className="w-full py-12 md:py-24 lg:py-32">
+          <div className="container px-4 md:px-6">
+            <div className="text-center max-w-3xl mx-auto">
+              <Badge variant="outline">{t('process.badge')}</Badge>
+              <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl mt-2">{t('process.title')}</h2>
+              <p className="mt-4 text-foreground/80 md:text-xl">{t('process.subtitle')}</p>
+            </div>
+            <div className="relative mt-12 grid gap-8 md:grid-cols-4">
+               <div className="absolute left-0 top-1/2 w-full h-0.5 bg-border -translate-y-1/2 -z-10 hidden md:block"></div>
+               {processSteps.map((step, index) => (
+                <div key={index} className="relative flex flex-col items-center text-center">
+                    <div className="h-12 w-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold text-xl mb-4 border-4 border-background z-10">{index + 1}</div>
+                    <h3 className="font-headline font-bold text-xl">{step.title}</h3>
+                    <p className="text-muted-foreground mt-2">{step.description}</p>
+                </div>
+               ))}
             </div>
           </div>
         </section>
@@ -113,6 +234,14 @@ export default function Home({params: {locale}}: {params: {locale: string}}) {
               {projects.map((project) => (
                 <ProjectCard key={project.id} project={project} />
               ))}
+            </div>
+             <div className="text-center">
+                <Button asChild size="lg" variant="secondary">
+                   <Link href={t('portfolioCtaLink')}>
+                     {t('portfolioCta')}
+                     <ArrowRight className="ml-2 h-5 w-5" />
+                   </Link>
+                 </Button>
             </div>
           </div>
         </section>
@@ -137,8 +266,30 @@ export default function Home({params: {locale}}: {params: {locale: string}}) {
             </div>
           </div>
         </section>
+        
+        {/* FAQ Section */}
+        <section id="faq" className="w-full py-12 md:py-24 lg:py-32 bg-card/50">
+          <div className="container max-w-3xl px-4 md:px-6">
+            <div className="text-center">
+              <Badge>{t('faq.badge')}</Badge>
+              <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl mt-2">{t('faq.title')}</h2>
+              <p className="mt-4 text-foreground/80 md:text-lg">{t('faq.subtitle')}</p>
+            </div>
+            <Accordion type="single" collapsible className="w-full mt-8">
+              {faqItems.map((item) => (
+                <AccordionItem key={item} value={item}>
+                  <AccordionTrigger className="text-left font-bold text-lg hover:no-underline">{tFaq(`${item}.question`)}</AccordionTrigger>
+                  <AccordionContent className="text-base text-muted-foreground">
+                    {tFaq(`${item}.answer`)}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>
+    </>
   );
 }

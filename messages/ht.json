@@ -1,7 +1,27 @@
 {
+  "Seo": {
+    "home": {
+      "title": "Gincoder | Ekspè Devlopè Web & IA Endepandan",
+      "description": "Transfòme vizyon ou an reyalite ak Gincoder, yon gwo devlopè web endepandan ak enjenyè IA. Espesyalize nan sit Next.js pèfòmans wo ak solisyon IA pèsonalize.",
+      "keywords": "Devlopè Web Endepandan, Devlopè Next.js, Enjenyè IA, Devlopè React, Anboche Devlopè Ayiti, Aplikasyon Web Pèsonalize, Gincoder"
+    },
+    "services": {
+      "title": "Sèvis | Devlopman Web Pèsonalize & Solisyon IA pa Gincoder",
+      "description": "Eksplore yon seri sèvis dijital konplè: sit wèb pèfòmans wo, otomatizasyon ak IA, fonksyonalite pèsonalize, ak plis ankò. An nou bati pwojè ou a.",
+      "keywords": "Sèvis Devlopman Web, Otomatizasyon IA, Aplikasyon Web Pèsonalize, Sit Vitrin, Bòt Telegram, Script Python, Sèvis Gincoder"
+    },
+    "generateImages": {
+      "title": "Jeneratè Imaj IA",
+      "description": "Jenere imaj pwojè avèk IA."
+    }
+  },
   "Navigation": {
+    "home": "Akèy",
     "portfolio": "Pòtfolyo",
-    "services": "Sèvis"
+    "services": "Sèvis",
+    "about": "Apwopo",
+    "process": "Pwosesis",
+    "faq": "FAQ"
   },
   "Header": {
     "contactMe": "An n Pale"
@@ -11,27 +31,98 @@
     "rightsReserved": ". © {currentYear} Tout dwa rezève."
   },
   "HomePage": {
+    "heroBadge": "Devlopè Web & IA Endepandan",
     "heroTitle": "Ou gen yon vizyon. Mwen gen kòd la pou fè l tounen reyalite.",
-    "heroSubtitle": "Bonjou, mwen se Gincoder. Yon devlopè endepandan ki kreye sit entènèt estrawòdinè ak pèfòmans wo ki atire epi konvèti. Pare pou kite mak ou?",
+    "heroSubtitle": "Bonjou, mwen se Gincoder. Yon devlopè web endepandan ki baze an Ayiti, k ap kreye sit entènèt estrawòdinè, pèfòmans wo ak solisyon IA ki atire epi konvèti. Pare pou kite mak ou?",
     "typewriter": {
-      "static": "Mwen ede antrepriz yo",
+      "static": "MWEN EDE ANTREPRIZ YO",
       "words": [
-        "kreye sit pèfòmans wo.",
-        "fè vizyon yo tounen reyalite.",
-        "devlope solisyon pèsonalize."
+        "BATI SIT PÈFÒMANS WO.",
+        "FÈ VIZYON TOUNEN REYALITE.",
+        "DEVLOPE SOLISYON IA PÈSONALIZE."
       ]
     },
-    "whatsapp": "Kontakte m sou WhatsApp",
-    "facebook": "Jwenn mwen sou Facebook",
-    "email": "Voye yon imèl",
-    "callDigicel": "Rele (Digicel)",
-    "callNatcom": "Rele (Natcom)",
+    "contactMethods": {
+      "whatsapp": "Kontakte m sou WhatsApp",
+      "facebook": "Jwenn mwen sou Facebook",
+      "email": "Voye yon imèl",
+      "tiktok": "Swiv mwen sou TikTok"
+    },
+     "about": {
+      "badge": "Kiyès mwen ye",
+      "title": "Soti nan Kòd rive nan Kreyasyon: Vwayaj Devlopè Mwen",
+      "p1": "Mwen se yon devlopè pasyone e oryante sou rezilta, ki gen talan pou transfòme pwoblèm konplèks an eksperyans dijital elegant ak fasil pou itilize. Vwayaj mwen nan teknoloji te kòmanse avèk yon gwo kiryozite pou konprann kijan bagay yo mache, ki te vin tounen yon gwo pasyon pou konstwi sitwèb solid ak aplikasyon entèlijan.",
+      "p2": "Baze an Ayiti, mwen pote yon pèspektiv inik ak yon detèminasyon san fay pou m livre pwodwi dijital klas mondyal. Ekspètiz mwen chita sou stack wèb modèn lan, espesyalman Next.js ak React pou konstwi frontend ultra-rapid, ak Genkit pou entegre kapasite IA pwisan. Mwen pa sèlman ekri kòd; mwen konstwi solisyon ki pèmèt kwasans ak rezoud pwoblèm reyèl pou kliyan mwen yo.",
+      "cta": "Eksplore Sèvis Mwen Yo"
+    },
+    "skills": {
+      "frontend": {
+        "title": "Devlopman Frontend",
+        "description": "React, Next.js, TypeScript, TailwindCSS"
+      },
+      "ai": {
+        "title": "IA & Otomatizasyon",
+        "description": "Genkit, Python, Bòt Telegram/Discord"
+      },
+      "design": {
+        "title": "UI/UX & Konsepsyon",
+        "description": "ShadCN, Figma, Konsepsyon Adaptab"
+      },
+      "seo": {
+        "title": "SEO & Pèfòmans",
+        "description": "SEO Teknik, Core Web Vitals, Analytics"
+      }
+    },
+    "process": {
+      "badge": "Metòd Mwen",
+      "title": "Yon Plan pou Siksè",
+      "subtitle": "Pwosesis mwen an baze sou klète, kolaborasyon, ak yon angajman pou bon jan kalite, ki asire siksè pwojè ou a depi nan kòmansman jiska lafen.",
+      "step1": {
+        "title": "Dekouvèt & Estrateji",
+        "description": "Nou kòmanse pa yon analiz pwofon sou objektif ou, odyans ou, ak defi ou yo pou defini yon plan klè pou pwojè a."
+      },
+      "step2": {
+        "title": "Konsepsyon & Devlopman",
+        "description": "Mwen kreye yon konsepsyon pafè epi ekri kòd pwòp, ki ka evolye, pou fè vizyon an tounen reyalite, avèk pwen regilye."
+      },
+      "step3": {
+        "title": "Tès & Amelyorasyon",
+        "description": "Tès rigourè sou tout aparèy asire yon eksperyans san fot. Mwen amelyore chak detay dapre fidbak yo."
+      },
+      "step4": {
+        "title": "Lansman & Sipò",
+        "description": "Apre yon deplwaman san pwoblèm, mwen bay sipò kontinyèl pou asire sit ou a fonksyone san fay epi kontinye evolye."
+      }
+    },
     "portfolioBadge": "Travay Mwen",
     "portfolioTitle": "Mond Dijital Mwen Fòje",
     "portfolioSubtitle": "Eksplore eksperyans dijital mwen te bay lavi—chak pwojè se yon istwa kolaborasyon ak kòd.",
+    "portfolioCta": "Plis sou Sit Multi-Sèvis Mwen an",
+    "portfolioCtaLink": "https://gincoder.online",
     "servicesTitle": "Vizyon Ou, Fòje ak Ekspètiz nan Kòd",
     "servicesSubtitle": "Mwen ofri yon seri sèvis konplè pou konstwi prezans dijital ou de A a Z, soti nan sit e-commerce elegant rive nan pòtfolyo dinamik.",
-    "moreAboutMe": "Apwopo & Plizyè Sèvis"
+    "moreAboutMe": "Apwopo & Plizyè Sèvis",
+     "faq": {
+      "badge": "Kesyon?",
+      "title": "Kesyon yo poze souvan",
+      "subtitle": "Ou gen kesyon? Mwen gen repons. Men kèk kesyon moun poze souvan sou pwosesis ak sèvis mwen yo.",
+      "q1": {
+        "question": "Konbyen tan yon nouvo pwojè sitwèb pran anjeneral?",
+        "answer": "Yon sit vitrin tipik pran anviwon 1 a 3 semèn soti nan premye apèl dekouvèt nou an rive nan lansman. Aplikasyon ki pi konplèks, tankou yon app wèb pèsonalize ak kont itilizatè, ka pran 4 a 8 semèn. Dire final la depann de grandè pwojè a, konpleksite li, ak vitès ou voye kontni ak fidbak ban mwen."
+      },
+      "q2": {
+        "question": "Èske ou ofri sèvis pou kliyan ki pa an Ayiti?",
+        "answer": "Absoliman! Bote devlopman wèb la se nati mondyal li. Mwen travay ak kliyan toupatou nan mond lan. Nou ka kominike pa imèl, WhatsApp, oswa apèl videyo pou asire yon kolaborasyon san pwoblèm kèlkeswa kote ou ye."
+      },
+      "q3": {
+        "question": "Ki sa ki fè ou diferan de lòt devlopè yo?",
+        "answer": "Mwen konbine ekspètiz teknik ak yon gwo konsantrasyon sou objektif biznis. Mwen pa sèlman bati sa yo mande m; mwen travay an patenarya avèk ou pou m konprann objektif ou yo epi bati yon solisyon ki bay rezilta reyèl e ki mezirab. Konpetans mwen nan devlopman wèb modèn (Next.js) ak teknoloji IA k ap monte (Genkit) pèmèt mwen kreye pwodwi vrèman inovatè e ki pare pou lavni."
+      },
+      "q4": {
+        "question": "Ki kalite sipò ou ofri apre pwojè a fin lanse?",
+        "answer": "Mwen ofri yon peryòd 30 jou sipò gratis apre lansman pou m korije nenpòt erè oswa pwoblèm ki ka parèt. Apre sa, mwen ofri plan antretyen mansyèl fleksib pou jere mizajou, verifikasyon sekirite, ak ti ajoute fonksyonalite pou kenbe sit ou a an pafè kondisyon."
+      }
+    }
   },
   "ProjectCard": {
     "viewSite": "Gade Sit la"
@@ -81,9 +172,9 @@
     "ht": "Kreyòl Ayisyen"
   },
   "ServicesPage": {
-    "title": "Dekouvri Sèvis Mwen Yo",
-    "subtitle": "Solisyon dijital pèsonalize pou pouse pwojè ou. Soti nan konsepsyon wèb rive nan otomatizasyon, mwen transfòme lide ou an reyalite.",
-    "priceDisclaimer": "Tanpri sonje ke pri ki afiche yo se estimasyon. Pri final la ap detèmine apre yon diskisyon epi li pral depann de konpleksite ak kalite travay ou vle a.",
+    "title": "Sèvis Dijital pou Pouse Biznis Ou Anlè",
+    "subtitle": "Soti nan sit wèb ultra-rapid rive nan otomatizasyon entèlijan, mwen bay solisyon dijital pèsonalize ki fèt pou ankouraje kwasans, efikasite, ak angajman itilizatè. An nou bati yon bagay remakab.",
+    "priceDisclaimer": "Tanpri sonje ke pri ki afiche yo se estimasyon. Pri final la ap detèmine apre apèl dekouvèt nou an epi li pral depann de konpleksite ak egzijans espesifik pwojè a.",
     "cta": "Mande yon Pri",
     "qrDialog": {
       "title": "Kontakte m sou WhatsApp",
@@ -107,15 +198,15 @@
             "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Paj QR pou WhatsApp' la e mwen ta renmen jwenn plis enfòmasyon."
           },
           "advanced-landing": {
-            "title": "Paj pou Vann",
+            "title": "Paj Vann Avanse",
             "description": "Yon paj wèb ki gen gwo enpak, ki fèt pou atire nouvo kliyan epi fè biznis ou grandi.",
             "price": "$40 - $80 USD",
-            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Paj pou Vann' la e mwen ta renmen jwenn plis enfòmasyon."
+            "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Paj Vann Avanse' la e mwen ta renmen jwenn plis enfòmasyon."
           }
         }
       },
       "automation": {
-        "title": "Ekonomize Tan",
+        "title": "Ekonomize Tan & IA",
         "services": {
           "telegram-bot": {
             "title": "Asistan pou Gwoup Telegram",
@@ -124,14 +215,14 @@
             "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Asistan pou Gwoup Telegram' la e mwen ta renmen jwenn plis enfòmasyon."
           },
           "python-script": {
-            "title": "Otomatizasyon Travay",
+            "title": "Script Otomatizasyon Travay",
             "description": "Yon zouti pèsonalize pou jere travay dijital repetitif ou yo, pou fè w ekonomize tan ak enèji.",
             "price": "$25 - $50 USD",
             "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Otomatizasyon Travay' la e mwen ta renmen jwenn plis enfòmasyon."
           },
           "whatsapp-autoresponder": {
-            "title": "Repons Otomatik WhatsApp",
-            "description": "Asire kominikasyon enstantane ak kliyan ou yo gras a yon repons otomatik entelijan ki jere mesaj pou ou.",
+            "title": "Repons IA WhatsApp",
+            "description": "Asire kominikasyon enstantane ak kliyan ou yo gras a yon repons otomatik entelijan ki jere mesaj pou ou 24/7.",
             "price": "$40 - $80 USD",
             "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Repons Otomatik WhatsApp' la e mwen ta renmen jwenn plis enfòmasyon."
           }
@@ -200,6 +291,27 @@
             "whatsappMessage": "Bonjou! Mwen enterese nan sèvis 'Fòmasyon pou Demare' la e mwen ta renmen jwenn plis enfòmasyon."
           }
         }
+      }
+    },
+    "faq": {
+      "badge": "Kesyon?",
+      "title": "Kesyon Ou Yo, Repons Nou Yo",
+      "subtitle": "Men repons pou kèk kesyon moun poze souvan sou sèvis mwen yo.",
+      "q1": {
+        "question": "Ki sèvis ki bon pou biznis mwen an?",
+        "answer": "Sa depann de objektif ou! Si w ap kòmanse, yon 'Sit Vitrin' pafè pou etabli yon prezans pwofesyonèl. Si ou vle ogmante lavant, yon 'Paj Vann Avanse' se ideyal. Pou ekonomize tan, konsidere sèvis 'Otomatizasyon Travay' oswa 'Repons IA' nou yo. Pi bon fason pou konnen se mande yon pri, epi nou ka diskite sou bezwen espesifik ou yo."
+      },
+      "q2": {
+        "question": "Èske ou ka entegre sistèm peman nan sit wèb mwen an?",
+        "answer": "Wi, absoliman. Mwen ka entegre pòtay peman popilè ak an sekirite tankou Stripe oswa PayPal nan sit wèb ou a, kit se pou yon platfòm e-commerce, yon sistèm anrjistreman, oswa yon aplikasyon pèsonalize. Sekirite ak fyab se pi gwo priyorite mwen."
+      },
+      "q3": {
+        "question": "Kijan ou jere demann pou fonksyonalite pèsonalize?",
+        "answer": "Mwen renmen bati fonksyonalite pèsonalize! Nou pral kòmanse avèk yon diskisyon detaye pou konprann fonksyonalite ou bezwen an. Apre sa, m ap ba ou yon pwopozisyon teknik ak yon estimasyon pri. Yon fwa apwouve, mwen pral bati ak entegre fonksyonalite a nan sit ki egziste deja ou a oswa kòm yon pati nan yon nouvo pwojè."
+      },
+      "q4": {
+        "question": "Èske sit wèb ou yo adaptab pou mobil?",
+        "answer": "100%. Chak sit wèb mwen bati se totalman adaptab, sa vle di li pral parèt ak fonksyone pafètman sou tout aparèy, tankou òdinatè, tablèt, ak smartphones. Yon eksperyans mobil san pwoblèm enpòtan anpil pou angajman itilizatè ak SEO."
       }
     }
   }

@@ -1,7 +1,27 @@
 {
+  "Seo": {
+    "home": {
+      "title": "Gincoder | Développeur Web & IA Freelance Expert",
+      "description": "Transformez votre vision en réalité avec Gincoder, un développeur web et ingénieur IA freelance de premier plan. Spécialisé dans les sites Next.js haute performance et les solutions IA sur mesure.",
+      "keywords": "Développeur Web Freelance, Développeur Next.js, Ingénieur IA, Développeur React, Engager Développeur Haïti, Applications Web sur Mesure, Gincoder"
+    },
+    "services": {
+      "title": "Services | Développement Web sur Mesure & Solutions IA par Gincoder",
+      "description": "Explorez une gamme complète de services numériques : sites web haute performance, automatisation par l'IA, fonctionnalités sur mesure, et plus encore. Construisons votre projet.",
+      "keywords": "Services Développement Web, Automatisation IA, Applications Web Personnalisées, Sites Vitrine, Bot Telegram, Scripts Python, Services Gincoder"
+    },
+    "generateImages": {
+      "title": "Générateur d'Images IA",
+      "description": "Générez des images de projet en utilisant l'IA."
+    }
+  },
   "Navigation": {
+    "home": "Accueil",
     "portfolio": "Portfolio",
-    "services": "Services"
+    "services": "Services",
+    "about": "À propos",
+    "process": "Processus",
+    "faq": "FAQ"
   },
   "Header": {
     "contactMe": "Discutons"
@@ -11,27 +31,98 @@
     "rightsReserved": ". © {currentYear} Tous droits réservés."
   },
   "HomePage": {
+    "heroBadge": "Développeur Web & IA Freelance",
     "heroTitle": "Vous avez une vision. J'ai le code pour la concrétiser.",
-    "heroSubtitle": "Salut, c'est Gincoder. Développeur web freelance, je conçois des sites web sublimes et ultra-performants qui séduisent et convertissent. Prêt à laisser votre empreinte ?",
+    "heroSubtitle": "Salut, c'est Gincoder. Développeur web freelance basé en Haïti, je conçois des sites web sublimes, ultra-performants et des solutions IA qui séduisent et convertissent. Prêt à laisser votre empreinte ?",
     "typewriter": {
-      "static": "J’aide les entreprises à",
+      "static": "J’AIDE LES ENTREPRISES À",
       "words": [
-        "créer des sites ultra-performants.",
-        "transformer leur vision en réalité.",
-        "développer des solutions sur mesure."
+        "BÂTIR DES SITES HAUTE PERFORMANCE.",
+        "TRANSFORMER LEUR VISION EN RÉALITÉ.",
+        "DÉVELOPPER DES SOLUTIONS IA SUR MESURE."
       ]
     },
-    "whatsapp": "Contactez-moi sur WhatsApp",
-    "facebook": "Retrouvez-moi sur Facebook",
-    "email": "Envoyez-moi un e-mail",
-    "callDigicel": "Appel (Digicel)",
-    "callNatcom": "Appel (Natcom)",
+    "contactMethods": {
+      "whatsapp": "Contactez-moi sur WhatsApp",
+      "facebook": "Retrouvez-moi sur Facebook",
+      "email": "Envoyez-moi un e-mail",
+      "tiktok": "Suivez-moi sur TikTok"
+    },
+    "about": {
+      "badge": "Qui suis-je",
+      "title": "Du Code à la Création : Mon Parcours de Développeur",
+      "p1": "Je suis un développeur passionné et orienté résultats, doué pour transformer des problèmes complexes en expériences numériques élégantes et conviviales. Mon parcours dans la technologie a commencé par une profonde curiosité pour le fonctionnement des choses, qui s'est transformée en une véritable passion pour la création de sites web robustes et d'applications intelligentes.",
+      "p2": "Basé en Haïti, j'apporte une perspective unique et une volonté implacable de fournir des produits numériques de classe mondiale. Mon expertise réside dans la stack web moderne, en particulier Next.js et React pour créer des frontends ultra-rapides, et Genkit pour intégrer de puissantes capacités d'IA. Je n'écris pas seulement du code ; je construis des solutions qui stimulent la croissance et résolvent les problèmes concrets de mes clients.",
+      "cta": "Découvrez Mes Services"
+    },
+    "skills": {
+      "frontend": {
+        "title": "Développement Frontend",
+        "description": "React, Next.js, TypeScript, TailwindCSS"
+      },
+      "ai": {
+        "title": "IA & Automatisation",
+        "description": "Genkit, Python, Bots Telegram/Discord"
+      },
+      "design": {
+        "title": "UI/UX & Design",
+        "description": "ShadCN, Figma, Design Réactif"
+      },
+      "seo": {
+        "title": "SEO & Performance",
+        "description": "SEO Technique, Core Web Vitals, Analytics"
+      }
+    },
+    "process": {
+      "badge": "Ma Méthode",
+      "title": "Un Plan pour le Succès",
+      "subtitle": "Mon processus est fondé sur la clarté, la collaboration et un engagement envers la qualité, garantissant le succès de votre projet du début à la fin.",
+      "step1": {
+        "title": "Découverte & Stratégie",
+        "description": "Nous commençons par une analyse approfondie de vos objectifs, de votre public et de vos défis pour définir une feuille de route claire."
+      },
+      "step2": {
+        "title": "Conception & Développement",
+        "description": "Je crée un design au pixel près et écris du code propre et évolutif pour donner vie à la vision, avec des points réguliers."
+      },
+      "step3": {
+        "title": "Tests & Affinements",
+        "description": "Des tests rigoureux sur tous les appareils garantissent une expérience sans bug. J'affine chaque détail en fonction des retours."
+      },
+      "step4": {
+        "title": "Lancement & Support",
+        "description": "Après un déploiement en douceur, je fournis un support continu pour garantir que votre site fonctionne parfaitement et continue d'évoluer."
+      }
+    },
     "portfolioBadge": "Mes Créations",
     "portfolioTitle": "Les Mondes Numériques que j'ai façonnés",
     "portfolioSubtitle": "Découvrez les expériences numériques que j'ai créées – chaque projet est une histoire de collaboration et de code.",
+    "portfolioCta": "Plus sur mon Site Multi-Services",
+    "portfolioCtaLink": "https://gincoder.online",
     "servicesTitle": "Votre Vision, Forgée avec Expertise en Code",
     "servicesSubtitle": "Je propose une gamme complète de services pour bâtir votre presence numérique de A à Z, des sites e-commerce élégants aux portfolios dynamiques.",
-    "moreAboutMe": "À Propos & Multi-Services"
+    "moreAboutMe": "À Propos & Multi-Services",
+    "faq": {
+      "badge": "Des questions ?",
+      "title": "Foire Aux Questions",
+      "subtitle": "Vous avez des questions ? J'ai les réponses. Voici quelques demandes courantes concernant mon processus et mes services.",
+      "q1": {
+        "question": "Quel est le délai typique pour un nouveau projet de site web ?",
+        "answer": "Un site vitrine typique prend environ 1 à 3 semaines de notre appel de découverte initial au lancement. Les applications plus complexes, comme une application web personnalisée avec des comptes utilisateurs, peuvent prendre de 4 à 8 semaines. Le délai final dépend de la portée du projet, de sa complexité et de la rapidité avec laquelle je reçois le contenu et les retours de votre part."
+      },
+      "q2": {
+        "question": "Offrez-vous des services pour des clients en dehors d'Haïti ?",
+        "answer": "Absolument ! La beauté du développement web est sa nature globale. Je travaille avec des clients du monde entier. Nous pouvons communiquer par e-mail, WhatsApp ou appels vidéo pour assurer une collaboration fluide, peu importe votre emplacement."
+      },
+      "q3": {
+        "question": "Qu'est-ce qui vous différencie des autres développeurs ?",
+        "answer": "Je combine une expertise technique avec une forte concentration sur les objectifs commerciaux. Je ne me contente pas de construire ce qui est demandé ; je collabore avec vous pour comprendre vos objectifs et construire une solution qui offre des résultats réels et mesurables. Ma maîtrise du développement web moderne (Next.js) et des technologies IA émergentes (Genkit) me permet de créer des produits vraiment innovants et pérennes."
+      },
+      "q4": {
+        "question": "Quel type de support offrez-vous après le lancement du projet ?",
+        "answer": "J'offre une période de 30 jours de support gratuit après le lancement pour corriger les bugs ou problèmes qui pourraient survenir. Ensuite, je propose des plans de maintenance mensuels flexibles pour gérer les mises à jour, les contrôles de sécurité et les ajouts de fonctionnalités mineures afin de maintenir votre site en parfait état."
+      }
+    }
   },
   "ProjectCard": {
     "viewSite": "Voir le Site"
@@ -81,9 +172,9 @@
     "ht": "Créole Haïtien"
   },
   "ServicesPage": {
-    "title": "Découvrez Mes Services",
-    "subtitle": "Solutions numériques sur mesure pour propulser votre projet. De la conception web à l'automatisation, je transforme vos idées en réalité.",
-    "priceDisclaimer": "Veuillez noter que les prix affichés sont des estimations. Le tarif final sera déterminé après discussion et dépendra de la complexité et de la qualité du travail souhaité.",
+    "title": "Des Services Numériques pour Élever Votre Entreprise",
+    "subtitle": "Des sites web ultra-rapides à l'automatisation intelligente, je fournis des solutions numériques sur mesure conçues pour stimuler la croissance, l'efficacité et l'engagement des utilisateurs. Construisons quelque chose de remarquable.",
+    "priceDisclaimer": "Veuillez noter que les prix affichés sont des estimations. Le tarif final sera déterminé après notre appel de découverte et dépendra de la complexité et des exigences spécifiques du projet.",
     "cta": "Demander un devis",
     "qrDialog": {
       "title": "Contactez-moi sur WhatsApp",
@@ -107,15 +198,15 @@
             "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Page QR vers WhatsApp' et j'aimerais obtenir plus d'informations."
           },
           "advanced-landing": {
-            "title": "Page de Vente",
+            "title": "Page de Vente Avancée",
             "description": "Une page unique et percutante, conçue pour attirer de nouveaux clients et développer votre activité.",
             "price": "$40 - $80 USD",
-            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Page de Vente' et j'aimerais obtenir plus d'informations."
+            "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Page de Vente Avancée' et j'aimerais obtenir plus d'informations."
           }
         }
       },
       "automation": {
-        "title": "Gain de Temps",
+        "title": "Gain de Temps & IA",
         "services": {
           "telegram-bot": {
             "title": "Assistant pour Groupe Telegram",
@@ -124,14 +215,14 @@
             "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Assistant pour Groupe Telegram' et j'aimerais obtenir plus d'informations."
           },
           "python-script": {
-            "title": "Automatisation de Tâches",
+            "title": "Script d'Automatisation de Tâches",
             "description": "Un outil sur mesure pour gérer vos tâches numériques répétitives, vous faisant gagner du temps et de l'énergie.",
             "price": "$25 - $50 USD",
             "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Automatisation de Tâches' et j'aimerais obtenir plus d'informations."
           },
           "whatsapp-autoresponder": {
-            "title": "Répondeur Automatique WhatsApp",
-            "description": "Assurez une communication instantanée avec un répondeur intelligent qui gère les messages pour vous.",
+            "title": "Répondeur IA WhatsApp",
+            "description": "Assurez une communication instantanée avec un répondeur intelligent qui gère les messages pour vous 24/7.",
             "price": "$40 - $80 USD",
             "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Répondeur Automatique WhatsApp' et j'aimerais obtenir plus d'informations."
           }
@@ -200,6 +291,27 @@
             "whatsappMessage": "Bonjour ! Je suis intéressé(e) par le service 'Formation Prise en Main' et j'aimerais obtenir plus d'informations."
           }
         }
+      }
+    },
+    "faq": {
+      "badge": "Des Questions ?",
+      "title": "Vos Questions, Nos Réponses",
+      "subtitle": "Voici les réponses aux questions les plus fréquentes sur mes services.",
+      "q1": {
+        "question": "Quel service convient à mon entreprise ?",
+        "answer": "Cela dépend de vos objectifs ! Si vous débutez, un 'Site Vitrine' est parfait pour établir une présence professionnelle. Si vous voulez stimuler les ventes, une 'Page de Vente Avancée' est idéale. Pour gagner du temps, envisagez nos services 'd'Automatisation de Tâches' ou de 'Répondeur IA'. La meilleure façon de savoir est de demander un devis, et nous pourrons discuter de vos besoins spécifiques."
+      },
+      "q2": {
+        "question": "Pouvez-vous intégrer des systèmes de paiement à mon site web ?",
+        "answer": "Oui, absolument. Je peux intégrer des passerelles de paiement populaires et sécurisées comme Stripe ou PayPal à votre site web, que ce soit pour une plateforme e-commerce, un système de réservation ou une application personnalisée. La sécurité et la fiabilité sont mes priorités."
+      },
+      "q3": {
+        "question": "Comment gérez-vous les demandes de fonctionnalités personnalisées ?",
+        "answer": "J'adore créer des fonctionnalités sur mesure ! Nous commencerons par une discussion détaillée pour comprendre la fonctionnalité dont vous avez besoin. Je vous fournirai ensuite une proposition technique et un devis. Une fois approuvé, je construirai et intégrerai la fonctionnalité à votre site existant ou dans le cadre d'un nouveau projet."
+      },
+      "q4": {
+        "question": "Vos sites web sont-ils adaptés aux mobiles ?",
+        "answer": "À 100%. Chaque site web que je construis est entièrement réactif, ce qui signifie qu'il s'affichera et fonctionnera parfaitement sur tous les appareils, y compris les ordinateurs de bureau, les tablettes et les smartphones. Une expérience mobile transparente est essentielle pour l'engagement des utilisateurs et le SEO."
       }
     }
   }

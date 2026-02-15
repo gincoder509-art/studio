@@ -1,5 +1,5 @@
 import { Link } from '@/navigation';
-import { CodeXml, Menu } from 'lucide-react';
+import { CodeXml, Menu, Home, Briefcase, Settings, Info, Bot, HelpCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTranslations } from 'next-intl';
 import { LocaleSwitcher } from './locale-switcher';
@@ -10,8 +10,11 @@ export function Header() {
   const tHeader = useTranslations('Header');
 
   const navLinks = [
-    { href: '/#portfolio', label: t('portfolio') },
-    { href: '/services', label: t('services') },
+    { href: '/#portfolio', label: t('portfolio'), Icon: Briefcase },
+    { href: '/services', label: t('services'), Icon: Settings },
+    { href: '/#about', label: t('about'), Icon: Info },
+    { href: '/#process', label: t('process'), Icon: Bot },
+    { href: '/#faq', label: t('faq'), Icon: HelpCircle },
   ];
 
   return (
@@ -61,19 +64,23 @@ export function Header() {
                 </Link>
                 <nav className="grid gap-4">
                   {navLinks.map((link) => (
-                    <Link
-                      key={link.href}
-                      href={link.href}
-                      className="text-lg font-medium text-foreground/80 transition-colors hover:text-foreground"
-                    >
-                      {link.label}
-                    </Link>
+                     <SheetTrigger asChild key={link.href}>
+                      <Link
+                        href={link.href}
+                        className="flex items-center gap-3 text-lg font-medium text-foreground/80 transition-colors hover:text-foreground"
+                      >
+                        <link.Icon className="h-5 w-5" />
+                        {link.label}
+                      </Link>
+                    </SheetTrigger>
                   ))}
                 </nav>
                 <div className="mt-auto flex flex-col gap-4">
                   <LocaleSwitcher />
                   <Button asChild className="w-full">
-                    <Link href="/#contact">{tHeader('contactMe')}</Link>
+                     <SheetTrigger asChild>
+                        <Link href="/#contact">{tHeader('contactMe')}</Link>
+                    </SheetTrigger>
                   </Button>
                 </div>
               </div>

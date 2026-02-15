@@ -1,7 +1,27 @@
 {
+  "Seo": {
+    "home": {
+      "title": "Gincoder | Expert Freelance Web & AI Developer",
+      "description": "Transform your vision into reality with Gincoder, a top-tier freelance web developer and AI engineer. Specializing in high-performance Next.js sites and custom AI solutions.",
+      "keywords": "Freelance Web Developer, Next.js Developer, AI Engineer, React Developer, Hire Developer Haiti, Custom Web Applications, Gincoder"
+    },
+    "services": {
+      "title": "Services | Custom Web Development & AI Solutions by Gincoder",
+      "description": "Explore a full suite of digital services: high-performance websites, AI-powered automation, custom features, and more. Let's build your project.",
+      "keywords": "Web Development Services, AI Automation, Custom Web Apps, Showcase Websites, Telegram Bot, Python Scripts, Gincoder Services"
+    },
+    "generateImages": {
+      "title": "AI Image Generator",
+      "description": "Generate project images using AI."
+    }
+  },
   "Navigation": {
+    "home": "Home",
     "portfolio": "Portfolio",
-    "services": "Services"
+    "services": "Services",
+    "about": "About",
+    "process": "Process",
+    "faq": "FAQ"
   },
   "Header": {
     "contactMe": "Let's Talk"
@@ -11,27 +31,98 @@
     "rightsReserved": ". © {currentYear} All rights reserved."
   },
   "HomePage": {
+    "heroBadge": "Freelance Web & AI Developer",
     "heroTitle": "You have a vision. I have the code to bring it to life.",
-    "heroSubtitle": "Hi, I'm Gincoder. A freelance web developer crafting beautiful, high-performance websites that captivate and convert. Ready to make your mark?",
+    "heroSubtitle": "Hi, I'm Gincoder. A freelance web developer based in Haiti, crafting beautiful, high-performance websites and AI solutions that captivate and convert. Ready to make your mark?",
     "typewriter": {
-      "static": "I help businesses to",
+      "static": "I HELP BUSINESSES",
       "words": [
-        "create high-performance sites.",
-        "turn their vision into reality.",
-        "develop custom solutions."
+        "BUILD HIGH-PERFORMANCE SITES.",
+        "TURN VISION INTO REALITY.",
+        "DEVELOP CUSTOM AI SOLUTIONS."
       ]
     },
-    "whatsapp": "WhatsApp Me",
-    "facebook": "Find me on Facebook",
-    "email": "Email Me",
-    "callDigicel": "Call (Digicel)",
-    "callNatcom": "Call (Natcom)",
+    "contactMethods": {
+      "whatsapp": "WhatsApp Me",
+      "facebook": "Find me on Facebook",
+      "email": "Email Me",
+      "tiktok": "Follow on TikTok"
+    },
+    "about": {
+      "badge": "Who I Am",
+      "title": "From Code to Creation: My Developer Journey",
+      "p1": "I am a passionate and results-oriented developer with a knack for turning complex problems into elegant, user-friendly digital experiences. My journey into technology started with a deep curiosity for how things work, which evolved into a full-blown passion for building robust websites and intelligent applications.",
+      "p2": "Based in Haiti, I bring a unique perspective and a relentless drive to deliver world-class digital products. My expertise lies in the modern web stack, particularly Next.js and React for building lightning-fast frontends, and Genkit for integrating powerful AI capabilities. I don't just write code; I build solutions that drive growth and solve real-world problems for my clients.",
+      "cta": "Explore My Services"
+    },
+    "skills": {
+      "frontend": {
+        "title": "Frontend Development",
+        "description": "React, Next.js, TypeScript, TailwindCSS"
+      },
+      "ai": {
+        "title": "AI & Automation",
+        "description": "Genkit, Python, Telegram/Discord Bots"
+      },
+      "design": {
+        "title": "UI/UX & Design",
+        "description": "ShadCN, Figma, Responsive Design"
+      },
+      "seo": {
+        "title": "SEO & Performance",
+        "description": "Technical SEO, Core Web Vitals, Analytics"
+      }
+    },
+    "process": {
+      "badge": "My Method",
+      "title": "A Blueprint for Success",
+      "subtitle": "My process is built on clarity, collaboration, and a commitment to quality, ensuring your project's success from start to finish.",
+      "step1": {
+        "title": "Discovery & Strategy",
+        "description": "We start with a deep dive into your goals, audience, and challenges to define a clear roadmap for the project."
+      },
+      "step2": {
+        "title": "Design & Development",
+        "description": "I craft a pixel-perfect design and write clean, scalable code to bring the vision to life, with regular check-ins."
+      },
+      "step3": {
+        "title": "Testing & Refinement",
+        "description": "Rigorous testing across devices ensures a bug-free experience. I refine every detail based on feedback."
+      },
+      "step4": {
+        "title": "Launch & Support",
+        "description": "After a smooth deployment, I provide ongoing support to ensure your website runs flawlessly and continues to evolve."
+      }
+    },
     "portfolioBadge": "My Work",
     "portfolioTitle": "Digital Worlds I've Forged",
     "portfolioSubtitle": "Explore the digital experiences I've brought to life—each a story of collaboration and code.",
+    "portfolioCta": "More on my Multi-Service Site",
+    "portfolioCtaLink": "https://gincoder.online",
     "servicesTitle": "Your Vision, Expertly Forged in Code",
     "servicesSubtitle": "I offer a full suite of services to build your digital presence from the ground up, from sleek e-commerce sites to dynamic portfolios.",
-    "moreAboutMe": "About Me & Multi-Services"
+    "moreAboutMe": "About Me & Multi-Services",
+    "faq": {
+      "badge": "Questions?",
+      "title": "Frequently Asked Questions",
+      "subtitle": "Have questions? I have answers. Here are some common inquiries about my process and services.",
+      "q1": {
+        "question": "What is the typical timeline for a new website project?",
+        "answer": "A typical showcase website takes about 1 to 3 weeks from our initial discovery call to launch. More complex applications, like a custom web app with user accounts, can take 4 to 8 weeks. The final timeline depends on the project's scope, complexity, and how quickly I receive content and feedback from you."
+      },
+      "q2": {
+        "question": "Do you offer services for clients outside of Haiti?",
+        "answer": "Absolutely! The beauty of web development is its global nature. I work with clients from all over the world. We can communicate via email, WhatsApp, or video calls to ensure a smooth collaboration regardless of your location."
+      },
+      "q3": {
+        "question": "What makes you different from other developers?",
+        "answer": "I combine technical expertise with a strong focus on business goals. I don't just build what's asked; I partner with you to understand your objectives and build a solution that delivers real, measurable results. My proficiency in both modern web development (Next.js) and emerging AI technologies (Genkit) allows me to create truly innovative and future-proof products."
+      },
+      "q4": {
+        "question": "What kind of support do you offer after the project is launched?",
+        "answer": "I offer a 30-day period of free support after launch to fix any bugs or issues that may arise. After that, I offer flexible monthly maintenance plans to handle updates, security checks, and minor feature additions to keep your site in top shape."
+      }
+    }
   },
   "ProjectCard": {
     "viewSite": "View Site"
@@ -81,9 +172,9 @@
     "ht": "Haitian Creole"
   },
   "ServicesPage": {
-    "title": "Discover My Services",
-    "subtitle": "Custom digital solutions to boost your project. From web design to automation, I turn your ideas into reality.",
-    "priceDisclaimer": "Please note that the prices shown are estimates. The final price will be determined after discussion and will depend on the complexity and quality of the desired work.",
+    "title": "Digital Services to Elevate Your Business",
+    "subtitle": "From high-speed websites to intelligent automation, I provide custom digital solutions designed to drive growth, efficiency, and user engagement. Let's build something remarkable.",
+    "priceDisclaimer": "Please note that the prices shown are estimates. The final price will be determined after our discovery call and will depend on the project's complexity and specific requirements.",
     "cta": "Request a Quote",
     "qrDialog": {
       "title": "Contact me on WhatsApp",
@@ -115,7 +206,7 @@
         }
       },
       "automation": {
-        "title": "Time Saving",
+        "title": "Time Saving & AI",
         "services": {
           "telegram-bot": {
             "title": "Telegram Group Assistant",
@@ -124,14 +215,14 @@
             "whatsappMessage": "Hello! I am interested in the 'Telegram Group Assistant' service and would like to get more information."
           },
           "python-script": {
-            "title": "Task Automation",
+            "title": "Task Automation Script",
             "description": "A custom tool to handle your repetitive digital tasks, saving you time and effort every day.",
             "price": "$25 - $50 USD",
             "whatsappMessage": "Hello! I am interested in the 'Task Automation' service and would like to get more information."
           },
           "whatsapp-autoresponder": {
-            "title": "WhatsApp Auto-Responder",
-            "description": "Ensure instant communication with an intelligent auto-responder that handles messages for you.",
+            "title": "WhatsApp AI Responder",
+            "description": "Ensure instant communication with an intelligent auto-responder that handles messages for you 24/7.",
             "price": "$40 - $80 USD",
             "whatsappMessage": "Hello! I am interested in the 'WhatsApp Auto-Responder' service and would like to get more information."
           }
@@ -200,6 +291,27 @@
             "whatsappMessage": "Hello! I am interested in the 'Quick-start Training' service and would like to get more information."
           }
         }
+      }
+    },
+    "faq": {
+      "badge": "Questions?",
+      "title": "Your Questions, Answered",
+      "subtitle": "Here are answers to some common questions about my services.",
+      "q1": {
+        "question": "Which service is right for my business?",
+        "answer": "It depends on your goals! If you're starting out, a 'Showcase Website' is perfect for establishing a professional presence. If you want to drive sales, an 'Advanced Landing Page' is ideal. For saving time, consider our 'Task Automation' or 'AI Responder' services. The best way to know is to request a quote, and we can discuss your specific needs."
+      },
+      "q2": {
+        "question": "Can you integrate payment systems into my website?",
+        "answer": "Yes, absolutely. I can integrate popular and secure payment gateways like Stripe or PayPal into your website, whether it's for an e-commerce platform, a booking system, or a custom application. Security and reliability are my top priorities."
+      },
+      "q3": {
+        "question": "How do you handle custom feature requests?",
+        "answer": "I love building custom features! We'll start with a detailed discussion to understand the functionality you need. I'll then provide a technical proposal and a price estimate. Once approved, I'll build and integrate the feature into your existing site or as part of a new project."
+      },
+      "q4": {
+        "question": "Are your websites mobile-friendly?",
+        "answer": "100%. Every website I build is fully responsive, meaning it will look and work perfectly on all devices, including desktops, tablets, and smartphones. A seamless mobile experience is critical for user engagement and SEO."
       }
     }
   }

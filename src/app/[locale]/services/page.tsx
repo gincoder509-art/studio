@@ -1,11 +1,51 @@
+import type { Metadata } from 'next';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
-import { useTranslations } from 'next-intl';
+import { useTranslations, getTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { ServiceCard } from '@/components/service-card';
-import { Globe, Bot, Code, Sparkles, Info } from 'lucide-react';
+import { Globe, Bot, Code, Sparkles, Info, ArrowRight } from 'lucide-react';
 import { Alert, AlertDescription } from '@/components/ui/alert';
+import { siteConfig } from '@/config/site';
+import { locales } from '@/navigation';
+import { JsonLd, generateBreadcrumbs, type Service } from '@/components/json-ld';
+import { Badge } from '@/components/ui/badge';
+
+export async function generateMetadata({params: {locale}}: {params: {locale: string}}): Promise<Metadata> {
+  const t = await getTranslations({locale, namespace: 'Seo.services'});
+  
+  const alternates = locales.reduce((acc, loc) => {
+    acc[loc] = `${siteConfig.url}/${loc}/services`;
+    return acc;
+  }, {} as Record<string, string>);
+
+  return {
+    title: t('title'),
+    description: t('description'),
+    keywords: t('keywords').split(',').map(k => k.trim()),
+    alternates: {
+      canonical: `${siteConfig.url}/${locale}/services`,
+      languages: {
+        ...alternates,
+        'x-default': `${siteConfig.url}/fr/services`,
+      },
+    },
+    openGraph: {
+      title: t('title'),
+      description: t('description'),
+      url: `${siteConfig.url}/${locale}/services`,
+      images: [ { url: `${siteConfig.url}/og-services.jpg`, width: 1200, height: 630, alt: t('title') } ],
+      locale: locale,
+      type: 'website',
+    },
+    twitter: {
+      title: t('title'),
+      description: t('description'),
+      images: [ `${siteConfig.url}/og-services.jpg` ],
+    },
+  };
+}
 
 const categoryIcons: Record<string, React.ElementType> = {
   web: Globe,
@@ -17,10 +57,43 @@ const categoryIcons: Record<string, React.ElementType> = {
 export default function ServicesPage({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale);
   const t = useTranslations('ServicesPage');
+  const tNav = useTranslations('Navigation');
   const categories = ['web', 'automation', 'dev', 'other'];
   const whatsappNumber = '50933377934';
 
+  const tFaq = useTranslations('ServicesPage.faq');
+  const faqItems = ['q1', 'q2', 'q3', 'q4'];
+
+  const breadcrumbs = generateBreadcrumbs([
+    { name: tNav('home'), item: `${siteConfig.url}/${locale}` },
+    { name: tNav('services'), item: `${siteConfig.url}/${locale}/services` }
+  ]);
+
+  const allServices = categories.flatMap(category => 
+    Object.keys(t.raw(`categories.${category}.services`)).map(serviceKey => {
+      const baseKey = `categories.${category}.services.${serviceKey}`;
+      const serviceSchema: Service = {
+        '@type': 'Service',
+        name: t(`${baseKey}.title`),
+        description: t(`${baseKey}.description`),
+        provider: {
+          '@type': 'Organization',
+          name: siteConfig.name,
+        },
+        serviceType: t(`categories.${category}.title`),
+        offers: {
+            '@type': 'Offer',
+            priceCurrency: 'USD',
+        }
+      };
+      return serviceSchema;
+    })
+  );
+
   return (
+    <>
+    <JsonLd schema={breadcrumbs} />
+    {allServices.map((schema, index) => <JsonLd key={index} schema={schema} />)}
     <div className="flex min-h-screen flex-col">
       <Header />
       <main className="flex-1">
@@ -41,7 +114,7 @@ export default function ServicesPage({ params: { locale } }: { params: { locale:
               </Alert>
             </div>
 
-            <div className="mx-auto mt-16 max-w-4xl">
+            <div className="mx-auto mt-16 max-w-5xl">
               <Accordion type="single" collapsible className="w-full" defaultValue="web">
                 {categories.map((category) => {
                   const CategoryIcon = categoryIcons[category];
@@ -81,8 +154,30 @@ export default function ServicesPage({ params: { locale } }: { params: { locale:
             </div>
           </div>
         </section>
+        
+        {/* FAQ Section */}
+        <section id="faq" className="w-full py-12 md:py-24 lg:py-32 bg-card/50">
+          <div className="container max-w-3xl px-4 md:px-6">
+            <div className="text-center">
+              <Badge>{t('faq.badge')}</Badge>
+              <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl mt-2">{t('faq.title')}</h2>
+              <p className="mt-4 text-foreground/80 md:text-lg">{t('faq.subtitle')}</p>
+            </div>
+            <Accordion type="single" collapsible className="w-full mt-8">
+              {faqItems.map((item) => (
+                <AccordionItem key={item} value={item}>
+                  <AccordionTrigger className="text-left font-bold text-lg hover:no-underline">{tFaq(`${item}.question`)}</AccordionTrigger>
+                  <AccordionContent className="text-base text-muted-foreground">
+                    {tFaq(`${item}.answer`)}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>
+    </>
   );
 }
